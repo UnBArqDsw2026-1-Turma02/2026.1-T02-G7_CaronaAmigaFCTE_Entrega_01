@@ -10,6 +10,8 @@ Reunião realizada online via **Microsoft Teams**.
 | Previsto | 26/03/2026 | 20:00 | 21:00   |
 | Realizado| 26/03/2026 | 20:10 | 20:28   |
 
+<font size="2"><p style="text-align: left">Fonte: [Ana Victória Guedes da Costa](https://github.com/navicg), 2026.</p></font>
+
 ## Participantes presentes:
 - [x] [Ana Victória Guedes da Costa](https://github.com/navicg)
 - [x] [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima)
@@ -43,10 +45,17 @@ Reunião realizada online via **Microsoft Teams**.
 
 ## Link da gravação
 [Link da primeira reunião](https://youtu.be/41LM3jFW0ys)
+
 ## Próxima Reunião 
-28/03/2026 às 11h
+Data: 28/03/2026  
+Horário: 11:00  
+Local: **Microsoft Teams**
+
+## Bibliografia 
+
+COCKBURN, Alistair. *Agile Software Development*. Boston: Addison-Wesley, 2002.
 
 ## Histórico de versão
 Versão  | Data | Descrição | Autor(es) | Revisor(es) | Data da Revisão
 -------- | ------ | -------- | ---------- | ----------- | ---------------
-1.0 | 28/03/2026 | Ata da 1ª Reunião | [Ana Victória Guedes da Costa](https://github.com/navicg) | | 
+1.0 | 28/03/2026 | Ata da 1ª Reunião | [Ana Victória Guedes da Costa](https://github.com/navicg) | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | 28/03/2026
