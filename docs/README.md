@@ -29,6 +29,21 @@ O Projeto CaronaAmiga surge como um trabalho da disciplina de arquitetura e dese
 
 Abaixo são apresentados exemplos de artefatos produzidos na entrega 01 - (DSW) Base.
 
+![](troca.png)
+
+### Brainstorming - FigJam
+
+<p style="text-align: center"><iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/board/hl0RjzueGPN04dfWSWfnEV/Brainstorming---Carona-amiga-fcte?node-id=0-1&t=8DpsPRqnbKvwEU4x-1" allowfullscreen></iframe></p>
+
+<p style="text-align: center"><a href="https://www.figma.com/board/hl0RjzueGPN04dfWSWfnEV/Brainstorming---Carona-amiga-fcte?node-id=0-1&t=8DpsPRqnbKvwEU4x-1" target="_blank">Abrir no Figma</a></p>
+
+## Gravação da reunião de brainstorming
+
+<p style="text-align: center"><iframe width="560" height="315" src="https://www.youtube.com/embed/Link" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+
+<p style="text-align: center"><a href="https://youtu.be/link" target="_blank">Clique aqui para assistir no YouTube</a></p>
+
+
 ### Mapa Mental
 
 <div style= "max-width: 800px">
