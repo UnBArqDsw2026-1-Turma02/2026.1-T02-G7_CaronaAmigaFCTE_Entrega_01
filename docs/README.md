@@ -1,33 +1,72 @@
-# RepositorioTemplate
-Esse repositório é para ser utilizado pelos grupos como um template inicial.
-As seções do Template NÃO DEVEM SER OMITIDAS, sendo TODAS RELEVANTES.
-Demais diretrizes constam no Moodle.
+# Carona Amiga UnB FCTE 
 
-**!! Atenção: Renomeie o seu repositório para (Ano.Semestre)(Turma)_(Grupo)_(NomeDoProjeto)_(Entrega_01)*. !!** 
-
-**!! *Não coloque os nomes dos alunos no título do repositório*. !!**
-
-**!! *Exemplo de título correto: 2026.1(T02)_G1_DiárioEmocional_Entrega_01*. !!** 
- 
- (Apague esses comentários)
-
-# Nome do Projeto
+Este repositório tem como principal objetivo auxiliar no registro dos artefatos e resultados obtidos no desenvolvimento do projeto do Grupo 7 de Arquitetura e Desenho de Software da Universidade de Brasília (UnB-FCTE) no semestre 2026.1.
 
 **Código da Disciplina**: FGA0208<br>
-**Número do Grupo**: XX<br>
+**Número do Grupo**: 07<br>
 **Entrega**: 01<br>
 
 ## Alunos
-|Matrícula | Aluno |
-| -- | -- |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
-| xx/xxxxxx  |  xxxx xxxx xxxxx |
+
+| Foto | Matrícula | Aluno |
+| :--: | :--: | :--: |
+| <img src="https://i.postimg.cc/fSRsH6Tb/Whats-App-Image-2026-03-26-at-09-34-45.jpg" width="100px;" alt="Foto Ana Victória"/> | 222022046 | [Ana Victória Guedes da Costa](https://github.com/navicg) |
+| <img src="https://i.postimg.cc/cKk4bMt7/Whats-App-Image-2026-03-26-at-18-15-35.jpg" width="100px;" alt="Foto Gabriel"/> | 221022284 | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) |
+| <img src="https://i.postimg.cc/bGwwgFrC/Whats-App-Image-2026-03-26-at-11-05-23.jpg" width="100px;" alt="Foto Gustavo"/> | 222008691 | [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharess) |
+| <img src="https://i.postimg.cc/phZxJ2xR/Whats-App-Image-2026-03-26-at-09-34-55.jpg" width="100px;" alt="Foto João Marcos"/> | 222006113 | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) |
+| <img src="https://i.postimg.cc/06X2BdKp/Whats-App-Image-2026-03-26-at-11-05-47.jpg" width="100px;" alt="Foto João Vitor"/> | 221022337 | [João Vitor Santos de Oliveira (Líder)](https://github.com/Jauzimm) |
+| <img src="https://i.postimg.cc/475ZQJZy/Whats-App-Image-2026-03-26-at-09-34-35.jpg" width="100px;" alt="Foto Karoline"/> | 222006267 | [Karoline Luz da Conceição](https://github.com/KarolineLuz) |
+| <img src="https://i.postimg.cc/gXDdHYdG/Whats-App-Image-2026-03-26-at-09-30-33.jpg" width="100px;" alt="Foto Luiza"/> | 222025843 | [Luiza da Silva Pugas](https://github.com/luizaxx) |
+| <img src="" width="100px;" alt="Foto Nicolas"/> | 211062348 | [Nicolas Bomfim Dias Bandeira](https://github.com/NickGehjk) |
+| <img src="https://i.postimg.cc/NFhMYMzB/pedro.jpg" width="100px;" alt="Foto Pedro"/> | 222007086 | [Pedro Henrique Faria da Mota](https://github.com/PhFariaa) |
+| <img src="https://i.postimg.cc/gXDdHYdn/Whats-App-Image-2026-03-26-at-09-34-02.jpg" width="100px;" alt="Foto Wanjo"/> | 222037620 | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) |
 
 ## Sobre 
-Contextualize, usando referências, links, e outros materiais como fontes.
+
+O Projeto CaronaAmiga surge como um trabalho da disciplina de arquitetura e desenho de software da UnB - FCTE (Faculdade de Ciências e Tecnologias em Engenharia). CaronaAmiga é um Web/App que...
 
 ## Screenshots da Primeira Entrega
-Adicione 2 ou mais screenshots em termos de artefatos realizados na entrega.
+
+Abaixo são apresentados exemplos de artefatos produzidos na entrega 01 - (DSW) Base.
+
+![](troca.png)
+
+### Brainstorming - FigJam
+
+<p style="text-align: center"><iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/board/hl0RjzueGPN04dfWSWfnEV/Brainstorming---Carona-amiga-fcte?node-id=0-1&t=8DpsPRqnbKvwEU4x-1" allowfullscreen></iframe></p>
+
+<p style="text-align: center"><a href="https://www.figma.com/board/hl0RjzueGPN04dfWSWfnEV/Brainstorming---Carona-amiga-fcte?node-id=0-1&t=8DpsPRqnbKvwEU4x-1" target="_blank">Abrir no Figma</a></p>
+
+## Gravação da reunião de brainstorming
+
+<p style="text-align: center"><iframe width="560" height="315" src="https://www.youtube.com/embed/Link" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+
+<p style="text-align: center"><a href="https://youtu.be/link" target="_blank">Clique aqui para assistir no YouTube</a></p>
+
+
+### Mapa Mental
+
+<div style= "max-width: 800px">
+
+![Mapa Mental](Base/assets/mapaMental/MapaMental.png)
+
+</div>
+
+### RichPicture
+
+<div style= "max-width: 800px">
+
+![RichPicture](Base/assets/richpicture/Rich%20Picture-CaronaAmiga.drawio.png)
+
+</div>
+
+### Storyboard
+
+<div style= "max-width: 800px">
+
+![Storyboard](Base/assets/storyboards/storyboard.jpg)
+
+</div>
 
 ## Há algo a ser executado?
 
@@ -38,4 +77,13 @@ Adicione 2 ou mais screenshots em termos de artefatos realizados na entrega.
 Se SIM, insira um manual (ou um script) para auxiliar ainda mais os interessados na execução.
 
 ## Informações Complementares 
+
 Quaisquer outras informações adicionais podem ser descritas nessa seção.
+
+## Histórico de Versões
+
+| Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhes da revisão |
+| :----: | :--: | --------- | ----------- | ------ | :---: |
+| 1.0  | 28/03/2026 | Criação do documento | [Luiza da Silva Pugas](https://github.com/luizaxx) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | Artefato criado. |
+| 1.1  | 28/03/2026 | Ajustes e melhorias na documentação | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Ana Victória Guedes da Costa](https://github.com/navicg) | Artefato revisado e ajustado. |
+| 1.2  | 28/03/2026 | Ajustes no docsify | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | Artefato revisado e ajustado. |
