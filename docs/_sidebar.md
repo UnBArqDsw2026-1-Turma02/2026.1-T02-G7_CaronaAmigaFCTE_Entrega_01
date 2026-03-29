@@ -15,11 +15,11 @@
     - [1.2.7. Léxicos](Base/1.2.1.Léxicos.md)
   - [1.3. Modelagem BPMN](Base/3-Modelagem-BPMN/1.3.ModelagemBPMN.md)
   - [1.4. Participações dos Membros](Base/4-ParticipacoesBase/1.4.ParticipacoesBase.md)
-  - [1.5. Iniciativas Extras](Base/5-Iniciativas-Extras/1.5.Iniciativas-Extras.md)
-    - [1.5.1. Heatmap de disponibilidade](Base/1.5.1.heatmap.md)
-    - [1.5.2. Perfil de Usuário](Base/elicitacao/questionario/perfil_usuario.md)
-    - [1.5.3. Guia de Estilo](Base/1.5.2.guia-de-estilo.md)
-    - [1.5.4. Ferramentas Utilizadas](Base/1.5.3.FerramentasUtilizadas.md)
+  - [1.5. Iniciativas Extras](Base/5-Iniciativas-Extras/1.5.IniciativasExtras.md)
+    - [1.5.1. Heatmap de disponibilidade](Base/5-Iniciativas-Extras/heatmap.md)
+    - [1.5.2. Perfil de Usuário](Base/5-Iniciativas-Extras/perfil_usuario.md)
+    - [1.5.3. Guia de Estilo](Base/5-Iniciativas-Extras/guia-de-estilo.md)
+    - [1.5.4. Ferramentas Utilizadas](Base/5-Iniciativas-Extras/ferramentas-utilizadas.md)
 
 - **Atas**
   - [1. Ata de Reunião](Base/atas/ata01.md)
