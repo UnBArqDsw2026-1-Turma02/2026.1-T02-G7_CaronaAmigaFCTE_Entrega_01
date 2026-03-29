@@ -6,7 +6,7 @@ O brainstorm é uma metodologia colaborativa de ideação que estimula o pensame
 Apresenta-se como particularmente relevante quando há necessidade de explorar soluções para desafios técnicos ou quando se busca gerar alternativas originais para problemas de maior complexidade. 
 Nesse contexto, cada participante é incentivado a expressar suas percepções sem críticas prévias, criando um ambiente onde a liberdade de pensamento prevalece sobre o julgamento imediato.
 
-Segundo Barbosa e Silva<a id="anchor_1" href="#REF1">[1]</a>, o Brainstorming constitui-se como um instrumento estratégico para compreender as expectativas e preferências do público-alvo. Ao revelar demandas latentes e oportunidades de inovação, essa técnica torna-se essencial na fase de levantamento de requisitos, permitindo identificar funcionalidades que efetivamente agreguem valor à solução final.
+Segundo Barbosa e Silva<a id="referências-bibliográficas" href="#/Base/2-Artefato-Generalista/Brainstorm?id=referências-bibliográficas">[1]</a>, o Brainstorming constitui-se como um instrumento estratégico para compreender as expectativas e preferências do público-alvo. Ao revelar demandas latentes e oportunidades de inovação, essa técnica torna-se essencial na fase de levantamento de requisitos, permitindo identificar funcionalidades que efetivamente agreguem valor à solução final.
 
 
 ## Metodologia
@@ -54,7 +54,7 @@ Foi realizada uma videoconferência com todos os integrantes do grupo, onde cada
 
 ## Gravação da reunião de brainstorming
 
-<p style="text-align: center"><iframe width="560" height="315" src="https://www.youtube.com/embed/FvwgS9JeKnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<p style="text-align: center"><iframe width="640" height="360" src="https://www.youtube.com/embed/FvwgS9JeKnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
 
 <p style="text-align: center"><a href="https://youtu.be/FvwgS9JeKnk" target="_blank">Clique aqui para assistir no YouTube</a></p>
 
@@ -64,7 +64,7 @@ Foi realizada uma videoconferência com todos os integrantes do grupo, onde cada
 
 ## Referências Bibliográficas
 
-> <a id="REF1">1.</a> Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021) Interação Humano-Computador e Experiência do usuário. Autopublicação. ISBN: 978-65-00-19677-1. p. 152,153.
+> <a id="referências-bibliográficas">1.</a> Barbosa, S. D. J.; Silva, B. S. da; Silveira, M. S.; Gasparini, I.; Darin, T.; Barbosa, G. D. J. (2021) Interação Humano-Computador e Experiência do usuário. Autopublicação. ISBN: 978-65-00-19677-1. p. 152,153.
 
 > <a id="REF2">2.</a> Brainstorm. Disponível em: [https://unbarqdsw2024-2.github.io/2024.2_G5_Turismo_Entrega_01/#/Base/Brainstorm?id=metodologia](https://unbarqdsw2024-2.github.io/2024.2_G5_Turismo_Entrega_01/#/Base/Brainstorm?id=metodologia). Acesso em: 28 mar. 2026.
 
@@ -72,4 +72,4 @@ Foi realizada uma videoconferência com todos os integrantes do grupo, onde cada
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhes da revisão |
 | :----: | :--: | --------- | ----------- | ------ | :---: |
-| 1.0  | 28/03/2026 | Criação do documento | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | Artefato revisado. |
+| 1.0  | 28/03/2026 | Criação do documento [#6](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/6) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | - |
