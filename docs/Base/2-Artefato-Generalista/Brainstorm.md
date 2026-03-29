@@ -49,7 +49,7 @@ Foi realizada uma videoconferência com todos os integrantes do grupo, onde cada
 
 ![Brainstorm](../assets/Brainstorm.png)
 
-<font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS), 2025.</p></font>
+<font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS), 2026.</p></font>
 
 
 ## Gravação da reunião de brainstorming
@@ -58,7 +58,7 @@ Foi realizada uma videoconferência com todos os integrantes do grupo, onde cada
 
 <p style="text-align: center"><a href="https://youtu.be/FvwgS9JeKnk" target="_blank">Clique aqui para assistir no YouTube</a></p>
 
-<font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS), 2025.</p></font>
+<font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS), 2026.</p></font>
 
 ---
 
