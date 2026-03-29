@@ -85,4 +85,4 @@ Este Código de Conduta foi adaptado do **Contributor Covenant (versão 3.0)** .
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhes da revisão |
 | :----: | :--: | --------- | ----------- | ------ | :---: |
-| 1.0  | 29/03/2026 | Criação do artefato| [Luiza da Silva Pugas](https://github.com/luizaxx) | [Ana Victória Guedes da Costa](https://github.com/navicg) | ---- |
+| 1.0  | 29/03/2026 | Criação do artefato| [Luiza da Silva Pugas](https://github.com/luizaxx) | [Ana Victória Guedes da Costa](https://github.com/navicg) | Artefato revisado e aprovado. |
