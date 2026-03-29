@@ -23,13 +23,12 @@ Este repositório tem como principal objetivo auxiliar no registro dos artefatos
 
 ## Sobre 
 
-O Projeto CaronaAmiga surge como um trabalho da disciplina de arquitetura e desenho de software da UnB - FCTE (Faculdade de Ciências e Tecnologias em Engenharia). CaronaAmiga é um Web/App que...
+O **CaronaAmiga** é uma plataforma web e mobile desenvolvida como trabalho prático da disciplina de Arquitetura e Desenho de Software (FGA0208) da Universidade de Brasília - FCTE. O projeto visa facilitar o compartilhamento de caronas entre estudantes e colaboradores da universidade, promovendo sustentabilidade, economia e integração social. A aplicação permite que usuários ofereçam e solicitem caronas de forma segura e eficiente, otimizando rotas e reduzindo custos de deslocamento.
+
 
 ## Screenshots da Primeira Entrega
 
 Abaixo são apresentados exemplos de artefatos produzidos na entrega 01 - (DSW) Base.
-
-![](troca.png)
 
 ### [Brainstorm](Base/2-Artefato-Generalista/Brainstorm.md)
 
