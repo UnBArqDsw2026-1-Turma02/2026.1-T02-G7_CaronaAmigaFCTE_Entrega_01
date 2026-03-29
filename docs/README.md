@@ -31,7 +31,7 @@ Abaixo são apresentados exemplos de artefatos produzidos na entrega 01 - (DSW) 
 
 ![](troca.png)
 
-### Brainstorming - FigJam
+### [Brainstorm](Base/2-Artefato-Generalista/Brainstorm.md)
 
 <font size="3"><p style="text-align: center">Imagem 1: Brainstorming</p></font>
 
@@ -41,14 +41,7 @@ Abaixo são apresentados exemplos de artefatos produzidos na entrega 01 - (DSW) 
 
 <font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS), 2026.</p></font>
 
-## Gravação da reunião de brainstorming
-
-<p style="text-align: center"><iframe width="640" height="360" src="https://www.youtube.com/embed/FvwgS9JeKnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
-
-<p style="text-align: center"><a href="https://youtu.be/FvwgS9JeKnk" target="_blank">Clique aqui para assistir no YouTube</a></p>
-
-<font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS), 2026.</p></font>
-
+---
 
 ### Mapa Mental
 
