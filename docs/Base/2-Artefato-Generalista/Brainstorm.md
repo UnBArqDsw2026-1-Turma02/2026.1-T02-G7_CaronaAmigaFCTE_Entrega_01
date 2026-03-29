@@ -43,7 +43,7 @@ Durante uma sessão de brainstorm, os participantes são incentivados a seguir a
 
 ## Brainstorming
 
-Foi realizada uma videoconferência com todos os integrantes do grupo, onde cada um apresentou suas ideias para o desenvolvimento de um novo aplicativo relacionado a turismo. As ideias foram registradas e avaliadas, e as melhores soluções foram selecionadas para serem desenvolvidas.
+Foi realizada uma videoconferência com a maioria dos integrantes do grupo, onde cada um apresentou suas ideias para o desenvolvimento de um novo site/aplicativo relacionado a carona. As ideias foram registradas e avaliadas, e as melhores soluções foram selecionadas para serem desenvolvidas.
 
 <font size="3"><p style="text-align: center">Imagem 1: Brainstorming</p></font>
 

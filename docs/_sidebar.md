@@ -4,11 +4,7 @@
 
 - **Base**
   - [1. Desenho de Software (Base)](Base/1.Base.md)
-    - [1.1.1 Design Sprint](Base/1-Design-Sprint/1.1.DesignSprint.md)
-    - [1.1.2. Artefato Generalista](Base/2-Artefato-Generalista/1.2.ArtefatoGeneralista.md)
-    - [1.1.3. Modelagem BPMN](Base/3-Modelagem-BPMN/1.3.ModelagemBPMN.md)
-    - [1.1.4. Participações - Base](Base/4-ParticipacoesBase/1.4.ParticipacoesBase.md)
-    - [1.1.5. Iniciativas Extras - Base](Base/5-Iniciativas-Extras/1.5.IniciativasExtras.md)
+    - [1.1 Design Sprint](Base/1-Design-Sprint/1.1.DesignSprint.md)
   - [1.2. Artefato Generalista](Base/2-Artefato-Generalista/1.2.ArtefatoGeneralista.md)
     - [1.2.1. Brainstorming](Base/2-Artefato-Generalista/Brainstorm.md)
     - [1.2.2. Mapa Mental](Base/1.1.2.Mapa-mental.md)
