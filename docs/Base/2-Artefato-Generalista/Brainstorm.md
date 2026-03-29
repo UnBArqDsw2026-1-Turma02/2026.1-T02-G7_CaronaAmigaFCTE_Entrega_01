@@ -47,7 +47,7 @@ Foi realizada uma videoconferência com todos os integrantes do grupo, onde cada
 
 <font size="3"><p style="text-align: center">Imagem 1: Brainstorming</p></font>
 
-![Brainstorm](Base/assets/Brainstorm.png)
+![Brainstorm](../assets/Brainstorm.png)
 
 <font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS), 2025.</p></font>
 
