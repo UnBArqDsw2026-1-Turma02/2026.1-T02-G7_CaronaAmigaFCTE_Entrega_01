@@ -39,7 +39,7 @@ Durante uma sessão de brainstorm, os participantes são incentivados a seguir a
 
 </div>
 
-<font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) 2026.</p></font>
+<font size="2"><p style="text-align: center">Fonte: [João Marcos](https://github.com/JJOAOMARCOSS), 2026.</p></font>
 
 ## Brainstorming
 
@@ -49,7 +49,7 @@ Foi realizada uma videoconferência com a maioria dos integrantes do grupo, onde
 
 ![Brainstorm](../assets/Brainstorm.png)
 
-<font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS), 2026.</p></font>
+<font size="2"><p style="text-align: center">Fonte: [Ana Victória](https://github.com/navicg), [João Marcos](https://github.com/JJOAOMARCOSS), [João Vitor](https://github.com/Jauzimm), [Karoline Luz](https://github.com/KarolineLuz), [Luiza da Silva](https://github.com/luizaxx), [Nicolas Bomfim](https://github.com/NickGehjk), [Wanjo Christopher](https://github.com/wChrstphr), 2026.</p></font>
 
 
 ## Gravação da reunião de brainstorming
