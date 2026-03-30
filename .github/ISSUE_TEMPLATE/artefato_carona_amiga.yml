@@ -1,5 +1,5 @@
 name: Issue Carona Amiga
-description: Documentar issues gerais para o desenvolvimento do projeto Carona Amiga FCTE
+description: Documentar artefatos gerais para o desenvolvimento do projeto Carona Amiga FCTE
 labels: []
 assignees: []
 body:
@@ -12,7 +12,7 @@ body:
     id: descricao
     attributes:
       label: 📝 Descrição
-      description: Descreva de forma detalhada a issue a ser realizada
+      description: Descreva de forma detalhada o artefato a ser realizada
       placeholder: Criação do artefato de BPMN...
     validations:
       required: true
@@ -29,8 +29,8 @@ body:
   - type: textarea
     id: tarefas
     attributes:
-      label: ✅ Tarefas da Issue
-      description: Liste as tarefas específicas para essa issue, não deixe nada de fora
+      label: ✅ Tasks
+      description: Liste as tarefas específicas para esse artefato, não deixe nada de fora
       placeholder: |
         - [ ] Tarefa 1
         - [ ] Tarefa 2
