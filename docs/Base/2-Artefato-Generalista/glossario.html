@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glossário Carona Amiga FCTE</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+ 
+        :root {
+            --primary-blue: #0056b3;
+            --secondary-green: #28a745;
+            --light-blue: #e3f2fd;
+            --light-green: #e8f5e9;
+            --bg-light: #f4f7f6;
+            --text-dark: #333;
+            --text-light: #666;
+            --white: #ffffff;
+            --shadow: 0 4px 15px rgba(0,0,0,0.1);
+            --shadow-lg: 0 8px 25px rgba(0,0,0,0.15);
+        }
+ 
+        html, body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+        }
+ 
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, var(--light-blue) 0%, var(--light-green) 100%);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+ 
+        .glossary-wrapper {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+ 
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            animation: fadeInDown 0.6s ease-out;
+        }
+ 
+        .header h1 {
+            color: var(--primary-blue);
+            font-size: clamp(24px, 5vw, 48px);
+            margin-bottom: 10px;
+            font-weight: 800;
+        }
+ 
+        .header p {
+            color: var(--secondary-green);
+            font-weight: 600;
+            font-size: clamp(12px, 2vw, 18px);
+            letter-spacing: 0.5px;
+        }
+ 
+        /* Slider Container */
+        .slider-section {
+            width: 100%;
+            max-width: 1000px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            animation: fadeInUp 0.6s ease-out 0.2s both;
+        }
+ 
+        .slider-wrapper {
+            position: relative;
+            width: 100%;
+            height: clamp(300px, 60vh, 500px);
+            perspective: 1000px;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+ 
+        .cards-container {
+            display: flex;
+            transition: transform 0.5s cubic-bezier(0.25, 1, 0.5, 1);
+            cursor: grab;
+            padding: 0 clamp(20px, 5vw, 60px);
+            height: 100%;
+            align-items: center;
+        }
+ 
+        .cards-container:active {
+            cursor: grabbing;
+        }
+ 
+        .card {
+            min-width: clamp(250px, 80vw, 320px);
+            height: clamp(280px, 50vh, 400px);
+            background: var(--white);
+            border-radius: 20px;
+            margin: 0 clamp(10px, 2vw, 20px);
+            box-shadow: var(--shadow);
+            display: flex;
+            flex-direction: column;
+            padding: clamp(20px, 4vw, 35px);
+            position: relative;
+            transition: transform 0.3s, box-shadow 0.3s, opacity 0.3s;
+            user-select: none;
+            border-top: 6px solid var(--primary-blue);
+            cursor: pointer;
+            overflow: hidden;
+        }
+ 
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: linear-gradient(135deg, rgba(0, 86, 179, 0.05) 0%, rgba(40, 167, 69, 0.05) 100%);
+            opacity: 0;
+            transition: opacity 0.3s;
+        }
+ 
+        .card:hover::before {
+            opacity: 1;
+        }
+ 
+        .card.active {
+            transform: scale(1.08);
+            opacity: 1;
+            box-shadow: var(--shadow-lg);
+        }
+ 
+        .card:not(.active) {
+            opacity: 0.5;
+            transform: scale(0.85);
+        }
+ 
+        .card-number {
+            background: linear-gradient(135deg, var(--primary-blue) 0%, var(--secondary-green) 100%);
+            color: white;
+            width: clamp(35px, 8vw, 50px);
+            height: clamp(35px, 8vw, 50px);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            margin-bottom: 15px;
+            font-size: clamp(16px, 3vw, 24px);
+            box-shadow: 0 4px 10px rgba(40, 167, 69, 0.3);
+        }
+ 
+        .card-title {
+            font-size: clamp(20px, 4vw, 32px);
+            color: var(--primary-blue);
+            margin: 0 0 12px 0;
+            font-weight: 800;
+            line-height: 1.2;
+        }
+ 
+        .card-description {
+            font-size: clamp(13px, 2.5vw, 16px);
+            color: var(--text-light);
+            line-height: 1.6;
+            text-align: left;
+            flex-grow: 1;
+            display: -webkit-box;
+            -webkit-line-clamp: 3;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+ 
+        .card-footer {
+            margin-top: 15px;
+            font-size: 12px;
+            color: var(--secondary-green);
+            font-weight: 600;
+            text-align: right;
+        }
+ 
+        /* Navigation Dots */
+        .navigation {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 15px;
+        }
+ 
+        .dots {
+            display: flex;
+            gap: 8px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+ 
+        .dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: rgba(0, 86, 179, 0.3);
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+        }
+ 
+        .dot:hover {
+            background: rgba(0, 86, 179, 0.6);
+        }
+ 
+        .dot.active {
+            background: var(--primary-blue);
+            width: 28px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 86, 179, 0.4);
+        }
+ 
+        .swipe-hint {
+            text-align: center;
+            color: var(--text-light);
+            font-size: clamp(12px, 2vw, 14px);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+ 
+        .swipe-icon {
+            font-size: 20px;
+            animation: swipe 2s infinite;
+            display: inline-block;
+        }
+ 
+        @keyframes swipe {
+            0%, 100% { transform: translateX(0); }
+            50% { transform: translateX(12px); }
+        }
+ 
+        .hint-text {
+            font-weight: 500;
+            color: var(--primary-blue);
+        }
+ 
+        /* Modal / Expanded View */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            backdrop-filter: blur(5px);
+            padding: 20px;
+            animation: fadeIn 0.3s ease-out;
+        }
+ 
+        .modal-overlay.active {
+            display: flex;
+        }
+ 
+        .modal-content {
+            background: var(--white);
+            width: 100%;
+            max-width: 500px;
+            max-height: 90vh;
+            padding: clamp(30px, 5vw, 50px);
+            border-radius: 25px;
+            position: relative;
+            animation: modalPop 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            border-left: 8px solid var(--secondary-green);
+            box-shadow: var(--shadow-lg);
+            overflow-y: auto;
+        }
+ 
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+ 
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+ 
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+ 
+        @keyframes modalPop {
+            from {
+                transform: scale(0.7);
+                opacity: 0;
+            }
+            to {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+ 
+        .close-btn {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 32px;
+            color: #999;
+            cursor: pointer;
+            transition: color 0.3s;
+            background: none;
+            border: none;
+            padding: 0;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+ 
+        .close-btn:hover {
+            color: var(--primary-blue);
+        }
+ 
+        .modal-title {
+            color: var(--primary-blue);
+            font-size: clamp(24px, 5vw, 40px);
+            margin-bottom: 20px;
+            font-weight: 800;
+        }
+ 
+        .modal-body {
+            font-size: clamp(14px, 2.5vw, 18px);
+            color: var(--text-dark);
+            line-height: 1.8;
+            text-align: justify;
+        }
+ 
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .glossary-wrapper {
+                padding: 15px;
+            }
+ 
+            .header {
+                margin-bottom: 30px;
+            }
+ 
+            .slider-section {
+                gap: 25px;
+            }
+ 
+            .card {
+                border-top-width: 5px;
+            }
+ 
+            .modal-content {
+                border-left-width: 6px;
+            }
+        }
+ 
+        @media (max-width: 480px) {
+            .glossary-wrapper {
+                padding: 10px;
+            }
+ 
+            .header {
+                margin-bottom: 20px;
+            }
+ 
+            .slider-section {
+                gap: 20px;
+            }
+ 
+            .card {
+                min-width: 85vw;
+            }
+ 
+            .dots {
+                gap: 6px;
+            }
+ 
+            .dot {
+                width: 8px;
+                height: 8px;
+            }
+ 
+            .dot.active {
+                width: 24px;
+            }
+        }
+ 
+        /* Scrollbar styling for modal */
+        .modal-content::-webkit-scrollbar {
+            width: 6px;
+        }
+ 
+        .modal-content::-webkit-scrollbar-track {
+            background: var(--light-blue);
+            border-radius: 10px;
+        }
+ 
+        .modal-content::-webkit-scrollbar-thumb {
+            background: var(--primary-blue);
+            border-radius: 10px;
+        }
+ 
+        .modal-content::-webkit-scrollbar-thumb:hover {
+            background: var(--secondary-green);
+        }
+    </style>
+</head>
+<body>
+ 
+<div class="glossary-wrapper">
+    <div class="header">
+        <h1>🚗 Carona Amiga FCTE</h1>
+        <p>Glossário de Termos do Aplicativo</p>
+    </div>
+ 
+    <div class="slider-section">
+        <div class="slider-wrapper" id="sliderWrapper">
+            <div class="cards-container" id="cardsContainer">
+                <!-- Cards will be injected here -->
+            </div>
+        </div>
+ 
+        <div class="navigation">
+            <div class="dots" id="dotsContainer"></div>
+            <div class="swipe-hint">
+                <span class="swipe-icon">↔️</span>
+                <span class="hint-text">Deslize para explorar • Clique para expandir</span>
+            </div>
+        </div>
+    </div>
+</div>
+ 
+<!-- Modal -->
+<div class="modal-overlay" id="modalOverlay">
+    <div class="modal-content">
+        <button class="close-btn" id="closeBtn">&times;</button>
+        <h2 class="modal-title" id="modalTitle"></h2>
+        <div class="modal-body" id="modalBody"></div>
+    </div>
+</div>
+ 
+<script>
+    const terms = [
+        {
+            id: 1,
+            title: "Carpooling",
+            desc: "Prática de compartilhar viagens de carro com outras pessoas que têm destinos semelhantes. É uma forma sustentável e econômica de se deslocar, reduzindo custos com combustível e contribuindo para a redução de emissões de carbono no campus."
+        },
+        {
+            id: 2,
+            title: "Ponto de Encontro",
+            desc: "Local pré-definido no campus ou cidade para o embarque e desembarque seguro dos passageiros. Esses pontos são estrategicamente escolhidos para facilitar o acesso e garantir a segurança de todos os usuários do aplicativo."
+        },
+        {
+            id: 3,
+            title: "Match de Rota",
+            desc: "Algoritmo inteligente que conecta motoristas e passageiros com trajetos e horários compatíveis. O sistema analisa as rotas e disponibilidades para oferecer as melhores combinações de caronas possíveis."
+        },
+        {
+            id: 4,
+            title: "Vaga Solidária",
+            desc: "Assento disponível oferecido pelo motorista sem fins lucrativos, apenas para divisão de custos. A vaga solidária promove a comunidade e a ajuda mútua entre os membros da faculdade."
+        },
+        {
+            id: 5,
+            title: "Comunidade FCTE",
+            desc: "Grupo restrito de usuários verificados pertencentes à faculdade, garantindo maior segurança. Todos os membros têm seus documentos validados e vínculo acadêmico confirmado para usar o aplicativo."
+        },
+        {
+            id: 6,
+            title: "Check-in",
+            desc: "Confirmação de que o passageiro entrou no veículo, ativando o monitoramento da viagem. O check-in é fundamental para rastrear a localização em tempo real e garantir a segurança de todos."
+        },
+        {
+            id: 7,
+            title: "Rateio",
+            desc: "Divisão proporcional dos custos de combustível e pedágio entre os ocupantes do veículo. O rateio é calculado automaticamente pelo aplicativo de forma justa e transparente para todos."
+        },
+        {
+            id: 8,
+            title: "Perfil Verificado",
+            desc: "Status de segurança atribuído a usuários que validaram seus documentos e vínculo acadêmico. Um perfil verificado aumenta a confiança entre motoristas e passageiros na plataforma."
+        }
+    ];
+ 
+    const container = document.getElementById('cardsContainer');
+    const dotsContainer = document.getElementById('dotsContainer');
+    const modal = document.getElementById('modalOverlay');
+    const modalTitle = document.getElementById('modalTitle');
+    const modalBody = document.getElementById('modalBody');
+    const closeBtn = document.getElementById('closeBtn');
+ 
+    let currentIndex = 0;
+    let startX = 0;
+    let currentTranslate = 0;
+    let prevTranslate = 0;
+    let isDragging = false;
+ 
+    // Initialize Cards
+    function init() {
+        terms.forEach((term, index) => {
+            // Create Card
+            const card = document.createElement('div');
+            card.className = `card ${index === 0 ? 'active' : ''}`;
+            card.innerHTML = `
+                <div class="card-number">${term.id}</div>
+                <h2 class="card-title">${term.title}</h2>
+                <p class="card-description">${term.desc}</p>
+                <div class="card-footer">Clique para mais detalhes →</div>
+            `;
+            card.onclick = () => openModal(term);
+            container.appendChild(card);
+ 
+            // Create Dot
+            const dot = document.createElement('div');
+            dot.className = `dot ${index === 0 ? 'active' : ''}`;
+            dot.onclick = () => goToSlide(index);
+            dotsContainer.appendChild(dot);
+        });
+        updateSlider();
+    }
+ 
+    function openModal(term) {
+        modalTitle.innerText = term.title;
+        modalBody.innerText = term.desc;
+        modal.classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+ 
+    closeBtn.onclick = () => closeModal();
+    modal.onclick = (e) => { if(e.target === modal) closeModal(); };
+ 
+    function closeModal() {
+        modal.classList.remove('active');
+        document.body.style.overflow = 'auto';
+    }
+ 
+    // Slider Logic
+    const sliderWrapper = document.getElementById('sliderWrapper');
+ 
+    sliderWrapper.addEventListener('mousedown', dragStart);
+    sliderWrapper.addEventListener('touchstart', dragStart);
+    sliderWrapper.addEventListener('mouseup', dragEnd);
+    sliderWrapper.addEventListener('touchend', dragEnd);
+    sliderWrapper.addEventListener('mousemove', dragAction);
+    sliderWrapper.addEventListener('touchmove', dragAction);
+ 
+    function dragStart(e) {
+        isDragging = true;
+        startX = getPositionX(e);
+        container.style.transition = 'none';
+    }
+ 
+    function dragAction(e) {
+        if (!isDragging) return;
+        const currentX = getPositionX(e);
+        const diff = currentX - startX;
+        currentTranslate = prevTranslate + diff;
+        container.style.transform = `translateX(${currentTranslate}px)`;
+    }
+ 
+    function dragEnd() {
+        isDragging = false;
+        const movedBy = currentTranslate - prevTranslate;
+ 
+        if (movedBy < -50 && currentIndex < terms.length - 1) currentIndex++;
+        if (movedBy > 50 && currentIndex > 0) currentIndex--;
+ 
+        goToSlide(currentIndex);
+    }
+ 
+    function getPositionX(e) {
+        return e.type.includes('mouse') ? e.pageX : e.touches[0].clientX;
+    }
+ 
+    function goToSlide(index) {
+        currentIndex = Math.max(0, Math.min(index, terms.length - 1));
+        const sliderWidth = sliderWrapper.offsetWidth;
+        const cardWidth = sliderWidth * 0.8; // Approximate card width
+        currentTranslate = -currentIndex * (cardWidth + 40);
+        prevTranslate = currentTranslate;
+        updateSlider();
+    }
+ 
+    function updateSlider() {
+        container.style.transition = 'transform 0.5s cubic-bezier(0.25, 1, 0.5, 1)';
+        container.style.transform = `translateX(${currentTranslate}px)`;
+        
+        // Update active classes
+        document.querySelectorAll('.card').forEach((c, i) => {
+            c.classList.toggle('active', i === currentIndex);
+        });
+        document.querySelectorAll('.dot').forEach((d, i) => {
+            d.classList.toggle('active', i === currentIndex);
+        });
+    }
+ 
+    // Handle window resize
+    window.addEventListener('resize', () => {
+        goToSlide(currentIndex);
+    });
+ 
+    init();
+</script>
+ 
+</body>
+</html>
+ 
