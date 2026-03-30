@@ -61,17 +61,19 @@ feat(compartilhar-carona): Adiciona envio de notificação automática
 ````
 
 ### Padrão de branch:
-
-````
-git checkout -b <tipo>/<escopo>
-````
+Para criar sua branch automaticamente linkada à Issue e facilitar o desenvolvimento, faça o seguinte:
+1. Navegue até a Issue que deseja trabalhar
+2. Na aba direita, role para baixo até encontrar "Development" ou "Desenvolvimento"
+3. Clique na engrenagem e clique em 'create a branch' ou 'criar uma branch'
+4. Crie a branch e dê checkout localmente
+![tela-de-criacao-branch-github](/docs/assets/criando_branch.png)
 
 #### Ex:
 
 ```` bash
-$ git checkout -b feat/compartilhar-carona
+$ git checkout 20-docs-criação-do-protótipo-de-alta-fidelidade
 $ git add .
-$ git commit -m "feat(notificacao): adiciona envio automático de notificação ao compartilhar carona"
+$ git commit -m "docs(design-sprint): adiciona protótipos da tela de compartilhar carona"
 $ git push
 ````
 
