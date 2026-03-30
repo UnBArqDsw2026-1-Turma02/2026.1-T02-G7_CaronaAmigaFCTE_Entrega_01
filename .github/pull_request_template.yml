@@ -1,7 +1,8 @@
-name: Pull Request
-description: Submeter uma Pull Request ao projeto Carona Amiga FCTE
-title: "[PR] "
+name: Pull Request 
+description: Submeter um Pull Request ao projeto Carona Amiga FCTE
+title: "tipo(escopo): descrição"
 labels: []
+assignees: []
 body:
   - type: markdown
     attributes:

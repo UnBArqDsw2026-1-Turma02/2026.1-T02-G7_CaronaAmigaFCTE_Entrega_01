@@ -1,6 +1,8 @@
-name: Relatorio de Bug
-description: Reportar um bug encontrado no projeto
+name: Bug 
+title: "tipo(escopo): descrição"
+description: Reportar um bug encontrado no projeto Carona Amiga FCTE
 labels: ["bug"]
+assignees: []
 body:
   - type: markdown
     attributes:

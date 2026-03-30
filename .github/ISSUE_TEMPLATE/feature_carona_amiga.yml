@@ -1,6 +1,8 @@
-name: Solicitacao de Feature
-description: Propor uma nova funcionalidade para o projeto
+name: Feature
+title: "tipo(escopo): descrição"
+description: Documentar nova funcionalidade para o projeto Carona Amiga FCTE
 labels: ["feature"]
+assignees: []
 body:
   - type: markdown
     attributes:
