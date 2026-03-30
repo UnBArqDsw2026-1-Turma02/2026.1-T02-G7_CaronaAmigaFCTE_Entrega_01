@@ -74,7 +74,7 @@ body:
   - type: checkboxes
     id: checklist-qualidade
     attributes:
-      label: ✅ Checklist de Qualidade
+      label: ✅ Checklist de Qualidade (Para o Revisor)
       description: Marque os itens que você completou
       options:
         - label: Código testado localmente
