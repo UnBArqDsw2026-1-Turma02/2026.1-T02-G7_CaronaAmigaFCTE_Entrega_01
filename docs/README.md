@@ -83,4 +83,5 @@ Quaisquer outras informações adicionais podem ser descritas nessa seção.
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhes da revisão |
 | :----: | :--: | --------- | ----------- | ------ | :---: |
 | 1.0  | 28/03/2026 | Criação do documento | [Luiza da Silva Pugas](https://github.com/luizaxx) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | Artefato criado. |
-| 1.1  | 28/03/2026 | Ajustes e melhorias na documentação | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Ana Victória Guedes da Costa](https://github.com/navicg) | Artefato revisado e aprovado. |
+| 1.1  | 28/03/2026 | Ajustes e melhorias na documentação | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Ana Victória Guedes da Costa](https://github.com/navicg) | Artefato revisado e ajustado. |
+| 1.2  | 28/03/2026 | Ajustes no docsify | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | Artefato revisado e ajustado. |
