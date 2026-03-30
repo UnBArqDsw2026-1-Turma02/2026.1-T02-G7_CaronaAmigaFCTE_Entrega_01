@@ -1,5 +1,5 @@
 name: Bug 
-title: "tipo(escopo): descrição"
+title: "tipo: descrição"
 description: Reportar um bug encontrado no projeto Carona Amiga FCTE
 labels: ["bug"]
 assignees: []

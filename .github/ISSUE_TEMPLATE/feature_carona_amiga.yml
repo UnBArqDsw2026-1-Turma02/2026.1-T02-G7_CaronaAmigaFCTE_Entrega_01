@@ -1,5 +1,5 @@
 name: Feature
-title: "tipo(escopo): descrição"
+title: "tipo: descrição"
 description: Documentar nova funcionalidade para o projeto Carona Amiga FCTE
 labels: ["feature"]
 assignees: []

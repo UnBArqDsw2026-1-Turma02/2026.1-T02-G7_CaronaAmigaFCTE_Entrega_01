@@ -1,6 +1,6 @@
 name: Pull Request 
 description: Submeter um Pull Request ao projeto Carona Amiga FCTE
-title: "tipo(escopo): descrição"
+title: "tipo(escopo opcional): descrição"
 labels: []
 assignees: []
 body:
