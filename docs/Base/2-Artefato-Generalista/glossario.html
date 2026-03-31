@@ -44,7 +44,7 @@
  
         .header {
             text-align: center;
-            margin-bottom: 30px;
+            margin-bottom: 20px;
             animation: fadeInDown 0.6s ease-out;
         }
  
@@ -60,6 +60,31 @@
             font-weight: 600;
             font-size: clamp(14px, 2vw, 18px);
         }
+
+        /* BARRA DE BUSCA */
+        .search-container {
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto 20px;
+            padding: 0 20px;
+        }
+
+        .search-input {
+            width: 100%;
+            padding: 12px 25px;
+            border-radius: 30px;
+            border: 2px solid var(--white);
+            box-shadow: var(--shadow);
+            outline: none;
+            font-size: 16px;
+            transition: all 0.3s ease;
+            text-align: center;
+        }
+
+        .search-input:focus {
+            border-color: var(--primary-blue);
+            box-shadow: var(--shadow-lg);
+        }
  
         /* Slider com Scroll Nativo */
         .slider-section {
@@ -73,21 +98,19 @@
         .slider-wrapper {
             width: 100%;
             overflow-x: auto;
-            scroll-snap-type: x mandatory; /* Efeito de imã */
+            scroll-snap-type: x mandatory;
             scroll-behavior: smooth;
             -webkit-overflow-scrolling: touch;
             padding: 40px 0;
             display: flex;
-            scrollbar-width: none; /* Firefox */
+            scrollbar-width: none;
         }
  
-        .slider-wrapper::-webkit-scrollbar {
-            display: none; /* Chrome/Safari */
-        }
+        .slider-wrapper::-webkit-scrollbar { display: none; }
  
         .cards-container {
             display: flex;
-            padding: 0 calc(50% - 160px); /* Centraliza o primeiro e último card */
+            padding: 0 calc(50% - 160px);
         }
  
         .card {
@@ -101,14 +124,13 @@
             display: flex;
             flex-direction: column;
             padding: 30px;
-            scroll-snap-align: center; /* Alinha no centro ao soltar */
+            scroll-snap-align: center;
             transition: transform 0.3s, box-shadow 0.3s, opacity 0.3s;
             border-top: 6px solid var(--primary-blue);
             cursor: pointer;
             position: relative;
         }
  
-        /* Efeito visual para o card em foco (via JS) */
         .card.active {
             transform: scale(1.05);
             box-shadow: var(--shadow-lg);
@@ -171,6 +193,9 @@
         .dots {
             display: flex;
             gap: 8px;
+            flex-wrap: wrap;
+            justify-content: center;
+            max-width: 80%;
         }
  
         .dot {
@@ -218,6 +243,11 @@
             from { transform: scale(0.8); opacity: 0; }
             to { transform: scale(1); opacity: 1; }
         }
+
+        @keyframes fadeInDown {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
  
         .close-btn {
             position: absolute;
@@ -239,17 +269,20 @@
         <h1>Carona Amiga FCTE</h1>
         <p>Glossário de Termos</p>
     </div>
+
+    <div class="search-container">
+        <input type="text" id="searchInput" class="search-input" placeholder="Buscar termo no glossário...">
+    </div>
  
     <div class="slider-section">
         <div class="slider-wrapper" id="sliderWrapper">
-            <div class="cards-container" id="cardsContainer">
-                </div>
+            <div class="cards-container" id="cardsContainer"></div>
         </div>
  
         <div class="navigation">
             <div class="dots" id="dotsContainer"></div>
             <div class="swipe-hint">
-                <span style="color: var(--primary-blue); font-weight: 500;">Rola para o lado para explorar</span>
+                <span style="color: var(--primary-blue); font-weight: 500;">Role para o lado para explorar</span>
             </div>
         </div>
     </div>
@@ -264,29 +297,60 @@
 </div>
  
 <script>
-    const terms = [
-        { id: 1, title: "Carpooling", desc: "Prática de compartilhar viagens de carro com outras pessoas que têm destinos semelhantes. É uma forma sustentável e econômica de se deslocar, reduzindo custos com combustível e contribuindo para a redução de emissões de carbono no campus." },
-        { id: 2, title: "Ponto de Encontro", desc: "Local pré-definido no campus ou cidade para o embarque e desembarque seguro dos passageiros. Esses pontos são estrategicamente escolhidos para facilitar o acesso e garantir a segurança de todos os usuários do aplicativo." },
-        { id: 3, title: "Match de Rota", desc: "Algoritmo inteligente que conecta motoristas e passageiros com trajetos e horários compatíveis. O sistema analisa as rotas e disponibilidades para oferecer as melhores combinações de caronas possíveis." },
-        { id: 4, title: "Vaga Solidária", desc: "Assento disponível oferecido pelo motorista sem fins lucrativos, apenas para divisão de custos. A vaga solidária promove a comunidade e a ajuda mútua entre os membros da faculdade." },
-        { id: 5, title: "Comunidade FCTE", desc: "Grupo restrito de usuários verificados pertencentes à faculdade, garantindo maior segurança. Todos os membros têm seus documentos validados e vínculo acadêmico confirmado para usar o aplicativo." },
-        { id: 6, title: "Check-in", desc: "Confirmação de que o passageiro entrou no veículo, ativando o monitoramento da viagem. O check-in é fundamental para rastrear a localização em tempo real e garantir a segurança de todos." },
-        { id: 7, title: "Rateio", desc: "Divisão proporcional dos custos de combustível e pedágio entre os ocupantes do veículo. O rateio é calculado automaticamente pelo aplicativo de forma justa e transparente para todos." },
-        { id: 8, title: "Perfil Verificado", desc: "Status de segurança atribuído a usuários que validaram seus documentos e vínculo acadêmico. Um perfil verificado aumenta a confiança entre motoristas e passageiros na plataforma." }
+    const rawTerms = [
+        { title: "Framework 5W2H", desc: "Uma estrutura real ou conceitual ordenada que atua como um guia para o projeto e avaliação da gamificação centrada no usuário." },
+        { title: "Pré-rastreabilidade (Pre-traceability)", desc: "No processo de Engenharia de Requisitos (RE), refere-se à ação de rastrear as origens das interações e grupos envolvidos na definição dos requisitos." },
+        { title: "Mapas Mentais", desc: "Diagramas e ferramentas gráficas não lineares que organizam e representam relações entre ideias a partir de um tema central." },
+        { title: "Léxicos", desc: "Descrição do vocabulário de uma aplicação, baseando-se na ideia de que cada Universo de Discurso (UofD) possui uma linguagem específica." },
+        { title: "Design Sprint", desc: "Processo prático e ágil de cinco dias para resolver problemas críticos por meio do design, prototipagem e teste com usuários." },
+        { title: "Modelagem BPMN", desc: "Business Process Model and Notation. Padrão global utilizado para mapear e modelar processos de negócios visualmente." },
+        { title: "Brainstorming", desc: "Livre fluxo de ideias fundamentado no pensamento criativo que estimula a liberdade de raciocínio e a criatividade." },
+        { title: "Storyboarding", desc: "Técnica visual de organizar ilustrações em sequência para planejar a narrativa ou o fluxo de interação de um sistema." },
+        { title: "Commit", desc: "Operação que salva e registra um conjunto de alterações feitas no código-fonte em um repositório de controle de versão." },
+        { title: "Issue", desc: "Unidade de trabalho rastreável que representa um bug, funcionalidade ou tarefa pendente em uma gestão de projetos." },
+        { title: "Pull Request", desc: "Solicitação para que alterações de código em uma branch paralela sejam revisadas e integradas ao código principal." },
+        { title: "Branch", desc: "Linha de desenvolvimento independente e paralela ao código principal de um projeto." },
+        { title: "Artefato", desc: "Produto físico ou digital gerado ao longo de um processo ou projeto, utilizado como entrega ou resultado final." },
+        { title: "Custo de software", desc: "Processo de prever esforço, tempo e recursos necessários para desenvolver um sistema de software." },
+        { title: "Carona", desc: "Ato de oferecer ou solicitar transporte gratuito em um veículo, dividindo custos ou oferecendo assentos vagos." },
+        { title: "FCTE", desc: "Faculdade de Ciências e Tecnologias em Engenharia da Universidade de Brasília (UnB), localizada no campus Gama." },
+        { title: "Features", desc: "Funcionalidades ou características específicas implementadas em um software para atender necessidades do usuário." },
+        { title: "Docsify", desc: "Gerador de sites de documentação que transforma arquivos Markdown (.md) diretamente em um site dinâmico." },
+        { title: "Unpack", desc: "Fase de alinhamento e mapeamento do problema, compartilhando o conhecimento da equipe." },
+        { title: "Sketch", desc: "Fase de ideação e geração de soluções através de desenhos individuais e focados no Design Sprint." },
+        { title: "Decision", desc: "Etapa de análise crítica das opções para escolher qual ideia tem a maior chance de resolver o problema inicial." },
+        { title: "Prototype", desc: "Construção de uma fachada realista da solução escolhida para ser testada sem necessidade de código funcional." },
+        { title: "Test", desc: "Momento de validação do protótipo com usuários reais para revelar padrões de usabilidade." }
     ];
+
+    // Ordenar Alfabeticamente
+    const terms = rawTerms.sort((a, b) => a.title.localeCompare(b.title));
  
     const wrapper = document.getElementById('sliderWrapper');
     const container = document.getElementById('cardsContainer');
     const dotsContainer = document.getElementById('dotsContainer');
     const modal = document.getElementById('modalOverlay');
+    const searchInput = document.getElementById('searchInput');
  
-    // Inicialização
-    function init() {
-        terms.forEach((term, index) => {
+    function render(filter = "") {
+        container.innerHTML = "";
+        dotsContainer.innerHTML = "";
+        
+        const filtered = terms.filter(t => 
+            t.title.toLowerCase().includes(filter.toLowerCase()) || 
+            t.desc.toLowerCase().includes(filter.toLowerCase())
+        );
+
+        if(filtered.length === 0) {
+            container.innerHTML = `<p style="color: var(--primary-blue); font-weight: bold; margin-top: 50px;">Nenhum termo encontrado.</p>`;
+            return;
+        }
+
+        filtered.forEach((term, index) => {
             const card = document.createElement('div');
             card.className = 'card';
             card.innerHTML = `
-                <div class="card-number">${term.id}</div>
+                <div class="card-number">${index + 1}</div>
                 <h2 class="card-title">${term.title}</h2>
                 <p class="card-description">${term.desc}</p>
                 <div class="card-footer">Saiba mais →</div>
@@ -309,26 +373,28 @@
         updateActiveState();
     }
  
-    // Atualiza estados visuais durante o scroll
     function updateActiveState() {
-        const cardWidth = container.querySelector('.card').offsetWidth + 30;
+        const cards = container.querySelectorAll('.card');
+        const dots = dotsContainer.querySelectorAll('.dot');
+        if(cards.length === 0) return;
+
+        const cardWidth = cards[0].offsetWidth + 30;
         const index = Math.round(wrapper.scrollLeft / cardWidth);
  
-        document.querySelectorAll('.card').forEach((c, i) => {
-            c.classList.toggle('active', i === index);
-        });
- 
-        document.querySelectorAll('.dot').forEach((d, i) => {
-            d.classList.toggle('active', i === index);
-        });
+        cards.forEach((c, i) => c.classList.toggle('active', i === index));
+        dots.forEach((d, i) => d.classList.toggle('active', i === index));
     }
+
+    searchInput.addEventListener('input', (e) => {
+        render(e.target.value);
+        wrapper.scrollLeft = 0;
+    });
  
     wrapper.addEventListener('scroll', updateActiveState);
- 
     document.getElementById('closeBtn').onclick = () => modal.classList.remove('active');
     window.onclick = (e) => { if(e.target === modal) modal.classList.remove('active'); };
  
-    init();
+    render();
 </script>
 </body>
 </html>
