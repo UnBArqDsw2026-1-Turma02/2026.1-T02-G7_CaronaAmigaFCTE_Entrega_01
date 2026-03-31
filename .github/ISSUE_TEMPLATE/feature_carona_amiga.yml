@@ -1,6 +1,6 @@
-name: Feature
+name: Feature Carona Amiga FCTE
 title: "tipo: descrição"
-description: Documentar nova funcionalidade para o projeto Carona Amiga FCTE
+description: Documentar nova funcionalidade para o projeto
 labels: ["feature"]
 assignees: []
 body:
