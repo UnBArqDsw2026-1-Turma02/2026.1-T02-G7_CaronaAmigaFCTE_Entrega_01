@@ -7,14 +7,12 @@ A mudança implementa... -->
 
 ## 📌 Tarefa Relacionada
 Vincule a issue ou tarefa correspondente.
-<!-- Para fechar a Issue -->
+<!-- FECHAR a Issue
 - Closes #123 
-<!-- Para relacionar -->
-- Related to #456
+     RELACIONAR a Issue
+- Related to #456 -->
 
 ## 📊 Escopo da PR
-<!-- Mantenha a PR pequena e focada. -->
-
 - [ ] Confirmo que essa PR resolve apenas um problema/funcionalidade
 - [ ] Confirmo que é uma mudança modular suficiente e não precisa ser repartida em mais PRs
 
@@ -55,11 +53,11 @@ Se selecionou que há breaking changes, descomente essa seção e descreva-as aq
 
 As mudanças afetam... -->
 
-## 📚 Informações Adicionais
-Qualquer outra informação útil: considerações de performance, dívida técnica, pontos para discussão, etc.
+<!-- ## 📚 Informações Adicionais
+Descomente essa seção em caso de qualquer outra informação útil: considerações de performance, dívida técnica, pontos para discussão, etc.
 
-<!-- Pontos importantes para review:
-- ... -->
+ Pontos importantes para review:
+- ...  -->
 
 ## 🤝 Código de Conduta
 Ao enviar esta PR, você concorda em seguir nosso [Código de Conduta](../blob/main/CODE_OF_CONDUCT.md) e [Código de Contribuição](../blob/main/CONTRIBUTING.md)
