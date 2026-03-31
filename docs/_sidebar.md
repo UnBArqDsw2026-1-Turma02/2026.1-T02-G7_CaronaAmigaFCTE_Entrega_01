@@ -5,6 +5,7 @@
 - **Base**
   - [1. Desenho de Software (Base)](Base/1.Base.md)
     - [1.1 Design Sprint](Base/1-Design-Sprint/1.1.DesignSprint.md)
+      - [1.1.2 Esboçar (Sketch)](Base/1-Design-Sprint/1.1.2.Sketch)
   - [1.2. Artefato Generalista](Base/2-Artefato-Generalista/1.2.ArtefatoGeneralista.md)
     - [1.2.1. Brainstorming](Base/2-Artefato-Generalista/Brainstorm.md)
     - [1.2.2. Mapa Mental](Base/1.1.2.Mapa-mental.md)
