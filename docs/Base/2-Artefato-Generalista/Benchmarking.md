@@ -36,7 +36,7 @@ As observações foram consolidadas em uma tabela comparativa e, ao final, trans
 
 | Aluno | Função | Data | Hora |
 | :--: | :--: | :--: | :--: |
-| [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharess) | - | - | - |
+| [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharess) | Revisão do artefato Benchmarking | 01/04/2026 | 09:55 |
 | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | Elaboração do artefato Benchmarking | 31/03/2026 | 23:00 |
 | [Luiza da Silva Pugas](https://github.com/luizaxx) | Elaboração do artefato Benchmarking | 31/03/2026 | 23:00 |
 | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | Elaboração do artefato Benchmarking | 31/03/2026 | 23:00 |
