@@ -31,6 +31,10 @@ Critérios de descrição por tipo:
 | OBJETO | Definição do objeto e identificação de outros objetos com os quais se relaciona. | Ações que podem ser aplicadas ao objeto. |
 | ESTADO | Significado do estado e quais ações levaram a esse estado. | Identificação de outros estados e ações que podem ocorrer a partir dele. |
 
+## Léxico Interativo
+
+<iframe src="/Base/2-Artefato-Generalista/lexico.html" style="width:100%; height:820px; border:none; border-radius:10px;"></iframe>
+
 ## Participantes
 
 <font size="3"><p style="text-align: center">Tabela 1: Participantes</p></font>
@@ -162,3 +166,4 @@ Critérios de descrição por tipo:
 | 1.0  | 31/03/2026 | Criação do documento do artefato Léxico [#34](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/34) | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | Documento revisado |
 | 1.1 | 01/04/2026 | Alterando documentação do artefato Léxico [#34](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/34) | [Pedro Henrique Faria da Mota](https://github.com/phfariaa) |[Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr)  | Artefato revisado |
 | 1.2  | 01/03/2026 | Complementação do artefato Léxico, inclusão de terminologias do passageiro e adição de rastreabilidade cruzada entre termos [#34](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/34) | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | [Pedro Henrique Faria da Mota](https://github.com/phfariaa)| - |
+| 1.3  | 01/04/2026 | Adição da visualização interativa do Léxico [#34](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/34) | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | [Pedro Henrique Faria da Mota](https://github.com/phfariaa) | Inclusão do arquivo HTML e integração com iframe |
