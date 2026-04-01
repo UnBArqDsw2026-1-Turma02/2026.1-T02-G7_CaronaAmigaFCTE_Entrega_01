@@ -13,6 +13,7 @@
     - [1.2.5. Storyboards](Base/1.2.6.Storyboards.md)
     - [1.2.6. 5W2H](Base/SW2H.md)
     - [1.2.7. Léxicos](Base/1.2.1.Léxicos.md)
+    - [1.2.8. Benchmarking](Base/2-Artefato-Generalista/Benchmarking.md)
   - [1.3. Modelagem BPMN](Base/3-Modelagem-BPMN/1.3.ModelagemBPMN.md)
   - [1.4. Participações dos Membros](Base/4-ParticipacoesBase/1.4.ParticipacoesBase.md)
   - [1.5. Iniciativas Extras](Base/5-Iniciativas-Extras/1.5.Iniciativas-Extras.md)
