@@ -12,7 +12,7 @@
     - [1.2.4. Rich Picture](Base/1.2.5.Richpicture.md)
     - [1.2.5. Storyboards](Base/1.2.6.Storyboards.md)
     - [1.2.6. 5W2H](Base/2-Artefato-Generalista/5W2H.md)
-    - [1.2.7. Léxicos](Base/2-Artefato-Generalista/Lexico.md)
+    - [1.2.7. Léxico](Base/2-Artefato-Generalista/Lexico.md)
   - [1.3. Modelagem BPMN](Base/3-Modelagem-BPMN/1.3.ModelagemBPMN.md)
   - [1.4. Participações dos Membros](Base/4-ParticipacoesBase/1.4.ParticipacoesBase.md)
   - [1.5. Iniciativas Extras](Base/5-Iniciativas-Extras/1.5.Iniciativas-Extras.md)
