@@ -2,7 +2,7 @@
 
 ## Introdução
 
-O **benchmarking** é uma prática de análise comparativa usada para observar soluções existentes (produtos, serviços e processos), identificar abordagens consolidadas e extrair aprendizados que possam ser **adaptados** ao contexto de um novo projeto. Mais do que “copiar”, a proposta é entender *o que funciona*, *por que funciona* e *em quais condições*, para então tomar decisões de design e requisitos com menos incerteza [[1]](#referências-bibliográficas).
+O **benchmarking** é uma prática de análise comparativa usada para observar soluções existentes (produtos, serviços e processos), identificar abordagens consolidadas e extrair aprendizados que possam ser **adaptados** ao contexto de um novo projeto. Mais do que “copiar”, a proposta é entender *o que funciona*, *por que funciona* e *em quais condições*, para então tomar decisões de design e requisitos com menos incerteza [[1]](#ref1).
 
 No contexto do **CaronaAmiga FCTE**, o benchmarking foi utilizado para levantar referências sobre: criação e busca de caronas, segurança e confiança entre usuários, comunicação motorista–passageiro, definição de pontos de encontro, uso de rotas/tempo estimado e mecanismos de avaliação.
 
@@ -105,51 +105,72 @@ As observações foram consolidadas em uma tabela comparativa e, ao final, trans
 
 ---
 
-## Requisitos elicitados
+## Requisitos Elicitados
 
-### Requisitos Funcionais (RF)
+Com base na análise comparativa e nos critérios observados nas plataformas de referência, foram elicitados os seguintes requisitos iniciais para o CaronaAmiga FCTE.
+
+<details>
+<summary>Requisitos Funcionais</summary>
+
+#### Tabela de Requisitos Funcionais (RF)
 
 <font size="3"><p style="text-align: center">Tabela 3: Requisitos Funcionais</p></font>
 
-| Código | Requisito Funcional | Rastreabilidade |
-| :--: | -- | -- |
-| RF01 | Cadastrar usuário e gerenciamento de perfil do usuário (nome, curso/vínculo, foto obrigatória, preferências). | [BlaBlaCar](https://www.blablacar.com.br/); [Uber](https://www.uber.com/br/pt-br/)/[99](https://99app.com/) |
-| Especificação RF01 | Com gerenciamento de perfil do usuário (nome, curso/vínculo, foto obrigatória, preferências). | [BlaBlaCar](https://www.blablacar.com.br/); [Uber](https://www.uber.com/br/pt-br/)/[99](https://99app.com/) |
-| RF02 | Criar caronaPermitir criação de oferta de carona com origem, destino, horário, vagas e observações. | [BlaBlaCar](https://www.blablacar.com.br/) |
-| Especificação RF02 | Criação de oferta de carona com origem, destino, horário, vagas e observações. | [BlaBlaCar](https://www.blablacar.com.br/) |
-| RF03 | Buscar caronasPermitir busca de caronas com filtros (origem/destino, horário, recorrência, vagas). | [BlaBlaCar](https://www.blablacar.com.br/) |
-| Especificação RF03 | Busca de caronas com filtros (origem/destino, horário, recorrência, vagas). | [BlaBlaCar](https://www.blablacar.com.br/) |
-| RF04 | Exibir rota. | [Google Maps](https://www.google.com/maps)/[Waze](https://www.waze.com/); [Uber](https://www.uber.com/br/pt-br/)/[99](https://99app.com/) |
-| Especificação RF04 | No mapa com tempo estimado e alternativa de ponto de encontro. | [Google Maps](https://www.google.com/maps)/[Waze](https://www.waze.com/); [Uber](https://www.uber.com/br/pt-br/)/[99](https://99app.com/) |
-| RF05 | Enviar mensagemDisponibilizar chat entre motorista e passageiro após solicitação/aceite. | [Uber](https://www.uber.com/br/pt-br/)/[99](https://99app.com/); [WhatsApp](https://www.whatsapp.com/?lang=pt_BR) |
-| Especificação RF05 | Disponibilizar chat entre motorista e passageiro após solicitação/aceite. | [Uber](https://www.uber.com/br/pt-br/)/[99](https://99app.com/); [WhatsApp](https://www.whatsapp.com/?lang=pt_BR) |
-| RF06 | Solicitar participação. | [BlaBlaCar](https://www.blablacar.com.br/) |
-| Especificação RF06 | Permitir solicitar participação em uma carona e permitir aceite/recusa pelo motorista. | [BlaBlaCar](https://www.blablacar.com.br/) |
-| RF07 | Cancelar carona. | [Uber](https://www.uber.com/br/pt-br/)/[99](https://99app.com/); [BlaBlaCar](https://www.blablacar.com.br/) |
-| Especificação RF07 | Permitir cancelamento com registro de motivo e notificação às partes. | [Uber](https://www.uber.com/br/pt-br/)/[99](https://99app.com/); [BlaBlaCar](https://www.blablacar.com.br/) |
-| RF08 | Avaliar corrida. | [BlaBlaCar](https://www.blablacar.com.br/); [Uber](https://www.uber.com/br/pt-br/)/[99](https://99app.com/) |
-| Especificação RF08 | Implementar sistema de avaliação pós-corrida/caronas (nota e comentário opcional). | [BlaBlaCar](https://www.blablacar.com.br/); [Uber](https://www.uber.com/br/pt-br/)/[99](https://99app.com/) |
-| RF09 | Fazer denúnciaPermitir denúncia/bloqueio de usuário e canal de suporte. | [Uber](https://www.uber.com/br/pt-br/)/[99](https://99app.com/) |
-| Especificação RF09 | De usuário, seja motorista ou passageiro. | [Uber](https://www.uber.com/br/pt-br/)/[99](https://99app.com/) |
-| RF11 | Bloquear usuário | [Uber](https://www.uber.com/br/pt-br/)/[99](https://99app.com/) |
-| RF10 | Enviar notificações (match, aceite, alteração de horário, lembrete). | [Uber](https://www.uber.com/br/pt-br/)/[99](https://99app.com/); [WhatsApp](https://www.whatsapp.com/?lang=pt_BR) |
-| Especificação RF10 | (match, aceite, alteração de horário, lembrete). | [Uber](https://www.uber.com/br/pt-br/)/[99](https://99app.com/); [WhatsApp](https://www.whatsapp.com/?lang=pt_BR) |
+| Código | Requisito Funcional | Objetivo | Rastreabilidade |
+| :--: | :-- | :-- | :-- |
+| <a id="rf01"></a>RF01 | Gerenciar perfil do usuário. | Aumentar confiança e personalização de uso. | [BlaBlaCar](https://www.blablacar.com.br/); [Uber](https://www.uber.com/br/pt-br/)/[99](https://99app.com/) |
+| <a id="rf02"></a>RF02 | Criar oferta de carona. | Estruturar a oferta com informações mínimas para decisão. | [BlaBlaCar](https://www.blablacar.com.br/) |
+| <a id="rf03"></a>RF03 | Buscar caronas. | Melhorar precisão no encontro entre oferta e demanda. | [BlaBlaCar](https://www.blablacar.com.br/) |
+| <a id="rf04"></a>RF04 | Calcular ETA. | Apoiar planejamento e previsibilidade da viagem. | [Google Maps](https://www.google.com/maps)/[Waze](https://www.waze.com/); [Uber](https://www.uber.com/br/pt-br/)/[99](https://99app.com/) |
+| <a id="rf05"></a>RF05 | Enviar mensagem. | Facilitar alinhamentos antes e durante a viagem. | [Uber](https://www.uber.com/br/pt-br/)/[99](https://99app.com/); [WhatsApp](https://www.whatsapp.com/?lang=pt_BR) |
+| <a id="rf06"></a>RF06 | Solicitar participação. | Dar controle ao motorista e transparência ao passageiro. | [BlaBlaCar](https://www.blablacar.com.br/) |
+| <a id="rf07"></a>RF07 | Cancelar solicitação. | Reduzir ruídos e melhorar rastreabilidade de ocorrências. | [Uber](https://www.uber.com/br/pt-br/)/[99](https://99app.com/); [BlaBlaCar](https://www.blablacar.com.br/) |
+| <a id="rf08"></a>RF08 | Avaliar experiência. | Construir reputação e melhorar qualidade da comunidade. | [BlaBlaCar](https://www.blablacar.com.br/); [Uber](https://www.uber.com/br/pt-br/)/[99](https://99app.com/) |
+| <a id="rf09"></a>RF09 | Bloquear usuário. | Reforçar segurança e moderação da plataforma. | [Uber](https://www.uber.com/br/pt-br/)/[99](https://99app.com/) |
+| <a id="rf10"></a>RF10 | Enviar notificações. | Aumentar pontualidade e taxa de correspondência. | [Uber](https://www.uber.com/br/pt-br/)/[99](https://99app.com/); [WhatsApp](https://www.whatsapp.com/?lang=pt_BR) |
 
 <font size="2"><p style="text-align: center">Fonte: [João Marcos](https://github.com/JJOAOMARCOSS), [Luiza da Silva](https://github.com/luizaxx) e [Wanjo Christopher](https://github.com/wChrstphr), 2026.</p></font>
 
-### Requisitos Não Funcionais (RNF)
+#### Tabela de Especificações dos Requisitos Funcionais (ERF)
 
-<font size="3"><p style="text-align: center">Tabela 4: Requisitos Não Funcionais</p></font>
+<font size="3"><p style="text-align: center">Tabela 4: Especificação dos Requisitos Funcionais</p></font>
 
-| Código | Requisito Não Funcional | Rastreabilidade |
-| :--: | -- | -- |
-| RNF01 | O sistema deve ser responsivo (desktop e mobile). | [Uber](https://www.uber.com/br/pt-br/)/[99](https://99app.com/) |
-| RNF02 | O sistema deve proteger dados sensíveis. | [Uber](https://www.uber.com/br/pt-br/)/[99](https://99app.com/) |
-| RNF03 | O sistema deve ter usabilidade simples para ações críticas (criar/buscar/aceitar carona em poucos passos). | [Uber](https://www.uber.com/br/pt-br/)/[99](https://99app.com/); [BlaBlaCar](https://www.blablacar.com.br/) |
-| RNF04 | O sistema deve registrar logs de ações relevantes (aceites, cancelamentos, denúncias) para auditoria. | [Uber](https://www.uber.com/br/pt-br/)/[99](https://99app.com/) |
-| RNF06 | O sistema deve apresentar rotas e estimativas de tempo de forma consistente. | [Google Maps](https://www.google.com/maps)/[Waze](https://www.waze.com/) |
+| Código | Especificação | Objetivo |
+| :--: | :-- | :-- |
+| <a id="erf01"></a>[ERF01](#rf01) | Perfil com nome, curso/vínculo, foto obrigatória e preferências. | Melhorar identificação e confiança entre os usuários. |
+| <a id="erf02"></a>[ERF02](#rf02) | Oferta de carona com origem, destino, horário, vagas e observações. | Padronizar publicação e facilitar decisão do passageiro. |
+| <a id="erf03"></a>[ERF03](#rf03) | Busca com filtros por origem, destino, horário, recorrência e vagas. | Aumentar relevância dos resultados de carona. |
+| <a id="erf04"></a>[ERF04](#rf04) | Visualização de rota, ETA e sugestão de ponto de encontro. | Apoiar coordenação e reduzir atrasos. |
+| <a id="erf05"></a>[ERF05](#rf05) | Chat habilitado após solicitação/aceite. | Viabilizar comunicação contextual da viagem. |
+| <a id="erf05"></a>[ERF05.1](#rf05) | Disponibilizar chat entre motorista e passageiro. | Viabilizar comunicação rápida entre partes. |
+| <a id="erf06"></a>[ERF06](#rf06) | Solicitação de vaga com fluxo de aceite/recusa pelo motorista. | Garantir controle de lotação e segurança de embarque. |
+| <a id="erf07"></a>[ERF07](#rf07) | Cancelamento com motivo e aviso automático às partes envolvidas. | Minimizar conflitos e manter histórico de eventos. |
+| <a id="erf08"></a>[ERF08](#rf08) | Avaliação com nota e comentário opcional ao fim da carona. | Sustentar mecanismo de reputação. |
+| <a id="erf09"></a>[ERF09](#rf09) | Mecanismo de denúncia/bloqueio e canal de suporte. | Permitir resposta a incidentes e condutas inadequadas. |
+| <a id="erf10"></a>[ERF10](#rf10) | Notificações para match, aceite, alteração de horário e lembrete. | Aumentar engajamento e previsibilidade operacional. |
 
 <font size="2"><p style="text-align: center">Fonte: [João Marcos](https://github.com/JJOAOMARCOSS), [Luiza da Silva](https://github.com/luizaxx) e [Wanjo Christopher](https://github.com/wChrstphr), 2026.</p></font>
+
+</details>
+
+<details>
+<summary>Requisitos Não Funcionais</summary>
+
+#### Tabela de Requisitos Não Funcionais (RNF)
+
+<font size="3"><p style="text-align: center">Tabela 5: Requisitos Não Funcionais</p></font>
+
+| Código | Categoria FURPS+ | Requisito Não Funcional | Objetivo | Rastreabilidade |
+| :--: | :--: | :-- | :-- | :-- |
+| RNF01 | Usabilidade (U) | O sistema deve ser responsivo para desktop e mobile. | Garantir uso consistente em diferentes dispositivos. | [Uber](https://www.uber.com/br/pt-br/)/[99](https://99app.com/) |
+| RNF02 | Suportabilidade (S) | O sistema deve proteger dados sensíveis com boas práticas de segurança (hash de senha, TLS e controle de acesso). | Preservar privacidade e integridade das contas. | [Uber](https://www.uber.com/br/pt-br/)/[99](https://99app.com/) |
+| RNF03 | Usabilidade (U) | O sistema deve ter fluxo simples para ações críticas (criar, buscar e aceitar carona em poucos passos). | Reduzir fricção de uso e tempo para completar tarefas. | [Uber](https://www.uber.com/br/pt-br/)/[99](https://99app.com/); [BlaBlaCar](https://www.blablacar.com.br/) |
+| RNF04 | Confiabilidade (R) | O sistema deve registrar logs de ações relevantes (aceites, cancelamentos e denúncias). | Aumentar auditabilidade e suporte a incidentes. | [Uber](https://www.uber.com/br/pt-br/)/[99](https://99app.com/) |
+| RNF06 | Performance (P) | O sistema deve apresentar rotas e estimativas de tempo de forma consistente. | Melhorar previsibilidade da experiência de deslocamento. | [Google Maps](https://www.google.com/maps)/[Waze](https://www.waze.com/) |
+
+<font size="2"><p style="text-align: center">Fonte: [João Marcos](https://github.com/JJOAOMARCOSS), [Luiza da Silva](https://github.com/luizaxx) e [Wanjo Christopher](https://github.com/wChrstphr), 2026.</p></font>
+
+</details>
 
 ---
 
@@ -161,14 +182,14 @@ O benchmarking indicou que soluções bem-sucedidas combinam **facilidade de ofe
 
 ## Referências Bibliográficas
 
-> <a id="ref1">1.</a> IATA, Cristiane. Benchmarking: muito além de uma simples comparação. Revista Benchmarking, edição 1, dez. 2008. Disponível em: https://pontogp.wordpress.com/2008/12/24/benchmarking-muito-alem-de-uma-simples-comparacao. Acesso em 6 de abril de 2025.
-> <a id="ref1">2.</a> BLABLACAR. *Página institucional*. Disponível em: https://www.blablacar.com.br/ride-sharing/services/como-funciona. Acesso em: 31 mar. 2026.  
-> <a id="ref1">3.</a> UBER. *Página institucional (Brasil)*. Disponível em: https://www.uber.com/br/pt-br/. Acesso em: 31 mar. 2026.  
-> <a id="ref1">4.</a> 99. *Página institucional*. Disponível em: https://99app.com/. Acesso em: 31 mar. 2026.  
-> <a id="ref1">5.</a> GOOGLE. *Google Maps*. Disponível em: https://www.google.com/maps. Acesso em: 31 mar. 2026.  
-> <a id="ref1">6.</a> WAZE. *Waze*. Disponível em: https://www.waze.com/pt-BR/. Acesso em: 31 mar. 2026.  
-> <a id="ref1">7.</a> WHATSAPP. *WhatsApp*. Disponível em: https://www.whatsapp.com/?lang=pt_BR. Acesso em: 31 mar. 2026.  
-> <a id="ref1">8.</a> TELEGRAM. *Telegram*. Disponível em: https://telegram.org/. Acesso em: 31 mar. 2026.  
+> <a id="ref1">1.</a> IATA, Cristiane. Benchmarking: muito além de uma simples comparação. Revista Benchmarking, edição 1, dez. 2008. Disponível em: https://pontogp.wordpress.com/2008/12/24/benchmarking-muito-alem-de-uma-simples-comparacao. Acesso em: 6 abr. 2025.
+> <a id="ref2">2.</a> BLABLACAR. *Página institucional*. Disponível em: https://www.blablacar.com.br/ride-sharing/services/como-funciona. Acesso em: 31 mar. 2026.
+> <a id="ref3">3.</a> UBER. *Página institucional (Brasil)*. Disponível em: https://www.uber.com/br/pt-br/. Acesso em: 31 mar. 2026.
+> <a id="ref4">4.</a> 99. *Página institucional*. Disponível em: https://99app.com/. Acesso em: 31 mar. 2026.
+> <a id="ref5">5.</a> GOOGLE. *Google Maps*. Disponível em: https://www.google.com/maps. Acesso em: 31 mar. 2026.
+> <a id="ref6">6.</a> WAZE. *Waze*. Disponível em: https://www.waze.com/pt-BR/. Acesso em: 31 mar. 2026.
+> <a id="ref7">7.</a> WHATSAPP. *WhatsApp*. Disponível em: https://www.whatsapp.com/?lang=pt_BR. Acesso em: 31 mar. 2026.
+> <a id="ref8">8.</a> TELEGRAM. *Telegram*. Disponível em: https://telegram.org/. Acesso em: 31 mar. 2026.
 
 
 
@@ -177,3 +198,4 @@ O benchmarking indicou que soluções bem-sucedidas combinam **facilidade de ofe
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhes da revisão |
 | :----: | :--: | --------- | ----------- | ------ | :---: |
 | 1.0  | 31/03/2026 | Criação do documento [#36](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/36) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS), [Luiza da Silva](https://github.com/luizaxx) e [Wanjo Christopher](https://github.com/wChrstphr) | [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharess) | - |
+| 1.1 | 02/04/2026 | Melhoria dos requisitos funcionais e não-funcionais extraídos no benchmarking | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharess) |  |
