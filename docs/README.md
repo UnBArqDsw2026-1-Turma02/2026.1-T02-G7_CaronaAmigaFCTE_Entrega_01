@@ -23,26 +23,24 @@ Este repositório tem como principal objetivo auxiliar no registro dos artefatos
 
 ## Sobre 
 
-O Projeto CaronaAmiga surge como um trabalho da disciplina de arquitetura e desenho de software da UnB - FCTE (Faculdade de Ciências e Tecnologias em Engenharia). CaronaAmiga é um Web/App que...
+O **CaronaAmiga** é uma plataforma web e mobile desenvolvida como trabalho prático da disciplina de Arquitetura e Desenho de Software (FGA0208) da Universidade de Brasília - FCTE. O projeto visa facilitar o compartilhamento de caronas entre estudantes e colaboradores da universidade, promovendo sustentabilidade, economia e integração social. A aplicação permite que usuários ofereçam e solicitem caronas de forma segura e eficiente, otimizando rotas e reduzindo custos de deslocamento.
+
 
 ## Screenshots da Primeira Entrega
 
 Abaixo são apresentados exemplos de artefatos produzidos na entrega 01 - (DSW) Base.
 
-![](troca.png)
+### [Brainstorm](Base/2-Artefato-Generalista/Brainstorm.md)
 
-### Brainstorming - FigJam
+<font size="3"><p style="text-align: center">Imagem 1: Brainstorming</p></font>
 
-<p style="text-align: center"><iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https://www.figma.com/board/hl0RjzueGPN04dfWSWfnEV/Brainstorming---Carona-amiga-fcte?node-id=0-1&t=8DpsPRqnbKvwEU4x-1" allowfullscreen></iframe></p>
+![Brainstorm](Base/assets/Brainstorm.png)
 
 <p style="text-align: center"><a href="https://www.figma.com/board/hl0RjzueGPN04dfWSWfnEV/Brainstorming---Carona-amiga-fcte?node-id=0-1&t=8DpsPRqnbKvwEU4x-1" target="_blank">Abrir no Figma</a></p>
 
-## Gravação da reunião de brainstorming
+<font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS), 2026.</p></font>
 
-<p style="text-align: center"><iframe width="560" height="315" src="https://www.youtube.com/embed/Link" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
-
-<p style="text-align: center"><a href="https://youtu.be/link" target="_blank">Clique aqui para assistir no YouTube</a></p>
-
+---
 
 ### Mapa Mental
 
