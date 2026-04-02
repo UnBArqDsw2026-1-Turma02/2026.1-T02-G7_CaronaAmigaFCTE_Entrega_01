@@ -1,0 +1,63 @@
+name: Artefato Carona Amiga FCTE
+title: "tipo: descrição"
+description: Documentar artefatos gerais para o desenvolvimento do projeto
+labels: []
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |     
+        🤗 Obrigado por contribuir! Preencha os campos abaixo para documentar o problema ou melhoria
+
+  - type: textarea
+    id: descricao
+    attributes:
+      label: 📝 Descrição
+      description: Descreva de forma detalhada o artefato a ser realizada
+      placeholder: Criação do artefato de BPMN...
+    validations:
+      required: true
+
+  - type: input
+    id: prazo
+    attributes:
+      label: 📅 Prazo
+      description: Data estimada para conclusão
+      placeholder: 'DD/MM/YYYY'
+    validations:
+      required: false
+
+  - type: textarea
+    id: tarefas
+    attributes:
+      label: ✅ Tasks
+      description: Liste as tarefas específicas para esse artefato, não deixe nada de fora
+      placeholder: |
+        - [ ] Tarefa 1
+        - [ ] Tarefa 2
+        - [ ] Tarefa 3
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: tarefas-permanentes
+    attributes:
+      label: 📌 Tarefas Permanentes (Checklist de Qualidade)
+      description: Para preenchimento posterior, quando for fechar a issue
+      options:
+        - label: Segui o padrão de página de artefatos
+        - label: Utilizei o histórico de versão padronizado
+        - label: Atualizei o histórico de versão
+        - label: Adicionei o(s) autor(es) e o(s) revisor(es)
+        - label: Linkei referências bibliográficas
+        - label: Adicionei legenda e fonte nas tabelas e imagens
+        - label: Adicionei rastreabilidade às citações
+
+  - type: checkboxes
+    id: termos
+    attributes:
+      label: 🤝 Código de Conduta
+      description: Ao enviar essa issue, você concorda em seguir nosso [Código de Conduta](../blob/main/CODE_OF_CONDUCT.md)
+      options:
+        - label: Concordo em seguir o Código de Conduta do projeto
+          required: true

@@ -1,0 +1,54 @@
+name: Bug Carona Amiga FCTE
+title: "tipo: descrição"
+description: Reportar um bug encontrado no projeto
+labels: ["bug"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🤗 Obrigado por contribuir! Preencha os campos abaixo para documentar o problema
+
+  - type: textarea
+    id: descricao-bug
+    attributes:
+      label: 🐞 Descricao do bug
+      description: O que aconteceu e qual era o comportamento esperado?
+      placeholder: Descreva o problema observado.
+    validations:
+      required: true
+
+  - type: textarea
+    id: passos-reproducao
+    attributes:
+      label: 🧪 Passos para reproduzir
+      description: Descreva o passo a passo para reproduzir o bug
+      placeholder: 1. Clicar no perfil de usuário...
+    validations:
+      required: true
+
+  - type: textarea
+    id: comportamento-esperado
+    attributes:
+      label: ✅ Comportamento esperado
+      description: Descreva o que deveria acontecer
+      placeholder: Deveria abrir corretamente o menu...
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: 📋 Saida de logs relevantes
+      description: Cole aqui logs ou mensagens de erro relacionadas
+      render: shell
+    validations:
+      required: false
+  - type: checkboxes
+    id: termos
+    attributes:
+      label: 🤝 Codigo de Conduta
+      description: Ao enviar esta issue, voce concorda em seguir nosso [Codigo de Conduta](../blob/main/CODE_OF_CONDUCT.md)
+      options:
+        - label: Concordo em seguir o Codigo de Conduta do projeto
+          required: true
