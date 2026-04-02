@@ -183,19 +183,24 @@ O benchmarking indicou que soluções bem-sucedidas combinam **facilidade de ofe
 ## Referências Bibliográficas
 
 > <a id="ref1">1.</a> IATA, Cristiane. Benchmarking: muito além de uma simples comparação. Revista Benchmarking, edição 1, dez. 2008. Disponível em: https://pontogp.wordpress.com/2008/12/24/benchmarking-muito-alem-de-uma-simples-comparacao. Acesso em: 6 abr. 2025.
+
 > <a id="ref2">2.</a> BLABLACAR. *Página institucional*. Disponível em: https://www.blablacar.com.br/ride-sharing/services/como-funciona. Acesso em: 31 mar. 2026.
+
 > <a id="ref3">3.</a> UBER. *Página institucional (Brasil)*. Disponível em: https://www.uber.com/br/pt-br/. Acesso em: 31 mar. 2026.
+
 > <a id="ref4">4.</a> 99. *Página institucional*. Disponível em: https://99app.com/. Acesso em: 31 mar. 2026.
+
 > <a id="ref5">5.</a> GOOGLE. *Google Maps*. Disponível em: https://www.google.com/maps. Acesso em: 31 mar. 2026.
+
 > <a id="ref6">6.</a> WAZE. *Waze*. Disponível em: https://www.waze.com/pt-BR/. Acesso em: 31 mar. 2026.
+
 > <a id="ref7">7.</a> WHATSAPP. *WhatsApp*. Disponível em: https://www.whatsapp.com/?lang=pt_BR. Acesso em: 31 mar. 2026.
+
 > <a id="ref8">8.</a> TELEGRAM. *Telegram*. Disponível em: https://telegram.org/. Acesso em: 31 mar. 2026.
-
-
 
 ## Histórico de Versões
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhes da revisão |
 | :----: | :--: | --------- | ----------- | ------ | :---: |
 | 1.0  | 31/03/2026 | Criação do documento [#36](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/36) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS), [Luiza da Silva](https://github.com/luizaxx) e [Wanjo Christopher](https://github.com/wChrstphr) | [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharess) | - |
-| 1.1 | 02/04/2026 | Melhoria dos requisitos funcionais e não-funcionais extraídos no benchmarking | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharess) |  |
+| 1.1 | 02/04/2026 | Melhoria dos requisitos funcionais e não-funcionais extraídos no benchmarking | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | Artefato revisado |
