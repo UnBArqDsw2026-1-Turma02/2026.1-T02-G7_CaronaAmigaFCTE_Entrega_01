@@ -181,6 +181,17 @@
             font-weight: 700;
             text-align: right;
         }
+
+        .card-type {
+            display: inline-block;
+            font-size: 12px;
+            font-weight: 700;
+            color: var(--secondary-green);
+            background: var(--light-green);
+            padding: 4px 10px;
+            border-radius: 999px;
+            margin-bottom: 10px;
+        }
  
         /* Navigation Dots */
         .navigation {
@@ -298,29 +309,49 @@
  
 <script>
     const rawTerms = [
-        { title: "Framework 5W2H", desc: "Uma estrutura real ou conceitual ordenada que atua como um guia para o projeto e avaliação da gamificação centrada no usuário." },
-        { title: "Pré-rastreabilidade (Pre-traceability)", desc: "No processo de Engenharia de Requisitos (RE), refere-se à ação de rastrear as origens das interações e grupos envolvidos na definição dos requisitos." },
-        { title: "Mapas Mentais", desc: "Diagramas e ferramentas gráficas não lineares que organizam e representam relações entre ideias a partir de um tema central." },
-        { title: "Léxicos", desc: "Descrição do vocabulário de uma aplicação, baseando-se na ideia de que cada Universo de Discurso (UofD) possui uma linguagem específica." },
-        { title: "Design Sprint", desc: "Processo prático e ágil de cinco dias para resolver problemas críticos por meio do design, prototipagem e teste com usuários." },
-        { title: "Modelagem BPMN", desc: "Business Process Model and Notation. Padrão global utilizado para mapear e modelar processos de negócios visualmente." },
-        { title: "Brainstorming", desc: "Livre fluxo de ideias fundamentado no pensamento criativo que estimula a liberdade de raciocínio e a criatividade." },
-        { title: "Storyboarding", desc: "Técnica visual de organizar ilustrações em sequência para planejar a narrativa ou o fluxo de interação de um sistema." },
-        { title: "Commit", desc: "Operação que salva e registra um conjunto de alterações feitas no código-fonte em um repositório de controle de versão." },
-        { title: "Issue", desc: "Unidade de trabalho rastreável que representa um bug, funcionalidade ou tarefa pendente em uma gestão de projetos." },
-        { title: "Pull Request", desc: "Solicitação para que alterações de código em uma branch paralela sejam revisadas e integradas ao código principal." },
-        { title: "Branch", desc: "Linha de desenvolvimento independente e paralela ao código principal de um projeto." },
-        { title: "Artefato", desc: "Produto físico ou digital gerado ao longo de um processo ou projeto, utilizado como entrega ou resultado final." },
-        { title: "Custo de software", desc: "Processo de prever esforço, tempo e recursos necessários para desenvolver um sistema de software." },
-        { title: "Carona", desc: "Ato de oferecer ou solicitar transporte gratuito em um veículo, dividindo custos ou oferecendo assentos vagos." },
-        { title: "FCTE", desc: "Faculdade de Ciências e Tecnologias em Engenharia da Universidade de Brasília (UnB), localizada no campus Gama." },
-        { title: "Features", desc: "Funcionalidades ou características específicas implementadas em um software para atender necessidades do usuário." },
-        { title: "Docsify", desc: "Gerador de sites de documentação que transforma arquivos Markdown (.md) diretamente em um site dinâmico." },
-        { title: "Unpack", desc: "Fase de alinhamento e mapeamento do problema, compartilhando o conhecimento da equipe." },
-        { title: "Sketch", desc: "Fase de ideação e geração de soluções através de desenhos individuais e focados no Design Sprint." },
-        { title: "Decision", desc: "Etapa de análise crítica das opções para escolher qual ideia tem a maior chance de resolver o problema inicial." },
-        { title: "Prototype", desc: "Construção de uma fachada realista da solução escolhida para ser testada sem necessidade de código funcional." },
-        { title: "Test", desc: "Momento de validação do protótipo com usuários reais para revelar padrões de usabilidade." }
+        { title: "Artefato", type: "Objeto", desc: "Produto físico ou digital gerado ao longo de um processo ou projeto, utilizado como entrega ou resultado final." },
+        { title: "Branch", type: "Objeto", desc: "Linha de desenvolvimento independente e paralela ao código principal de um projeto." },
+        { title: "Brainstorming", type: "Objeto", desc: "Livre fluxo de ideias fundamentado no pensamento criativo que estimula a liberdade de raciocínio e a criatividade.", link: "/#/Base/2-Artefato-Generalista/Brainstorm", linkLabel: "Abrir artefato de Brainstorming" },
+        { title: "Carona", type: "Objeto", desc: "Ato de oferecer ou solicitar transporte em um veículo, podendo envolver divisão de custos ou disponibilização de assentos vagos." },
+        { title: "Cancelamento", type: "Verbo", desc: "Ação de desfazer um combinado de carona previamente acordado (por motorista ou passageiro)." },
+        { title: "Check-in", type: "Verbo", desc: "Ação de confirmar o embarque do passageiro na carona." },
+        { title: "Commit", type: "Objeto", desc: "Operação que salva e registra um conjunto de alterações feitas no código-fonte em um repositório de controle de versão." },
+        { title: "Comunidade FCTE", type: "Objeto", desc: "Conjunto de usuários vinculados à FCTE que utilizam a solução." },
+        { title: "Confirmação", type: "Verbo", desc: "Ação de aceitar e validar um combinado de carona entre as partes." },
+        { title: "Custo de software", type: "Objeto", desc: "Processo de prever esforço, tempo e recursos necessários para desenvolver um sistema de software." },
+        { title: "Decision", type: "Objeto", desc: "Etapa de análise crítica das opções para escolher qual ideia tem a maior chance de resolver o problema inicial." },
+        { title: "Denúncia", type: "Verbo", desc: "Ação de reportar comportamento inadequado, descumprimento de combinado ou risco à segurança." },
+        { title: "Design Sprint", type: "Objeto", desc: "Processo prático e ágil de cinco dias para resolver problemas críticos por meio do design, prototipagem e teste com usuários.", link: "/#/Base/1-Design-Sprint/1.1.DesignSprint", linkLabel: "Abrir artefato Design Sprint" },
+        { title: "Docsify", type: "Objeto", desc: "Gerador de sites de documentação que transforma arquivos Markdown (.md) diretamente em um site dinâmico." },
+        { title: "Em andamento", type: "Estado", desc: "Estado indicando que a carona já iniciou e está ocorrendo." },
+        { title: "FCTE", type: "Objeto", desc: "Faculdade de Ciências e Tecnologias em Engenharia da Universidade de Brasília (UnB), localizada no campus Gama." },
+        { title: "Features", type: "Objeto", desc: "Funcionalidades ou características específicas implementadas em um software para atender necessidades do usuário." },
+        { title: "Finalizada", type: "Estado", desc: "Estado indicando que a carona foi concluída." },
+        { title: "Framework 5W2H", type: "Objeto", desc: "Ferramenta de planejamento estruturada baseada em perguntas-chave (What, Why, Where, When, Who, How e How much), útil para decompor e esclarecer um problema/projeto." },
+        { title: "Issue", type: "Objeto", desc: "Unidade de trabalho rastreável que representa um bug, funcionalidade ou tarefa pendente em uma gestão de projetos." },
+        { title: "Léxicos", type: "Objeto", desc: "Descrição do vocabulário de uma aplicação, baseando-se na ideia de que cada Universo de Discurso (UofD) possui uma linguagem específica." },
+        { title: "Mapas Mentais", type: "Objeto", desc: "Diagramas e ferramentas gráficas não lineares que organizam e representam relações entre ideias a partir de um tema central." },
+        { title: "Match de rota", type: "Objeto", desc: "Resultado do pareamento entre motorista e passageiro a partir de compatibilidade de rota e horário." },
+        { title: "Modelagem BPMN", type: "Objeto", desc: "Business Process Model and Notation. Padrão global utilizado para mapear e modelar processos de negócios visualmente.", link: "/#/Base/3-Modelagem-BPMN/1.3.ModelagemBPMN", linkLabel: "Abrir artefato BPMN" },
+        { title: "Moderador", type: "Sujeito", desc: "Usuário com responsabilidades de mediação/apoio (ex.: análise de denúncias e organização de conteúdo)." },
+        { title: "Motorista", type: "Sujeito", desc: "Usuário que oferece carona, definindo rota, horários e regras do combinado." },
+        { title: "No-show", type: "Estado", desc: "Estado em que uma das partes não comparece ao ponto de encontro sem aviso ou justificativa." },
+        { title: "Passageiro", type: "Sujeito", desc: "Usuário que solicita carona e concorda com regras, rota e horário definidos no combinado." },
+        { title: "Pendente", type: "Estado", desc: "Estado indicando que a carona ainda depende de confirmação (de uma ou ambas as partes)." },
+        { title: "Perfil", type: "Objeto", desc: "Conjunto de informações do usuário (ex.: identificação, vínculo, preferências e histórico)." },
+        { title: "Perfil verificado", type: "Estado", desc: "Estado indicando que o usuário teve alguma forma de verificação de vínculo/identidade." },
+        { title: "Ponto de encontro", type: "Objeto", desc: "Local combinado para embarque e/ou desembarque dos participantes da carona." },
+        { title: "Pré-rastreabilidade (Pre-traceability)", type: "Objeto", desc: "No processo de Engenharia de Requisitos (RE), refere-se à ação de rastrear as origens das interações e grupos envolvidos na definição dos requisitos." },
+        { title: "Prototype", type: "Objeto", desc: "Construção de uma fachada realista da solução escolhida para ser testada sem necessidade de código funcional." },
+        { title: "Pull Request", type: "Objeto", desc: "Solicitação para que alterações de código em uma branch paralela sejam revisadas e integradas ao código principal." },
+        { title: "Rateio", type: "Objeto", desc: "Divisão de custos (ex.: combustível/pedágio) entre os participantes, quando aplicável." },
+        { title: "Rota", type: "Objeto", desc: "Caminho planejado de deslocamento entre origem e destino, podendo incluir paradas/pontos." },
+        { title: "Sketch", type: "Objeto", desc: "Fase de ideação e geração de soluções através de desenhos individuais e focados no Design Sprint." },
+        { title: "Storyboarding", type: "Objeto", desc: "Técnica visual de organizar ilustrações em sequência para planejar a narrativa ou o fluxo de interação de um sistema." },
+        { title: "Test", type: "Objeto", desc: "Momento de validação do protótipo com usuários reais para revelar padrões de usabilidade." },
+        { title: "Unpack", type: "Objeto", desc: "Fase de alinhamento e mapeamento do problema, compartilhando o conhecimento da equipe." },
+        { title: "Glossário", type: "Objeto", desc: "Lista de termos e definições utilizada para padronizar o vocabulário do projeto.", link: "/#/Base/2-Artefato-Generalista/2.1.2.Glossario", linkLabel: "Abrir artefato Glossário" },
+        { title: "Usuário", type: "Sujeito", desc: "Pessoa que utiliza o sistema para oferecer ou solicitar caronas e gerenciar combinados." }
     ];
 
     // Ordenar Alfabeticamente
@@ -337,8 +368,9 @@
         dotsContainer.innerHTML = "";
         
         const filtered = terms.filter(t => 
-            t.title.toLowerCase().includes(filter.toLowerCase()) || 
-            t.desc.toLowerCase().includes(filter.toLowerCase())
+            t.title.toLowerCase().includes(filter.toLowerCase()) ||
+            t.desc.toLowerCase().includes(filter.toLowerCase()) ||
+            t.type.toLowerCase().includes(filter.toLowerCase())
         );
 
         if(filtered.length === 0) {
@@ -352,12 +384,17 @@
             card.innerHTML = `
                 <div class="card-number">${index + 1}</div>
                 <h2 class="card-title">${term.title}</h2>
+                <div class="card-type">${term.type}</div>
                 <p class="card-description">${term.desc}</p>
                 <div class="card-footer">Saiba mais →</div>
             `;
             card.onclick = () => {
                 document.getElementById('modalTitle').innerText = term.title;
-                document.getElementById('modalBody').innerText = term.desc;
+                const modalBody = document.getElementById('modalBody');
+                const linkHtml = term.link
+                    ? `<p style="margin-top: 16px;"><a href="${term.link}" target="_blank" rel="noopener noreferrer" style="color: var(--secondary-green); font-weight: 700; text-decoration: none;">${term.linkLabel || 'Abrir artefato'}</a></p>`
+                    : '';
+                modalBody.innerHTML = `${term.desc}${linkHtml}`;
                 modal.classList.add('active');
             };
             container.appendChild(card);
