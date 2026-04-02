@@ -25,29 +25,12 @@ Este artefato tem como objetivo analisar o problema central do projeto, identifi
 
 ## Levantamento das Causas
 
-### Transporte Público
-
-- Demora no trajeto
-- Risco de quebra
-- Desconforto
-
-### Aplicativos Atuais
-
-- Uber
-- BlaBlaCar
-- InDiver
-
-### Estudantes Universitários
-
-- Atividades fora da Universidade
-- Motoristas e passageiros ainda dependem de grupos de WhatsApp
-- Falta de tempo
-
-### Insegurança
-
-- Legislação sobre transporte compartilhado
-- Resistência cultural ao uso de caronas
-- Questões de segurança nas cidades
+|         Categoria         | Causas                                                                                                                             |
+| :-----------------------: | ---------------------------------------------------------------------------------------------------------------------------------- |
+|    Transporte Público     | - Demora no trajeto <br> - Risco de quebra <br> - Desconforto                                                                      |
+|    Aplicativos Atuais     | - Uber <br> - BlaBlaCar <br> - InDiver                                                                                             |
+| Estudantes Universitários | - Atividades fora da Universidade <br> - Motoristas e passageiros ainda dependem de grupos de WhatsApp <br> - Falta de tempo       |
+|        Insegurança        | - Legislação sobre transporte compartilhado <br> - Resistência cultural ao uso de caronas <br> - Questões de segurança nas cidades |
 
 ## Diagrama de Causa e Efeito
 
@@ -60,21 +43,17 @@ Este artefato tem como objetivo analisar o problema central do projeto, identifi
 
 ## Análise dos Resultados
 
-A análise do Diagrama de Ishikawa evidencia que a falta de uma plataforma eficiente para conectar alunos que oferecem e necessitam de carona é um problema multifatorial, envolvendo aspectos técnicos, organizacionais e externos.
+A análise do Diagrama de Ishikawa evidencia que os problemas de transporte e segurança enfrentados por estudantes universitários são multifatoriais, envolvendo aspectos estruturais, tecnológicos, sociais e externos.
 
-Na dimensão de Gestão e Planejamento, observam-se falhas estruturais como a definição inadequada do escopo, ausência de métricas claras e dificuldades na priorização de funcionalidades, o que compromete o direcionamento do projeto.
+Na dimensão de **Transporte Público**, observam-se falhas como a demora nos trajetos, risco de quebra dos veículos e desconforto, fatores que comprometem a confiabilidade e a atratividade desse meio de transporte.
 
-No âmbito Tecnológico, problemas como bugs, instabilidade de servidores e dificuldades de integração com sistemas de geolocalização impactam diretamente a experiência do usuário, reduzindo a confiabilidade da plataforma.
+No âmbito dos **Aplicativos Atuais**, nota-se a dependência de soluções já consolidadas como Uber, BlaBlaCar e InDiver. Apesar de serem alternativas viáveis, não atendem plenamente às necessidades específicas dos estudantes, especialmente no que diz respeito à integração com a vida acadêmica.
 
-Em relação à Equipe, fatores como comunicação interna deficiente, experiência limitada e sobrecarga indicam limitações na execução e evolução do sistema.
+Em relação aos **Estudantes Universitários**, fatores como atividades fora da universidade, falta de tempo e a dependência de grupos informais no WhatsApp revelam a ausência de uma plataforma dedicada que facilite a organização e o acesso às caronas de forma prática e segura.
 
-A categoria de Recursos evidencia restrições importantes, especialmente na área de marketing e na disponibilidade de dados, dificultando tanto a divulgação quanto a melhoria contínua do aplicativo.
+A categoria de **Insegurança** evidencia barreiras externas significativas, como a legislação sobre transporte compartilhado, a resistência cultural ao uso de caronas e os problemas de segurança urbana. Esses elementos dificultam a adoção de soluções colaborativas e reduzem a confiança dos usuários.
 
-No que se refere à Comunicação, destaca-se como um dos principais gargalos a baixa visibilidade da plataforma, além da forte dependência de soluções alternativas já consolidadas, como grupos no WhatsApp.
-
-Por fim, o Ambiente Externo exerce influência significativa, principalmente devido à concorrência com plataformas amplamente utilizadas, como Uber e BlaBlaCar, além de fatores culturais, regulatórios e de segurança.
-
-Dessa forma, conclui-se que a resolução do problema exige uma abordagem integrada, envolvendo melhorias tecnológicas, fortalecimento da comunicação, estratégias de incentivo aos usuários e melhor organização do processo de desenvolvimento.
+Dessa forma, conclui-se que a resolução do problema exige uma abordagem integrada, que contemple melhorias na infraestrutura de transporte público, desenvolvimento de aplicativos voltados às necessidades acadêmicas, estratégias de incentivo e conscientização entre os estudantes, além de políticas públicas que promovam segurança e regulamentação adequada para o transporte compartilhado.
 
 ## Referências
 
