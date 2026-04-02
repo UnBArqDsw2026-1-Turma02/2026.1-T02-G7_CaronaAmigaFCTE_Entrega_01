@@ -51,6 +51,70 @@ Foi realizada uma videoconferência com a maioria dos integrantes do grupo, onde
 
 <font size="2"><p style="text-align: center">Fonte: [Ana Victória](https://github.com/navicg), [João Marcos](https://github.com/JJOAOMARCOSS), [João Vitor](https://github.com/Jauzimm), [Karoline Luz](https://github.com/KarolineLuz), [Luiza da Silva](https://github.com/luizaxx), [Nicolas Bomfim](https://github.com/NickGehjk), [Wanjo Christopher](https://github.com/wChrstphr), 2026.</p></font>
 
+## Requisitos Elicitados
+Com a construção de pensamento após o brainstorming, tornou-se possível a elicitação de alguns dos requisitos iniciais para o desenvolvimento do projeto. Clique nas setas abaixo para mostrar os requisitos.
+
+<details>
+<summary>Requisitos Funcionais</summary>
+
+#### Tabela de Requisitos Funcionais (RF)
+
+| Código | Requisito Funcional | Objetivo | Especificação |
+| :--: | :-- | :-- | :-- |
+| <a id="rf01"></a>RF01 | Cadastrar usuário. | Aumentar a confiança entre motorista e passageiro. | [ERF01.1](#erf01-1), [ERF01.2](#erf01-2) |
+| <a id="rf03"></a>RF03 | Visualizar perfil. | Apoiar decisão segura na escolha de motoristas e passageiros. | [ERF03](#erf03) |
+| <a id="rf04"></a>RF04 | Avaliar viagens. | Construir reputação e melhorar a qualidade das caronas. | [ERF04](#erf04) |
+| <a id="rf05"></a>RF05 | Favoritar motoristas. | Facilitar recorrência de caronas confiáveis. | - |
+| <a id="rf06"></a>RF06 | Enviar mensagem. | Melhorar a comunicação antes e durante a viagem. | [ERF06](#erf06) |
+| <a id="rf07"></a>RF07 | Criar grupo de carona. | Viabilizar caronas fixas na semana. | [ERF07](#erf07) |
+| <a id="rf08"></a>RF08 | Publicar carona. | Atender demandas imediatas de deslocamento. | [ERF08.1](#erf08-1), [ERF08.2](#erf08-2), [ERF08.3](#erf08-3) |
+| <a id="rf09"></a>RF09 | Enviar notificações de caronas. | Aumentar chance de correspondência entre oferta e demanda. | [ERF09](#erf09) |
+| <a id="rf10"></a>RF10 | Gerar grade horária de caronas. | Facilitar planejamento de ida e volta. | [ERF10.1](#erf10-1), [ERF10.2](#erf10-2), [ERF10.3](#erf10-3), [ERF10.4](#erf10-4), [ERF10.5](#erf10-5) |
+| <a id="rf13"></a>RF13 | Gerar mapa com caronas. | Melhorar visualização espacial das opções. | [ERF13.1](#erf13-1), [ERF13.2](#erf13-2) |
+| <a id="rf14"></a>RF14 | Sugerir melhores rotas. | Reduzir tempo de deslocamento e atrasos. | [ERF14](#erf14) |
+| <a id="rf17"></a>RF17 | Compartilhar localização. | Aumentar rastreabilidade e segurança. | [ERF17](#erf17) |
+| <a id="rf18"></a>RF18 | Detectar desvio da rota. | Reagir rapidamente a situações de risco. | - |
+| <a id="rf19"></a>RF19 | Notificar contatos. | Oferecer resposta imediata em incidentes. | [ERF19](#erf19) |
+| <a id="rf20"></a>RF20 | Validar embarque. | Confirmar identidade e evitar fraudes. | [ERF20](#erf20) |
+| <a id="rf21"></a>RF21 | Editar perfil. | Garantir uma experiência personalizada ao usuário. | [ERF21](#erf21) |
+| <a id="rf24"></a>RF24 | Registrar histórico. | Permitir auditoria, consulta e transparência para o usuário. | [ERF24](#erf24) |
+| <a id="rf25"></a>RF25 | Recomendar caronas. | Melhorar pontualidade e aderência às necessidades do usuário. | [ERF25](#erf25) |
+
+#### Tabela de Especificações dos RF
+
+| Código | Especificação | Objetivo |
+| :--: | :-- | :-- |
+| <a id="erf01-1"></a>[ERF01.1](#rf01) | Exigir cadastro com e-mail institucional para motorista e passageiro. | Aumentar a confiança entre motorista e passageiro. |
+| <a id="erf01-2"></a>[ERF01.2](#rf01) | Exigir cadastro de motorista com dados do veículo (placa/modelo) e documentação válida. | Reduzir riscos, evitar embarque em veículo incorreto e aumentar segurança. |
+| <a id="erf03"></a>[ERF03](#rf03) | Com histórico, quantidade de caronas e avaliação média. | Apoiar decisão segura na escolha de motoristas e passageiros. |
+| <a id="erf04"></a>[ERF04](#rf04) | Com notas e comentários. | Construir reputação e melhorar a qualidade das caronas. |
+| <a id="erf06"></a>[ERF06](#rf06) | Canal de contato entre motorista e passageiro. | Melhorar a comunicação antes e durante a viagem. |
+| <a id="erf07"></a>[ERF07](#rf07) | Por rota, local e horário recorrente. | Viabilizar caronas fixas na semana. |
+| <a id="erf08-1"></a>[ERF08.1](#rf08) | Rápida (ex.: saída em 5 ou 10 minutos). | Atender demandas imediatas de deslocamento. |
+| <a id="erf08-2"></a>[ERF08.2](#rf08) | Limitar a quantidade máxima de passageiros por viagem. | Garantir conformidade e segurança no transporte. |
+| <a id="erf08-3"></a>[ERF08.3](#rf08) | Permitir pagamento digital antecipado e rateio automático do custo base de combustível ao fim da viagem. | Dar previsibilidade de preço e reduzir atritos financeiros. |
+| <a id="erf09"></a>[ERF09](#rf09) | Relevantes por local, horário e preferência. | Aumentar chance de correspondência entre oferta e demanda. |
+| <a id="erf10-1"></a>[ERF10.1](#rf10) | Com vagas, origem e destino. | Facilitar planejamento de ida e volta. |
+| <a id="erf10-2"></a>[ERF10.2](#rf10) | Permitir filtros por turno (manhã/tarde/noite), origem e destino. | Tornar a busca mais rápida e precisa. |
+| <a id="erf10-3"></a>[ERF10.3](#rf10) | Permitir categorização por polos/campi (ex.: Darcy, FCTE, Ceilândia). | Organizar a navegação por regiões de interesse. |
+| <a id="erf10-4"></a>[ERF10.4](#rf10) | Permitir configurar a oferta de caronas predefinidas com margem de desvio configurável (ex.: 2 km a 4 km). | Aumentar flexibilidade no pareamento de rotas. |
+| <a id="erf10-5"></a>[ERF10.5](#rf10) | Permitir definir pontos de embarque e desembarque (casa ou parada próxima). | Melhorar segurança e conveniência no trajeto. |
+| <a id="erf13-1"></a>[ERF13.1](#rf13) | Exibir caronas disponíveis no mapa por destino selecionado. | Melhorar visualização espacial das opções. |
+| <a id="erf13-2"></a>[ERF13.2](#rf13) | Exibir no mapa informações de origem, destino e vagas disponíveis. | Facilitar comparação entre opções de carona. |
+| <a id="erf14"></a>[ERF14](#rf14) | Considerando trânsito e horário de pico. | Reduzir tempo de deslocamento e atrasos. |
+| <a id="erf17"></a>[ERF17](#rf17) | Em tempo real durante a viagem. | Aumentar rastreabilidade e segurança. |
+| <a id="erf19"></a>[ERF19](#rf19) | De emergência e de suporte (SAMU, polícia, bombeiros, guincho). | Oferecer resposta imediata em incidentes. |
+| <a id="erf20"></a>[ERF20](#rf20) | Com código de verificação entre motorista e passageiro. | Confirmar identidade e evitar fraudes. |
+| <a id="erf21"></a>[ERF21](#rf21) | Permitir preferências de pareamento (ex.: mesmo curso, motorista mulher, modo sem conversa). | Aumentar conforto e percepção de segurança. |
+| <a id="erf24"></a>[ERF24](#rf24) | De viagens, rotas e pagamentos. | Permitir auditoria, consulta e transparência para o usuário. |
+| <a id="erf25"></a>[ERF25](#rf25) | Com base em horários, rotas e preferências de uso. | Melhorar pontualidade e aderência às necessidades do usuário. |
+</details>
+
+<details>
+<summary>Requisitos Não Funcionais</summary>
+
+
+</details>
 
 ## Gravação da reunião de brainstorming
 
@@ -72,4 +136,6 @@ Foi realizada uma videoconferência com a maioria dos integrantes do grupo, onde
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhes da revisão |
 | :----: | :--: | --------- | ----------- | ------ | :---: |
-| 1.0  | 28/03/2026 | Criação do documento [#6](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/6) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | - |
+| 1.0  | 28/03/2026 | Criação do documento [#6](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/6) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | Artefato revisado e criado. |
+| 1.1  | 01/04/2026 | Criação do documento [#6](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/6) |[Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | - |
+| 1.2  | 01/04/2026 | Organização dos requisitos funcionais e criação de rastreabilidade RF/ERF. | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | -|
