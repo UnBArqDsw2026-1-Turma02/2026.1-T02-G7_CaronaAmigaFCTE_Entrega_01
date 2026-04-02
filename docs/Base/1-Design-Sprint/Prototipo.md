@@ -45,7 +45,7 @@ A construção do protótipo foi realizada utilizando a ferramenta:
 - **Tela de splash**
 
 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/design/ujPAQzypxGliC9h0f9o8dl/Carona-Amiga---FCTE?node-id=72-1405&embed-host=share" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/ujPAQzypxGliC9h0f9o8dl/Carona-Amiga---FCTE?node-id=72-1423&p=f&scaling=scale-down&content-scaling=fixed&page-id=72%3A1405&starting-point-node-id=72%3A1413&embed-host=share" allowfullscreen></iframe>
 
 ## Bibliografia
 
