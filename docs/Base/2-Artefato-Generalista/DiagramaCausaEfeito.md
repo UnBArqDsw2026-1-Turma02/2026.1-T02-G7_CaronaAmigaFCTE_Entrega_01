@@ -55,13 +55,16 @@ A categoria de **Insegurança** evidencia barreiras externas significativas, com
 
 Dessa forma, conclui-se que a resolução do problema exige uma abordagem integrada, que contemple melhorias na infraestrutura de transporte público, desenvolvimento de aplicativos voltados às necessidades acadêmicas, estratégias de incentivo e conscientização entre os estudantes, além de políticas públicas que promovam segurança e regulamentação adequada para o transporte compartilhado.
 
+---
+
 ## Referências
 
-1. NOMUS. Diagrama de Ishikawa: causa e efeito (espinha de peixe). Disponível em: https://www.nomus.com.br/blog-industrial/diagrama-de-ishikawa-causa-e-efeito-espinha-de-peixe/. Acesso em: 31/03/2026.
-2. FERRAMENTAS DA QUALIDADE. Diagrama de Ishikawa. Disponível em: https://ferramentasdaqualidade.org/diagrama-de-ishikawa/. Acesso em: 31/03/2026.
+> <a id="referências-bibliográficas">1.</a> NOMUS. Diagrama de Ishikawa: causa e efeito (espinha de peixe). Disponível em: https://www.nomus.com.br/blog-industrial/diagrama-de-ishikawa-causa-e-efeito-espinha-de-peixe/. Acesso em: 31/03/2026.
+
+> <a id="referências-bibliográficas">2.</a> FERRAMENTAS DA QUALIDADE. Diagrama de Ishikawa. Disponível em: https://ferramentasdaqualidade.org/diagrama-de-ishikawa/. Acesso em: 31/03/2026.
 
 ## Histórico de Versões
 
 | Versão |    Data    | Descrição            | Autor(es)                                                              | Revisor(es) | Detalhes da revisão |
 | :----: | :--------: | -------------------- | ---------------------------------------------------------------------- | ----------- | :-----------------: |
-|  1.0   | 31/03/2026 | Criação do documento | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) |             |                     |
+|  1.0   | 31/03/2026 | Criação do documento [#14](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/14) | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | Artefato revisado e modificações nas seções de análise e referências |
