@@ -44,8 +44,27 @@ A construção do protótipo foi realizada utilizando a ferramenta:
 - **Tela de load**
 - **Tela de splash**
 
+## Funcionalidades Simuladas
+
+Para uma experiência mais realista, o protótipo simula interações como:
+
+- Cliques nos menus e cards;
+- Feedback visual individual para ações do usuário;
+- Estrutura de comentários no chat (não funcional, mas visualmente representada);
+- Mudança de páginas.
+
 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://embed.figma.com/proto/ujPAQzypxGliC9h0f9o8dl/Carona-Amiga---FCTE?node-id=72-1423&p=f&scaling=scale-down&content-scaling=fixed&page-id=72%3A1405&starting-point-node-id=72%3A1413&embed-host=share" allowfullscreen></iframe>
+
+##  Explicação do Protótipo
+
+Para a apresentação e validação do protótipo de alta fidelidade do projeto, optou-se pela gravação de um vídeo demonstrativo, com o objetivo de tornar a comunicação das ideias mais clara, dinâmica e envolvente. 
+
+Por meio desse recurso, é possível percorrer a interface enquanto são explicadas, em tempo real, as decisões relacionadas ao design, à usabilidade e à acessibilidade que nortearam o desenvolvimento da plataforma.
+
+Dessa forma, o vídeo permite evidenciar com maior precisão as funcionalidades interativas do protótipo, como menus, fluxos de navegação, transições entre telas e simulações do uso por parte dos usuários.
+
+<iframe width="1321" height="743" src="" title="Validação e Explicação do protótipo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Bibliografia
 
@@ -55,6 +74,8 @@ A construção do protótipo foi realizada utilizando a ferramenta:
 
 <a name="ref2"></a>  
 [2] TERA. Prototipagem de alta fidelidade: o que é, quando, por que e como usar? Medium, 23 mar. 2020. Disponível em: https://medium.com/somos-tera/prototipagem-de-alta-fidelidade-635d745b662b. Acesso em: 02 abr. 2026.
+
+[Repositório Galáxia Conectada 2025.1](https://unbarqdsw2025-1-turma02.github.io/2025.1-T02-_G9_GalaxiaConectada_Entrega01/#/Base/DesignSprint/Prototipo?id=prot%c3%b3tipo-de-alta-fidelidade). Acesso em: 02 abri. 2026
 
 
 
