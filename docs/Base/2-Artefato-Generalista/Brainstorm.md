@@ -121,6 +121,26 @@ Com a construção de pensamento após o brainstorming, tornou-se possível a el
 <details>
 <summary>Requisitos Não Funcionais</summary>
 
+> Legenda FURPS+: F = Functionality, U = Usability, R = Reliability, P = Performance, S = Supportability, + = Restrições legais/técnicas ([3](#ref3)).
+
+<font size="3"><p style="text-align: center">Tabela 4: Requisitos Não-Funcionais</p></font>
+
+| Código | Categoria FURPS+ | Requisito Não Funcional | Objetivo |
+| :--: | :--: | :-- | :-- |
+| RNF01 | Usabilidade (U) | O sistema deve ser responsivo para desktop padrão (1900x1040 e 1366x768), tablet (768x1024) e mobile (390x844, 414x896 e 360x640). | Garantir boa usabilidade para estudantes e motoristas em qualquer dispositivo. |
+| RNF02 | Performance (P) | O sistema deve responder em menos de 2 segundos nas operações principais (buscar carona, publicar carona e abrir mapa), medido em p90 ([4](#ref4)). | Manter navegação fluida para passageiros e motoristas. |
+| RNF04 | Reliability (R) | O sistema deve manter disponibilidade mensal mínima de 99,5% ([6](#ref6)), com monitoramento de uptime ([5](#ref5)), alertas automáticos e plano de contingência para indisponibilidade. | Evitar interrupções no uso diário da plataforma. |
+| RNF05 | Usabilidade (U) | O sistema deve atender à acessibilidade conforme WCAG 2.1 nível AA ([7](#ref7)), incluindo contraste adequado, navegação por teclado, textos alternativos e suporte a leitores de tela. | Incluir pessoas com deficiência no uso da plataforma. |
+| RNF06 | Usabilidade (U) | O sistema deve apresentar linguagem clara e fluxo organizado ([8](#ref8)) para ações centrais, com validação por testes de usabilidade com novos usuários. | Reduzir curva de aprendizado para iniciantes. |
+| RNF07 | Performance (P) | O sistema deve suportar aumento gradual de usuários por meio de escalabilidade horizontal e cache, mantendo tempo de resposta dentro da meta sob carga concorrente definida. | Preservar desempenho durante crescimento da base de usuários. |
+| RNF09 | Supportability (S) | O sistema deve funcionar nas duas últimas versões estáveis de Chrome, Firefox, Edge e Safari, com testes de compatibilidade a cada release. | Assegurar acesso para a maioria dos usuários em navegadores modernos. |
+| RNF10 | Performance (P) | O sistema deve operar com internet limitada utilizando carregamento progressivo, compressão de recursos e fallback para modo de baixo consumo de dados em rede 3G/4G instável. | Manter acesso para usuários em conexões lentas ou instáveis. |
+| RNF11 | Performance (P) | O sistema deve entregar notificações críticas (emergência e desvio de rota) com latência de até 5 segundos após o evento, com retentativas automáticas de envio. | Permitir reação rápida em situações urgentes de segurança. |
+| RNF12 | Restrições legais/técnicas (+) | O sistema deve coletar localização e gravações somente com consentimento explícito, registrar finalidade de uso e permitir revogação pelo usuário em conformidade com a LGPD. | Preservar privacidade e conformidade regulatória para motorista e passageiro. |
+| RNF13 | Functionality (F) | O sistema deve registrar trilhas de auditoria para cadastro, avaliação, pagamento, emergência e alteração de perfil, com carimbo de data/hora e retenção por período definido. | Aumentar rastreabilidade para usuários e equipe administrativa. |
+
+<font size="2"><p style="text-align: center">Fonte: [Wanjo Christopher](https://github.com/wChrstphr), 2026.</p></font>
+
 
 </details>
 
