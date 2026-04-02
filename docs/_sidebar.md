@@ -9,7 +9,7 @@
     - [1.2.1. Brainstorming](Base/2-Artefato-Generalista/Brainstorm.md)
     - [1.2.2. Mapa Mental](Base/1.1.2.Mapa-mental.md)
     - [1.2.3. Diagrama de Causa e Efeito](Base/causaefeito.md)
-    - [1.2.4. Rich Picture](Base/1.2.5.Richpicture.md)
+    - [1.2.4. Rich Picture](Base/1-Design-Sprint/1.3.Richpicture.md)
     - [1.2.5. Storyboards](Base/1.2.6.Storyboards.md)
     - [1.2.6. 5W2H](Base/SW2H.md)
     - [1.2.7. Léxicos](Base/1.2.1.Léxicos.md)
