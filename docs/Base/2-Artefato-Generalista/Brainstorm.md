@@ -160,7 +160,17 @@ Com a construção de pensamento após o brainstorming, tornou-se possível a el
 
 > <a id="ref2">2.</a> Brainstorm. Disponível em: [https://unbarqdsw2024-2.github.io/2024.2_G5_Turismo_Entrega_01/#/Base/Brainstorm?id=metodologia](https://unbarqdsw2024-2.github.io/2024.2_G5_Turismo_Entrega_01/#/Base/Brainstorm?id=metodologia). Acesso em: 28 mar. 2026.
 
+> <a id="ref3">3.</a> Ziemek, M. FURPS+ model and non-functional requirements. Disponível em: [https://marcinziemek.com/blog/content/articles/8/article_en.html](https://marcinziemek.com/blog/content/articles/8/article_en.html). Acesso em: 1 abr. 2026.
 
+> <a id="ref4">4.</a> Javarevisited. Mastering latency metrics: p90, p95, p99. Disponível em: [https://medium.com/javarevisited/mastering-latency-metrics-p90-p95-p99-d5427faea879](https://medium.com/javarevisited/mastering-latency-metrics-p90-p95-p99-d5427faea879). Acesso em: 1 abr. 2026.
+
+> <a id="ref5">5.</a> UptimeRobot. Website monitoring and uptime monitoring. Disponível em: [https://uptimerobot.com/](https://uptimerobot.com/). Acesso em: 1 abr. 2026.
+
+> <a id="ref6">6.</a> VC3. What is uptime and why it matters. Disponível em: [https://www.vc3.com/blog/uptime](https://www.vc3.com/blog/uptime). Acesso em: 1 abr. 2026.
+
+> <a id="ref7">7.</a> W3C. Web Content Accessibility Guidelines (WCAG) 2.1. Disponível em: [https://www.w3.org/TR/WCAG21/](https://www.w3.org/TR/WCAG21/). Acesso em: 1 abr. 2026.
+
+> <a id="ref8">8.</a> Nielsen Norman Group. The 3-click rule. Disponível em: [https://www.nngroup.com/articles/3-click-rule/](https://www.nngroup.com/articles/3-click-rule/). Acesso em: 1 abr. 2026.
 
 ## Histórico de Versões
 
