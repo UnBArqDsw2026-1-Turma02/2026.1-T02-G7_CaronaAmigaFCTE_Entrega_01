@@ -20,6 +20,7 @@
     - [1.2.5. Storyboards](Base/1.2.6.Storyboards.md)
     - [1.2.6. 5W2H](Base/2-Artefato-Generalista/5w2h.md)
     - [1.2.7. Léxicos](Base/1.2.1.Léxicos.md)
+    - [1.2.9. Benchmarking](Base/2-Artefato-Generalista/Benchmarking.md)
 
   - [1.3. Modelagem BPMN](Base/3-Modelagem-BPMN/1.3.ModelagemBPMN.md)
 
