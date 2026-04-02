@@ -8,7 +8,7 @@ Criado por Kaoru Ishikawa, esse método permite estruturar visualmente as relaç
 
 ## Objetivo
 
-Este artefato tem como objetivo analisar o problema central do projeto, identificando e organizando suas possíveis causas por meio de uma abordagem estruturada. Para isso, utiliza-se o Diagrama de Ishikawa (ou Espinha de Peixe) como ferramenta de apoio à análise, permitindo visualizar de forma clara os fatores que contribuem para o problema e facilitar a discussão sobre soluções e estratégias de melhoria.
+Este artefato tem como objetivo analisar o problema central do projeto, identificando e organizando suas possíveis causas por meio de uma abordagem estruturada. Para isso, utiliza-se o Diagrama Causa e Efeito (ou Espinha de Peixe) como ferramenta de apoio à análise, permitindo visualizar de forma clara os fatores que contribuem para o problema e facilitar a discussão sobre soluções e estratégias de melhoria.
 
 ## Definição do Problema Central
 
@@ -18,50 +18,32 @@ Este artefato tem como objetivo analisar o problema central do projeto, identifi
 
 **As causas do problema foram organizadas nas seguintes categorias:**
 
-- Gestão/Planejamento
-- Tecnologia
-- Equipe
-- Recursos
-- Comunicação
-- Ambiente Externo
+- Transporte Público
+- Aplicativos Atuais
+- Estudantes Universitários
+- Insegurança
 
 ## Levantamento das Causas
 
-### Gestão/Planejamento
+### Transporte Público
 
-- Escopo do projeto pouco definido
-- Cronograma apertado
-- Falta de priorização de funcionalidades
-- Ausência de métricas de sucesso claras
+- Demora no trajeto
+- Risco de quebra
+- Desconforto
 
-### Tecnologia
+### Aplicativos Atuais
 
-- Bugs no aplicativo
-- Dificuldade de integração com mapas/GPS
-- Servidores instáveis ou lentos
+- Uber
+- BlaBlaCar
+- InDiver
 
-### Equipe
+### Estudantes Universitários
 
-- Experiência limitada em apps de mobilidade
-- Equipe pequena
-- Comunicação interna deficiente
-- Dedicação parcial (projeto paralelo)
-
-### Recursos
-
-- Pouco investimento em marketing/divulgação
-- Falta de documentação técnica
-- Dados insuficientes sobre rotas e usuários
-- Recursos financeiros limitados
-
-### Comunicação
-
-- Usuários não sabem da existência do app
+- Atividades fora da Universidade
 - Motoristas e passageiros ainda dependem de grupos de WhatsApp
-- Falta de canais oficiais de suporte
-- Dificuldade em transmitir confiança e segurança
+- Falta de tempo
 
-### Ambiente Externo
+### Insegurança
 
 - Legislação sobre transporte compartilhado
 - Resistência cultural ao uso de caronas
@@ -70,7 +52,7 @@ Este artefato tem como objetivo analisar o problema central do projeto, identifi
 ## Diagrama de Causa e Efeito
 
 <div align="center">
-  <img src="https://i.postimg.cc/Lsqp3gSB/Diagrama-Cause-Efeito.png" alt="Diagrama Causa e Efeito" style="max-width:100%; height:auto;"/>
+  <img src="https://i.postimg.cc/7Psn7pbt/Diagrama-Cause-Efeito-2.png" alt="Diagrama Causa e Efeito" style="max-width:100%; height:auto;"/>
   <p>Figura 1: Diagrama Cause e Efeito </p>
 </div>
 
