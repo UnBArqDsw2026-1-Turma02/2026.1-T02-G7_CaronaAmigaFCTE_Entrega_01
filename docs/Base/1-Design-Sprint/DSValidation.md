@@ -123,3 +123,4 @@ Abaixo, no vídeo 1, está a gravação da reunião de validação do protótipo
 | Versão |               Data                |   Descrição    |    Autor(es)    |    Revisor(es)     | Detalhes da revisão |
 | :----: | :------------------------------------: | :--------: | :--------: | :------------: | :-------------: |
 |  1.0   | 03/04/2026 | Criação do documento [#46](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/46) | [João Vitor](https://github.com/Jauzimm) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | Adição de hyperlinks |
+|  1.1   | 03/04/2026 | Adição do video de Validação [#46](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/46) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Karoline Luz](https://github.com/KarolineLuz) | - |
