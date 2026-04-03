@@ -9,7 +9,7 @@
 
     - [1.1.1 Entender(Unpack)](Base/1-Design-Sprint/unpack.md)
     - [1.1.2 Esboçar(Sketch)](Base/1-Design-Sprint/Esboçar.md)
-    - [1.1.3 Decidir(Decision)](Base/1-Design-Sprint/Decidir.md)
+    - [1.1.3 Decidir(Decision)](Base/1-Design-Sprint/1.1.3.Decision.md)
     - [1.1.4 Prototipação(Prototype)](Base/1-Design-Sprint/Prototipo.md)
     - [1.1.5 Teste(Validação)](Base/1-Design-Sprint/TesteValidacao.md)
 
