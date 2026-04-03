@@ -72,13 +72,13 @@ Este Código de Conduta foi adaptado do **Contributor Covenant (versão 3.0)** .
 
 ## Referências Bibliográficas
 
-- Contributor Covenant (v3.0):
+> Contributor Covenant (v3.0):
   https://www.contributor-covenant.org/version/3/0/. Acesso em: 29/03/2026
 
--  Mozilla Community Participation Guidelines:  
+>  Mozilla Community Participation Guidelines:  
   https://www.mozilla.org/en-US/about/governance/policies/participation/ Acesso em: 29/03/2026
 
--  Ruby Code of Conduct:  
+>  Ruby Code of Conduct:  
   https://www.ruby-lang.org/en/conduct/ Acesso em: 29/03/2026
 
   ## Histórico de Versão
