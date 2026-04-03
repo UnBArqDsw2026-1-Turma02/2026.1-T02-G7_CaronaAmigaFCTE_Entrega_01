@@ -2,9 +2,9 @@
 
 ## Introdução
 
-Para realizar a última etapa da Design Sprint, percorremos um fluxo estruturado de construção. Iniciamos com o Unpack, utilizando técnicas de brainstorming para o levantamento de informações essenciais. No Sketch, aplicamos o RichPicture para transformar conceitos em representações visuais. A fase de Decision serviu para a criação de um RichPicture final e elaborar o Storyboard que guiaria a solução. Por fim, o Prototype materializou um conceito fidedigno, permitindo a visualização da solução pelo usuário final.
+Para realizar a última etapa da Design Sprint, percorremos um fluxo estruturado de construção. Iniciamos com o [Unpack](../Base/1-Design-Sprint/unpack.md), utilizando técnicas de brainstorming para o levantamento de informações essenciais. No [Sketch](../Base/1-Design-Sprint/1.1.2.Sketch.md), aplicamos o RichPicture para transformar conceitos em representações visuais. A fase de Decision serviu para a criação de um RichPicture final e elaborar o Storyboard que guiaria a solução. Por fim, o [Prototype](../Base/1-Design-Sprint/1.1.4.Prototype.md) materializou um conceito fidedigno, permitindo a visualização da solução pelo usuário final.
 
-Após essas etapas, chegamos à fase de Validation, cujo objetivo central é testar o protótipo diretamente com o público-alvo. Este documento detalha o planejamento dessa avaliação de alta fidelidade, um método eficaz para coletar feedbacks realistas. Para estruturar esse processo e garantir resultados aplicáveis ao aprimoramento do projeto, utilizaremos o framework DECIDE.
+Após essas etapas, chegamos à fase de **Validation**, cujo objetivo central é testar o protótipo diretamente com o público-alvo. Este documento detalha o planejamento dessa avaliação de alta fidelidade, um método eficaz para coletar feedbacks realistas. Para estruturar esse processo e garantir resultados aplicáveis ao aprimoramento do projeto, utilizaremos o framework DECIDE.
 
 ## Objetivos
 
@@ -16,7 +16,9 @@ Será utilizado o framework DECIDE para o planejamento dessa avaliação, estrut
 
 <font size="3"><p style="text-align: center">**Figura 1**: Framework DECIDE.</p></font>
 
-![Quadro de Votação da Design Sprint](../assets/decide.png)
+<div align="center">
+  <img src="https://i.postimg.cc/pdy1vb0P/decide.png" alt="Quadro de Votação da Design Sprint" style="max-width: 100%; height: auto;" />
+</div>
 
 <font size="3"><p style="text-align: center">Fonte: BARBOSA; SILVA (2010, p. 313).</p></font>
 
@@ -84,9 +86,9 @@ Cada entrevistador conduzirá uma sessão com duração de até 30 minutos. O cr
 
 | Entrevistador(es)                       | Entrevistado(s)           | Horário de Início | Horário de Fim | Data       | Local                                      |
 |:--------------------------------------:|:-------------------------:|:----------------:|:--------------:|:----------:|:------------------------------------------:|
-| [João Marcos](https://github.com/JJOAOMARCOSS)  | J.R.Y. |  |  |  |  |
+| [João Marcos](https://github.com/JJOAOMARCOSS)  | G.S.S.A. | 15:00 | 15:30 | 03/04/2026 | Luziânia-GO |
 
-<font size="3"><p style="text-align: center">Autor(es): [João Vitor](https://github.com/Jauzimm), 2026.</p></font>
+<font size="3"><p style="text-align: center">Autor(es): [João Marcos](https://github.com/JJOAOMARCOSS) e [João Vitor](https://github.com/Jauzimm), 2026.</p></font>
 
 ### D - Decidir como lidar com as questões éticas
 
@@ -96,6 +98,22 @@ Os participantes serão informados sobre os objetivos da avaliação e a finalid
 
 Após a coleta de dados, as respostas serão analisadas. O avaliador considerará a confiabilidade dos dados, a validade interna, externa e ecológica do estudo, garantindo que os resultados sejam consistentes, precisos e aplicáveis. Os problemas identificados serão classificados por gravidade, e as sugestões dos participantes serão priorizadas para a implementação de melhorias no CD-MOJ.
 
+---
+
+## Gravação da Validação
+
+Abaixo, no vídeo 1, está a gravação da reunião de validação do protótipo de alta fidelidade.
+
+<font size="3"><p style="text-align: center">Vídeo 1: Validação do [Protótipo](Base/DesignSprint/Prototipo.md) de Alta Fidelidade.</p></font>
+
+<iframe width="1321" height="743" src="https://www.youtube.com/embed/xDqfT4zGbG0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p style="text-align: center"><a href="https://youtu.be/FvwgS9JeKnk" target="_blank">Clique aqui para assistir no YouTube</a></p>
+
+<font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS), 2026.</p></font>
+
+---
+
 ## Referências Bibliográficas
 
 > BARBOSA, Simone Diniz Junqueira; DA SILVA, Bruno Santana. Planejamento da avaliação de IHC. In: INTERAÇÃO Humano-Computador. Rio de Janeiro: Elsevier Editora, 2010.
@@ -104,4 +122,4 @@ Após a coleta de dados, as respostas serão analisadas. O avaliador considerar�
 
 | Versão |               Data                |   Descrição    |    Autor(es)    |    Revisor(es)     | Detalhes da revisão |
 | :----: | :------------------------------------: | :--------: | :--------: | :------------: | :-------------: |
-|  1.0   | 03/04/2026 | Criação do documento [#46](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/46) | [João Vitor](https://github.com/Jauzimm) |  |  |
+|  1.0   | 03/04/2026 | Criação do documento [#46](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/46) | [João Vitor](https://github.com/Jauzimm) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | Adição de hyperlinks |
