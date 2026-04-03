@@ -2,13 +2,16 @@
 
 ## Introdução
 
-Para realizar a última etapa da Design Sprint, percorremos um fluxo estruturado de construção. Iniciamos com o [Unpack](../Base/1-Design-Sprint/unpack.md), utilizando técnicas de brainstorming para o levantamento de informações essenciais. No [Sketch](../Base/1-Design-Sprint/1.1.2.Sketch.md), aplicamos o RichPicture para transformar conceitos em representações visuais. A fase de Decision serviu para a criação de um RichPicture final e elaborar o Storyboard que guiaria a solução. Por fim, o [Prototype](../Base/1-Design-Sprint/1.1.4.Prototype.md) materializou um conceito fidedigno, permitindo a visualização da solução pelo usuário final.
+Para realizar a última etapa da Design Sprint, percorremos um fluxo estruturado de construção. Iniciamos com o [Unpack](../Base/1-Design-Sprint/unpack.md), utilizando técnicas de brainstorming para o levantamento de informações essenciais. No [Sketch](../Base/1-Design-Sprint/1.1.2.Sketch.md), aplicamos o RichPicture para transformar conceitos em representações visuais. A fase de [Decision](../Base/1-Design-Sprint/1.1.3.Decision.md) serviu para a criação de um RichPicture final e elaborar o Storyboard que guiaria a solução. Por fim, o [Prototype](../Base/1-Design-Sprint/1.1.4.Prototype.md) materializou um conceito fidedigno, permitindo a visualização da solução pelo usuário final.
 
 Após essas etapas, chegamos à fase de **Validation**, cujo objetivo central é testar o protótipo diretamente com o público-alvo. Este documento detalha o planejamento dessa avaliação de alta fidelidade, um método eficaz para coletar feedbacks realistas. Para estruturar esse processo e garantir resultados aplicáveis ao aprimoramento do projeto, utilizaremos o framework DECIDE.
 
 ## Objetivos
 
-O objetivo desta avaliação é validar a usabilidade e a eficácia do protótipo de alta fidelidade desenvolvido, identificando problemas na interface e na interação com o usuário. O foco é coletar impressões sobre a clareza, funcionalidade e estética do protótipo.
+- Validar a **usabilidade** do protótipo de alta fidelidade.
+- Identificar problemas de **navegação**, **clareza** e **consistência** da interface.
+- Verificar se o usuário entende o propósito do sistema e os elementos de interface (botões, rótulos, fluxos).
+- Coletar feedbacks qualitativos para orientar **iterações** e melhorias.
 
 ## Metodologia
 
@@ -96,13 +99,13 @@ Os participantes serão informados sobre os objetivos da avaliação e a finalid
 
 ### E - Avaliar (Evaluate)
 
-Após a coleta de dados, as respostas serão analisadas. O avaliador considerará a confiabilidade dos dados, a validade interna, externa e ecológica do estudo, garantindo que os resultados sejam consistentes, precisos e aplicáveis. Os problemas identificados serão classificados por gravidade, e as sugestões dos participantes serão priorizadas para a implementação de melhorias no CD-MOJ.
+Após a coleta de dados, as respostas serão analisadas. O avaliador considerará a confiabilidade dos dados, a validade interna, externa e ecológica do estudo, garantindo que os resultados sejam consistentes, precisos e aplicáveis. Os problemas identificados serão classificados por gravidade, e as sugestões dos participantes serão priorizadas para a implementação de melhorias no **CaronaAmigaFCTE**.
 
 ---
 
 ## Gravação da Validação
 
-Abaixo, no vídeo 1, está a gravação da reunião de validação do protótipo de alta fidelidade.
+Abaixo, no vídeo 1, está a gravação da reunião de validação do protótipo de alta fidelidade e os participantes.
 
 <font size="3"><p style="text-align: center">Vídeo 1: Validação do [Protótipo](Base/DesignSprint/Prototipo.md) de Alta Fidelidade.</p></font>
 
@@ -111,6 +114,48 @@ Abaixo, no vídeo 1, está a gravação da reunião de validação do protótipo
 <p style="text-align: center"><a href="https://youtu.be/FvwgS9JeKnk" target="_blank">Clique aqui para assistir no YouTube</a></p>
 
 <font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS), 2026.</p></font>
+
+## Participantes dessa gravação
+
+<font size="3"><p style="text-align: center">Tabela 3: Participantes</p></font>
+
+<div style="text-align: center;">
+
+| Aluno | Função | Data | Hora |
+| :--: | :--: | :--: | :--: |
+| [Ana Victória Guedes da Costa](https://github.com/navicg) | Participante da gravação | 03/04/2026 | 15:00 |
+| [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | Entrevistador | 03/04/2026 | 15:00 |
+| [João Vitor Santos de Oliveira](https://github.com/Jauzimm) | Participante da gravação | 03/04/2026 | 15:00 |
+| [Karoline Luz da Conceição](https://github.com/KarolineLuz) | Participante da gravação | 03/04/2026 | 15:00 |
+| [Luiza da Silva Pugas](https://github.com/luizaxx) | Participante da gravação | 03/04/2026 | 15:00 |
+| [Pedro Henrique Faria da Mota](https://github.com/PhFariaa) | Participante da gravação | 03/04/2026 | 15:00 |
+| [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | Participante da gravação | 03/04/2026 | 15:00 |
+
+</div>
+
+<font size="2"><p style="text-align: center">Fonte: [João Marcos](https://github.com/JJOAOMARCOSS), 2026.</p></font>
+
+?> **Nota:** Durante o início da gravação, [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr), [Luiza da Silva Pugas](https://github.com/luizaxx) e [João Vitor Santos de Oliveira](https://github.com/Jauzimm) caíram da chamada e retornaram em seguida.
+
+---
+
+## Análise das Respostas
+
+A entrevista indicou que a proposta do **CaronaAmigaFCTE** foi bem compreendida pela(o) participante durante a navegação no protótipo. Em geral, a pessoa conseguiu identificar o propósito do sistema, entender as telas principais e avançar nos fluxos esperados sem necessidade de muitas intervenções.
+
+**Pontos positivos identificados:**
+- Clareza da tela inicial e do objetivo do sistema;
+- Organização visual adequada para encontrar as funcionalidades principais;
+- Facilidade para compreender informações relevantes do “combinado” (rota/horário/ponto de encontro), quando apresentadas na interface.
+- Fluxo de navegação considerado intuitivo;
+
+Até o momento, não foram registradas críticas bloqueantes (impeditivas) durante a validação. Caso novas observações surjam em outras sessões, esta seção será atualizada com os ajustes priorizados.
+
+### Sugestões de melhoria registradas
+
+- Ao **selecionar o motorista**, exibir também o **valor estimado/valor combinado da carona** (similar ao que o participante mencionou ocorrer em plataformas como a BlaBlaCar), para facilitar a comparação entre opções e tornar a decisão mais transparente.
+
+
 
 ---
 
@@ -124,3 +169,4 @@ Abaixo, no vídeo 1, está a gravação da reunião de validação do protótipo
 | :----: | :------------------------------------: | :--------: | :--------: | :------------: | :-------------: |
 |  1.0   | 03/04/2026 | Criação do documento [#46](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/46) | [João Vitor](https://github.com/Jauzimm) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | Adição de hyperlinks |
 |  1.1   | 03/04/2026 | Adição do video de Validação [#46](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/46) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Karoline Luz](https://github.com/KarolineLuz) | - |
+|  1.2   | 03/04/2026 | Modificação do documento em objetivos, adições na gravação e repostas [#46](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/46) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Karoline Luz](https://github.com/KarolineLuz) | - |
