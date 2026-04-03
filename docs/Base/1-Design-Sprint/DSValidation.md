@@ -14,6 +14,11 @@ O objetivo desta avaliação é validar a usabilidade e a eficácia do protótip
 
 Será utilizado o framework DECIDE para o planejamento dessa avaliação, estruturando o processo em seis etapas a serem seguidas.
 
+<font size="3"><p style="text-align: center">**Figura 1**: Framework DECIDE.</p></font>
+
+![Quadro de Votação da Design Sprint](../assets/decide.png)
+
+<font size="3"><p style="text-align: center">Fonte: BARBOSA; SILVA (2010, p. 313).</p></font>
 
 ### D - Determinar os objetivos
 
