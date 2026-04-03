@@ -17,9 +17,9 @@ Problema observado (formulação inicial):
 - Custo e tempo de deslocamento como fatores relevantes para adesão.
 
 Premissas iniciais (ajustar conforme decisão do grupo):
-- Público principal: **[preencher: estudantes / servidores / comunidade externa]**.
-- Plataforma alvo: **[preencher: web / mobile / ambos]**.
-- Escopo geográfico típico: **[preencher: Brasília/DF, RAs mais comuns]**.
+- Público principal: **Estudantes**.
+- Plataforma alvo: **Web/Mobile**.
+- Escopo geográfico típico: **Brasília/DF-Gama|DF**.
 - Restrições: não usar nome de serviço real/proprietário; proposta deve ser original (baseada apenas em referências).
 
 ## Ideia Inicial do Projeto
@@ -41,7 +41,7 @@ A seguir estão as técnicas aplicadas (e planejadas) para levantar informaçõe
 
 - **Objetivo**: Organizar as ideias iniciais do grupo sobre o CaronaAmigaFCTE, levantando possibilidades de funcionalidades, cenários de uso e preocupações relevantes para o domínio do problema.
 
-O artefato completo se encontra em [Brainstorming](../Base/2-Artefato-Generalista/Brainstorm.md).
+O artefato completo se encontra em **[Brainstorming](../Base/2-Artefato-Generalista/Brainstorm.md)**.
 
 <details>
   <summary size="20"><b>Apresentação do brainstorming</b></summary>
@@ -65,47 +65,11 @@ O artefato completo se encontra em [Brainstorming](../Base/2-Artefato-Generalist
 
 </details>
 
-### Rich Picture (individual)
-
-- **Objetivo**: Representar visualmente os atores, relações, informações e conflitos do contexto de caronas da/para a FCTE, destacando elementos que impactam diretamente o problema (ex.: confiança, atrasos, cancelamentos, pontos de encontro).
-
-Status e evidência:
-- Artefato em elaboração/organização pelo grupo: **[inserir link do Rich Picture quando estiver no repositório]**.
-
-<details>
-  <summary size="20"><b>Como essa técnica se conectou ao Brainstorming</b></summary>
-
-- Os Rich Pictures foram produzidos individualmente para capturar perspectivas diferentes sobre os mesmos tópicos levantados no brainstorming.
-- A comparação entre visões individuais ajuda a identificar:
-  - atores que aparecem com frequência (motorista, passageiro, comunidade FCTE e possíveis intermediários);
-  - conflitos recorrentes (mudança de planos, no-show, atrasos, insegurança percebida);
-  - informações essenciais do “combinado” (rota, horário, ponto de encontro, regras e contato).
-
-</details>
-
-### Questionário
-
-- **Objetivo**: Coletar dados iniciais sobre perfil, rotinas, dores e aceitação de uma solução de caronas no contexto da FCTE, para apoiar decisões de escopo com base em evidências.
-
-Status e evidência:
-- Artefato em elaboração/organização pelo grupo: **[inserir link do Questionário quando estiver no repositório]**.
-
-<details>
-  <summary size="20"><b>O que será destacado nos resultados</b></summary>
-
-- Perfil dos respondentes (vínculo com a FCTE e frequência de deslocamento).
-- Critérios mais importantes para aceitar uma carona (segurança, custo, tempo, flexibilidade).
-- Principais dificuldades atuais (encontrar carona compatível, comunicação, cancelamentos).
-- Canais atualmente usados para combinar carona (para entender hábitos e expectativas).
-
-</details>
-
-### 5W + 2H
+### [5W + 2H](../Base/2-Artefato-Generalista/5w2h.md)
 
 - **Objetivo**: Estruturar e registrar o entendimento do projeto por meio de perguntas-guia (What, Why, Where, When, Who, How, How much), explicitando escopo inicial, público e restrições.
 
-Status e evidência:
-- Artefato em elaboração/organização pelo grupo: **[inserir link do 5W+2H quando estiver no repositório]**.
+O artefato completo se encontra em **[5W2H](../Base/2-Artefato-Generalista/5w2h.md)**.
 
 <details>
   <summary size="20"><b>Síntese esperada</b></summary>
@@ -117,9 +81,23 @@ Status e evidência:
   - quais restrições e custos são relevantes;
   - quais decisões ainda dependem de validação nas etapas seguintes.
 
+  <font size="3"><p style="text-align: center">Tabela 1: 5W2H do Projeto CaronaAmiga</p></font>
+  
+  | Pergunta | Resposta |
+  |----------|----------|
+  | **What?** (O que será feito?) | Web App para facilitar a comunicação e conexão entre estudantes da FCTE que necessitam compartilhar deslocamentos, oferecendo e recebendo caronas de forma organizada e segura. |
+  | **Why?** (Por que será feito?) | Resolver o desafio de mobilidade enfrentado pela comunidade acadêmica [[3]](#referências-bibliográficas), promovendo economia de recursos financeiros e temporais, melhorando a qualidade de vida dos usuários através de trajetos mais confortáveis e compartilhados, além de contribuir para sustentabilidade ambiental pela redução de veículos em circulação. |
+  | **Where?** (Onde será feito?) | Será desenvolvido remotamente e a plataforma final será hospedada em ambiente cloud, acessível via navegadores web em dispositivos mobile e desktop. <br> O time de desenvolvimento terá reuniões presenciais na Universidade de Brasília - Campus Gama, FCTE, sempre que necessário. |
+  | **When?** (Quando será feito?) | Semestre letivo 2026.1 da UnB (março a julho), respeitando o cronograma da disciplina de Arquitetura e Desenho de Software, com entregas incrementais conforme as fases definidas. |
+  | **Who?** (Quem fará?) | **Público-alvo:** compreende estudantes de graduação e pós-graduação da FCTE com necessidade recorrente de deslocamento. <br>**Equipe responsável:** é composta pelos dez [integrantes do Grupo 07 - CaronaAmiga FCTE](?id=alunos), todos estudantes de Engenharia de Software da Universidade de Brasília. <br> **Observação:** poderão ser adotados outros desenvolvedores ao final do projeto, caso o mesmo extrapole para além da disciplina. O objetivo é que esse projeto seja Open-Source e uma conquista dos próprios estudantes.  |
+  | **How?** (Como será feito?) | Metodologia XP (Extreme Programming) [[4]](#referências-bibliográficas) adaptada, combinada com práticas ágeis. Ciclos iterativos curtos com testes automatizados, integração contínua, programação em pares, refatoração contínua e reuniões diárias. <br>**Stack**: Frontend (React/Vue.js), Backend (Node.js/Python), BD (PostgreSQL), Hospedagem (Firebase/AWS), Versionamento (Git/GitHub), Comunicação (WhatsApp/GitHub Projects/Issues/PRs). |
+  | **How Much?** (Quanto vai custar?) | **Financeiro**: Infraestrutura acadêmica UnB (sem custos diretos). Ferramentas gratuitas (GitHub, Firebase/AWS free tier, Figma educacional). <br>**Pessoas**: Em média 120h (60h disciplina + 60h extra-classe) por integrante no semestre letivo de 2026.1 englobando estudo, análise, design, desenvolvimento, testes e documentação.<br> **Tecnológico**: Computadores pessoais, cloud computing gratuito e ferramentas colaborativas online. |
+  
+  <font size="2"><p style="text-align: center">Fonte: [Ana Victória](https://github.com/navicg), [João Marcos](https://github.com/JJOAOMARCOSS) e [Wanjo Christopher](https://github.com/wChrstphr),  2026.</p></font>
+
 </details>
 
-### Benchmarking (planejado)
+### Benchmarking 
 
 - **Objetivo**: Analisar soluções similares para identificar boas práticas e riscos comuns (sem copiar soluções), especialmente em pareamento de rotas/horários, mecanismos de confiança, confirmação de carona e redução de no-show/cancelamentos.
 
@@ -151,9 +129,6 @@ Com base no que foi levantado nesta fase, o projeto segue orientado por:
 | Preparar comparação com mercado | Benchmarking foi definido como próximo passo para extrair boas práticas e riscos comuns. |
 
 </div>
-
-
-
 
 ---
 
