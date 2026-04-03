@@ -6,6 +6,8 @@ O **Design Sprint** é uma abordagem estruturada de trabalho em etapas, criada p
 
 Neste documento, o foco está na etapa **Entender (Unpack)**, que tem como função consolidar o conhecimento inicial do time e alinhar o que será considerado base do projeto antes de avançar para escolhas de solução [[2]](#REF2). Para o **CaronaAmigaFCTE**, essa etapa é especialmente importante porque o domínio do problema envolve variáveis como rotas e horários, além de fatores de confiança e segurança, que precisam estar explícitos e acordados pelo grupo desde o início.
 
+Nesta fase, foram utilizados os artefatos de **[Brainstorming](../Base/2-Artefato-Generalista/Brainstorm.md)**, **[5W2H](../Base/2-Artefato-Generalista/5W2H.md)** e **[Benchmarking](../Base/2-Artefato-Generalista/Benchmarking.md)** para organizar ideias iniciais, estruturar decisões e comparar referências do domínio.
+
 ## Contexto e Problema
 
 O projeto **CaronaAmigaFCTE** tem como proposta apoiar o compartilhamento de caronas **da/para a FCTE**, considerando um cenário com deslocamentos recorrentes (aulas, atividades acadêmicas e rotinas de trabalho/estudo).
@@ -35,9 +37,9 @@ Compreensão inicial do grupo:
 
 ## Atividades Realizadas na Fase Unpack
 
-A seguir estão as técnicas aplicadas (e planejadas) para levantar informações e organizar o entendimento do grupo. Nesta etapa, o **Brainstorming** foi utilizado como ponto de partida para consolidar a ideia do grupo e orientar a produção dos **Rich Pictures individuais**, permitindo observar o mesmo problema sob perspectivas diferentes.
+A seguir estão as técnicas aplicadas (e planejadas) para levantar informações e organizar o entendimento do grupo. Nesta etapa, o **Brainstorming** foi utilizado como ponto de partida para consolidar a ideia do grupo, e os resultados foram estruturados com **5W2H** e complementados por **Benchmarking**, com o objetivo de reduzir incertezas antes das próximas fases.
 
-### [Brainstorming (ponto de partida)](../Base/2-Artefato-Generalista/Brainstorm.md)
+## [Brainstorming (ponto de partida)](../Base/2-Artefato-Generalista/Brainstorm.md)
 
 - **Objetivo**: Organizar as ideias iniciais do grupo sobre o CaronaAmigaFCTE, levantando possibilidades de funcionalidades, cenários de uso e preocupações relevantes para o domínio do problema.
 
@@ -65,14 +67,14 @@ O artefato completo se encontra em **[Brainstorming](../Base/2-Artefato-Generali
 
 </details>
 
-### [5W + 2H](../Base/2-Artefato-Generalista/5w2h.md)
+## [5W + 2H](../Base/2-Artefato-Generalista/5w2h.md)
 
 - **Objetivo**: Estruturar e registrar o entendimento do projeto por meio de perguntas-guia (What, Why, Where, When, Who, How, How much), explicitando escopo inicial, público e restrições.
 
 O artefato completo se encontra em **[5W2H](../Base/2-Artefato-Generalista/5w2h.md)**.
 
 <details>
-  <summary size="20"><b>Síntese esperada</b></summary>
+  <summary size="20"><b>Síntese obtida</b></summary>
 
 - O 5W+2H consolida o entendimento do Unpack e apoia a transição para as próximas fases, deixando claro:
   - o que o produto é (e o que não é);
@@ -97,51 +99,77 @@ O artefato completo se encontra em **[5W2H](../Base/2-Artefato-Generalista/5w2h.
 
 </details>
 
-### Benchmarking 
+## [Benchmarking](../Base/2-Artefato-Generalista/Benchmarking.md) 
 
 - **Objetivo**: Analisar soluções similares para identificar boas práticas e riscos comuns (sem copiar soluções), especialmente em pareamento de rotas/horários, mecanismos de confiança, confirmação de carona e redução de no-show/cancelamentos.
 
-Status:
-- Atividade prevista; ainda não finalizada.
+O artefato completo se encontra em **[Benchmarking](../Base/2-Artefato-Generalista/Benchmarking.md)**.
+
+<details>
+  <summary size="20"><b>Síntese do benchmarking</b></summary>
+
+As referências analisadas foram escolhidas por afinidade com o problema de mobilidade e coordenação de caronas. Entre elas, destacam-se:
+
+- **Marketplaces de carona**: BlaBlaCar (ênfase em perfil, reputação e fluxo de solicitação/aceite).
+- **Apps de mobilidade**: Uber e 99 (ênfase em segurança, acompanhamento, notificações e comunicação).
+- **Mapas e rotas**: Google Maps e Waze (rota, ETA e suporte a ponto de encontro).
+- **Comunicação**: WhatsApp e Telegram (coordenação “manual” via mensagens e envio de localização).
+
+Principais aprendizados extraídos para o contexto do CaronaAmigaFCTE:
+- **Confiança e segurança** precisam estar no centro (perfil, avaliações, denúncia/bloqueio e suporte).
+- **Previsibilidade operacional** depende de confirmação/atualização de status e regras claras (cancelamento, atrasos, combinados).
+- **Apoio por mapa** reduz ruído: rota/ETA e ponto de encontro tornam o combinado mais objetivo.
+- **Comunicação contextual** (chat após solicitação/aceite) evita dispersão e melhora rastreabilidade.
+
+Como resultado, a equipe consolidou uma **tabela comparativa** e elicitou **requisitos funcionais e não funcionais iniciais** no artefato de **[Benchmarking](../Base/2-Artefato-Generalista/Benchmarking.md)**.
+
+</details>
 
 ## Resultados e Direcionamentos
 
 Com base no que foi levantado nesta fase, o projeto segue orientado por:
 - Um problema inicial delimitado: facilitar caronas da/para a FCTE considerando compatibilidade de rotas/horários e fatores de confiança.
-- Um ponto de partida compartilhado (brainstorming) e aprofundamento do contexto (rich pictures), preparando o grupo para decisões mais seguras nas próximas etapas.
+- Um ponto de partida compartilhado (brainstorming), com estruturação das decisões iniciais (5W2H) e evidências complementares (benchmarking).
 - Pontos de atenção para as próximas fases do Design Sprint:
   - reduzir ambiguidade no “combinado” (informações mínimas, confirmações e regras);
   - lidar com previsibilidade (cancelamentos, atrasos e mudanças de planos);
   - considerar confiança e segurança como requisitos centrais do domínio.
 
+---
+
 ## Síntese do Entendimento (Objetivos x Evidências)
 
-<font size="3"><p style="text-align: center">Tabela 1: Síntese do entendimento.</p></font>
+<font size="3"><p style="text-align: center">Tabela 2: Síntese do entendimento na fase Unpack.</p></font>
 
 <div style="text-align: center;">
 
-| Objetivo | Evidências/Compreensão obtida |
+| Objetivo da fase Entender (Unpack) | Evidências / Compreensão obtida (artefatos) |
 |---|---|
-| Identificar o problema e o contexto | Brainstorming e Rich Pictures ajudaram a mapear cenários típicos, atores e dificuldades recorrentes. |
-| Levantar hipóteses de necessidades | Brainstorming gerou hipóteses iniciais; questionário apoia confirmação/ajustes com dados. |
-| Mapear atores e impactos | Rich Pictures destacam relações, conflitos e informações essenciais para o “combinado”. |
-| Organizar escopo inicial | 5W+2H consolida escopo, público, cenários e restrições do projeto. |
-| Preparar comparação com mercado | Benchmarking foi definido como próximo passo para extrair boas práticas e riscos comuns. |
+| Consolidar o entendimento inicial do problema de mobilidade na FCTE | O **Brainstorming** reuniu cenários recorrentes (rotas/horários), dores (atrasos/cancelamentos) e preocupações (segurança). |
+| Delimitar o escopo inicial e alinhar o que será construído | O **5W2H** estruturou o plano inicial (o quê/por quê/onde/quando/quem/como/quanto), reduzindo ambiguidades sobre escopo e público-alvo. |
+| Identificar necessidades e riscos prioritários do usuário | Foram destacados como essenciais: **previsibilidade do combinado**, **comunicação objetiva** e **mecanismos de confiança** (perfil, avaliação e denúncia). |
+| Comparar referências e extrair boas práticas aplicáveis ao contexto universitário | O **Benchmarking** reforçou padrões de referência (uso de mapa/ETA/ponto de encontro, confirmação/atualização de status, reputação e suporte). |
+| Preparar a transição para a fase Esboçar (Sketch) | A síntese desta etapa orienta a geração de soluções focadas em: pareamento por rota/horário, confirmação, ponto de encontro e segurança. |
 
 </div>
+
+<font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS), 2026.</p></font>
 
 ---
 
 ## Referências Bibliográficas
 
 > <a id="referências-bibliográficas">1.</a> SOUL DIGITAL. Design Sprint: resultados a curto prazo em 5 etapas. Medium, 27 jul. 2018. Disponível em: https://medium.com/@souldigitalbr/design-sprint-resultados-a-curto-prazo-em-5-etapas-44fe9372c47a. Acesso em: 31 mar. 2026.
-
+>
 > <a id="REF2">2.</a> WANKHADE, Mayur. What are the 5 Stages of a Design Sprint? Nitor Infotech. Disponível em: https://www.nitorinfotech.com/blog/what-are-the-5-stages-of-a-design-sprint/. Acesso em: 31 mar. 2026.
-
+>
 > <a id="REF3">3.</a> 3PM3. O que é Design Sprint e como aplicar o método para testar e validar ideias. PM3, 10 mar. 2025. Disponível em: https://pm3.com.br/blog/design-sprint/. Acesso em: 31 mar. 2026.
+> <a id="REF4">4.</a> UnBArqDsw (Turma 02). **Galáxia Conectada — Design Sprint (Entender)**. Disponível em: https://unbarqdsw2025-1-turma02.github.io/2025.1-T02-_G9_GalaxiaConectada_Entrega01/#/Base/DesignSprint/Entender. Acesso em: 03 abr. 2026.
 
 ## Histórico de Versões
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhes da revisão |
 | :----: | :--: | --------- | ----------- | ------ | :---: |
-| 1.0  | 31/03/2026 | Criação do documento [#30](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/30) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | - |
+| 1.0  | 31/03/2026 | Criação do documento [#30](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/30) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | Artefato revisado |
+| 1.1  | 03/03/2026 | Arrumando os textos, links e referencias [#30](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/30) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | Artefato revisado e arrumado os links |
+| 1.2  | 03/03/2026 | Modificações nas tabelas [#30](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/30) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | Artefato revisado e arrumado as tabelas |
