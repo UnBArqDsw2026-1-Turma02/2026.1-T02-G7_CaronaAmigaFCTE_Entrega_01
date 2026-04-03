@@ -6,7 +6,8 @@
   - [1. Desenho de Software (Base)](Base/1.Base.md)
 
   * 1.1 Design Sprint
-    - [1.1.1 Entender(Unpack)](Base/1-Design-Sprint/Entender.md)
+
+    - [1.1.1 Entender(Unpack)](Base/1-Design-Sprint/unpack.md)
     - [1.1.2 Esboçar(Sketch)](Base/1-Design-Sprint/Esboçar.md)
     - [1.1.3 Decidir(Decision)](Base/1-Design-Sprint/Decidir.md)
     - [1.1.4 Prototipação(Prototype)](Base/1-Design-Sprint/Prototipo.md)
@@ -19,7 +20,7 @@
     - [1.2.4. Rich Picture](Base/1.2.5.Richpicture.md)
     - [1.2.5. Storyboards](Base/1.2.6.Storyboards.md)
     - [1.2.6. 5W2H](Base/2-Artefato-Generalista/5w2h.md)
-    - [1.2.7. Léxicos](Base/1.2.1.Léxicos.md)
+    - [1.2.7. Léxico](Base/2-Artefato-Generalista/Lexico.md)
     - [1.2.9. Benchmarking](Base/2-Artefato-Generalista/Benchmarking.md)
 
   - [1.3. Modelagem BPMN](Base/3-Modelagem-BPMN/1.3.ModelagemBPMN.md)
