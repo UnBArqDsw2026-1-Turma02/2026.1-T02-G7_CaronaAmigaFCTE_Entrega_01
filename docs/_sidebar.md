@@ -22,7 +22,9 @@
     - [1.2.7. Léxico](Base/2-Artefato-Generalista/Lexico.md)
     - [1.2.8. Glossário](Base/2-Artefato-Generalista/2.1.2.Glossario.md)
 
-  - [1.3. Modelagem BPMN](Base/3-Modelagem-BPMN/1.3.ModelagemBPMN.md)
+  * 1.3. Modelagem BPMN
+    - [1.3.1. Metodologia + BPMN](Base/3-Modelagem-BPMN/1.3.1.ModelagemBPMN-AB.md)
+    - [1.3.2. BPMN no Projeto](Base/3-Modelagem-BPMN/1.3.2.ModelagemBPMN-XP.md)
 
   - [1.4. Participações dos Membros](Base/4-ParticipacoesBase/1.4.ParticipacoesBase.md)
   
