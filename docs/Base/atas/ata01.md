@@ -46,14 +46,14 @@ Reunião realizada online via **Microsoft Teams**.
 ## Link da gravação
 [Link da primeira reunião](https://youtu.be/41LM3jFW0ys)
 
-## Próxima Reunião 
-Data: 28/03/2026  
-Horário: 11:00  
+## Próxima Reunião
+Data: 28/03/2026
+Horário: 11:00
 Local: **Microsoft Teams**
 
 ## Bibliografia 
 
-COCKBURN, Alistair. *Agile Software Development*. Boston: Addison-Wesley, 2002.
+> COCKBURN, Alistair. *Agile Software Development*. Boston: Addison-Wesley, 2002.
 
 ## Histórico de versão
 Versão  | Data | Descrição | Autor(es) | Revisor(es) | Data da Revisão
