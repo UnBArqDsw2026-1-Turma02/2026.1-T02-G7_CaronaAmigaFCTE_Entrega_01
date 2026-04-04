@@ -33,7 +33,7 @@ Critérios de descrição por tipo:
 
 ## Léxico Interativo
 
-<iframe src="/Base/2-Artefato-Generalista/lexico.html" style="width:100%; height:820px; border:none; border-radius:10px;"></iframe>
+<iframe src="Base/2-Artefato-Generalista/lexico.html" style="width:100%; height:820px; border:none; border-radius:10px;"></iframe>
 
 ## Participantes
 
