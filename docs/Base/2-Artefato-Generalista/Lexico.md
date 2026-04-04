@@ -50,6 +50,8 @@ Critérios de descrição por tipo:
 
 <font size="2"><p style="text-align: center">Fonte: [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) , 2026.</p></font>
 
+?> **Nota:** Se o léxico interativo não estiver aparecendo corretamente, abra o arquivo HTML diretamente em  
+<a href="Base/2-Artefato-Generalista/lexico.html" target="_blank" data-no-router>Base/2-Artefato-Generalista/lexico.html</a>.
 
 ## Léxico do Projeto
 
