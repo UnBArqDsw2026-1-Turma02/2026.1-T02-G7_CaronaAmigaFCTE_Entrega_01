@@ -28,7 +28,7 @@
   - [1.5. Iniciativas Extras](Base/5-Iniciativas-Extras/1.5.Iniciativas-Extras.md)
     - [1.5.1. Heatmap de disponibilidade](Base/1.5.1.heatmap.md)
     - [1.5.2. Perfil de Usuário](Base/elicitacao/questionario/perfil_usuario.md)
-    - [1.5.3. Guia de Estilo](Base/1.5.2.guia-de-estilo.md)
+    - [1.5.3. Guia de Estilo](Base/5-Iniciativas-Extras/guia-de-estilo.md)
     - [1.5.4. Ferramentas Utilizadas](Base/1.5.3.FerramentasUtilizadas.md)
 
 - **Atas**
