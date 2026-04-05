@@ -22,6 +22,7 @@
     - [1.2.7. Léxico](Base/2-Artefato-Generalista/Lexico.md)
     - [1.2.8. Glossário](Base/2-Artefato-Generalista/2.1.2.Glossario.md)
     - [1.2.9. Benchmarking](Base/2-Artefato-Generalista/Benchmarking.md)
+    - [1.2.10. Product Vision Board](Base/2-Artefato-Generalista/Product%20Vision%20Board.md)
 
   - [1.3. Modelagem BPMN](Base/3-Modelagem-BPMN/1.3.ModelagemBPMN.md)
 

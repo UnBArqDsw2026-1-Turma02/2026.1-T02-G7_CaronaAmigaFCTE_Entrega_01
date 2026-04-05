@@ -25,7 +25,7 @@ O último ponto que consideramos foi que, além da economia, se for feito uma es
 ---
 
 ## 4. Problemáticas Identificadas
-A partir do Rich Picture e do Brainstorming, foram mapeados os seguintes desafios:
+A partir do [Rich Picture](Base/2-Artefato-Generalista/1.3.RichPicture.md) e do [Brainstorming](Base/2-Artefato-Generalista/Brainstorm.md), foram mapeados os seguintes desafios:
 
 - **Dificuldade de Acesso:** Limitação do transporte público em horários específicos  
 - **Custo Elevado:** Alto gasto individual com combustível e manutenção  
@@ -90,4 +90,4 @@ Gravação da reunião sobre o PVB (Product Vision Board):
 
 | Versão | Data | Hora | Descrição | Autor(es) | Revisor(es) | Detalhes da revisão |
 | :----: | :--: | :--: |--------- | ----------- | ------ | :---: |
-| 1.0 | 03/04/2026 | 21:30 |Criação do documento de Visão do Produto | [Pedro Henrique Faria da Mota](https://github.com/phfariaa), [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharess) e [Nicolas Bomfim Dias Bandeira](https://github.com/NickGehjk) | - | - |
+| 1.0 | 03/04/2026 | 21:30 | Criação do documento de Visão do Produto | [Pedro Henrique Faria da Mota](https://github.com/phfariaa), [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharess) e [Nicolas Bomfim Dias Bandeira](https://github.com/NickGehjk) | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | Artefato revisado e criado |
