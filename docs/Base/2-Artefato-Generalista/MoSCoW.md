@@ -102,14 +102,7 @@ Durante a construção do [brainstorming](Brainstorm.md) e do [benchmarking](Ben
 
 ## Descrição da Priorização
 
-A priorização de requisitos é uma etapa fundamental no desenvolvimento de software, pois permite organizar e direcionar os esforços da equipe com base no valor entregue ao usuário e na viabilidade de implementação. No contexto deste projeto, a priorização foi realizada utilizando a técnica MoSCoW, que classifica os requisitos em diferentes níveis de importância.
-
-O modelo MoSCoW organiza os requisitos em quatro categorias principais:
-
-- **Must Have (Deve ter):** requisitos essenciais e indispensáveis para o funcionamento do sistema. Esses itens compõem o Produto Mínimo Viável (MVP) e garantem que a aplicação atenda ao seu objetivo principal.
-- **Should Have (Deveria ter):** requisitos importantes que agregam valor significativo ao sistema, mas que não são críticos para sua operação inicial. Podem ser implementados após a entrega do MVP.
-- **Could Have (Poderia ter):** requisitos desejáveis que melhoram a experiência do usuário, mas possuem menor impacto no funcionamento do sistema. São incluídos caso haja disponibilidade de tempo e recursos.
-- **Won’t Have (Não terá agora):** requisitos que foram identificados, mas não serão implementados na versão atual do sistema, podendo ser considerados em evoluções futuras.
+A priorização de requisitos é uma etapa fundamental no desenvolvimento de software, pois permite organizar e direcionar os esforços da equipe com base no valor entregue ao usuário e na viabilidade de implementação.
 
 A classificação dos requisitos foi realizada com base em critérios como a essencialidade para o funcionamento do sistema, impacto na segurança dos usuários, complexidade de implementação e valor agregado à experiência do usuário. Além disso, foram utilizadas perguntas orientadoras, como: “o sistema funciona sem este requisito?” e “este requisito é necessário para o objetivo principal da aplicação?”.
 
@@ -129,7 +122,7 @@ Essa priorização permite definir claramente o escopo do MVP, reduzir riscos du
 | [RF20](#rf20)   | Validar embarque                          | Garante identidade dos usuários e evita fraudes             |
 | [RF26](#rf26)   | Cancelar solicitação                      | Necessário para controle básico do fluxo de uso             |
 | [RNF01](#rnf01) | Responsividade (webapp mobile-first)      | Essencial devido ao uso predominante em dispositivos móveis |
-| [RNF02](#rnf02) | Tempo de resposta <font 2s                | Necessário para garantir usabilidade mínima do sistema      |
+| [RNF02](#rnf02) | Resposta em menos de 2 segundos nas operações principais | Necessário para garantir usabilidade mínima do sistema      |
 | [RNF12](#rnf12) | Conformidade com LGPD                     | Obrigatório para tratamento de dados pessoais               |
 | [RNF15](#rnf15) | Segurança (hash, TLS, controle de acesso) | Essencial para proteção de dados e integridade do sistema   |
 
