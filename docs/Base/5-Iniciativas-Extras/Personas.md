@@ -34,6 +34,11 @@ A elaboração das personas seguiu o processo de personas orientadas por dados (
 
 ### 1. Usuário
 
+#### Questionário
+
+<details>
+<summary>Perguntas e Respostas</summary>
+
 <div style="text-align: center;">
 
 <font size="3"><p>Figura 1: Qual sua idade?</p></font>
@@ -64,38 +69,37 @@ A elaboração das personas seguiu o processo de personas orientadas por dados (
 
 ![Você estaria disposto a compartilhar carona com alguém que não conhece, desde que fosse estudante da UnB?](../assets/questionario/6_disposto-dar-carona.png)
 
-<font size="2"><p>Fonte: Questionário aplicado pela equipe do projeto, 2026.</p></font>
+<font size="2"><p>Fonte: [Luiza da Silva Pugas](https://github.com/luizaxx) e [Wanjo Christopher P. Escobar](https://github.com/wChrstphr), 2026</p></font>
 
 </div>
 
-#### Requisitos Elicitados dessa parte
+</details>
+
+#### Requisitos Elicitados referentes ao Perfil de Usuário (RFU)
 
 <details>
 <summary>Requisitos Funcionais</summary>
 
 <font size="3"><p style="text-align: center">Tabela 2: Requisitos Funcionais - Parte Usuário</p></font>
 
-| Código | Requisito Funcional | Objetivo | Especificação |
+| Código | Requisito Funcional de Usuário | Objetivo | Especificação |
 | :--: | :-- | :-- | :-- |
-| RFU01 | Coletar dados de perfil do usuário (faixa etária, gênero e situação ocupacional). | Caracterizar o público da plataforma e apoiar personalização inicial. | Cadastro e edição de perfil com campos estruturados. |
-| RFU02 | Permitir informar disponibilidade de CNH ativa e veículo próprio. | Diferenciar potenciais motoristas e passageiros. | Campos específicos no perfil com atualização pelo usuário. |
-| RFU03 | Permitir registrar a disposição para compartilhar carona com estudantes da UnB fora da rede de conhecidos. | Apoiar regras de pareamento e sugestões mais aderentes ao conforto do usuário. | Preferência de pareamento configurável em perfil. |
+| RFU01 | Informar disponibilidade de CNH e veículo. | Diferenciar potenciais motoristas e passageiros. | Registrar no cadastro o status de CNH ativa e disponibilidade de veículo próprio, com possibilidade de atualização dos dados. |
+| RFU02 | Configurar pareamento de carona. | Apoiar regras de pareamento entre usuários. | Definir preferências de pareamento no perfil (ex.: apenas alunos da FCTE ou UnB geral) e registrar disposição para compartilhar carona com usuários fora da rede imediata. |
+
+<font size="2"><p style="text-align: center">Fonte: [Wanjo Christopher P. Escobar](https://github.com/wChrstphr), 2026.</p></font>
 
 </details>
 
-<details>
-<summary>Requisitos Não Funcionais</summary>
-
-<font size="3"><p style="text-align: center">Tabela 3: Requisitos Não Funcionais - Parte Usuário</p></font>
-
-| Código | Requisito Não Funcional | Objetivo | Especificação |
-| :--: | :-- | :-- | :-- |
-| RNFU01 | Tratar dados pessoais de perfil com privacidade e segurança. | Evitar exposição indevida de informações pessoais. | Controle de acesso e proteção de dados cadastrais. |
-| RNFU02 | Suportar opções de identificação de gênero sem ambiguidade de preenchimento. | Garantir inclusão e consistência dos dados de perfil. | Interface de cadastro clara e consistente para campos de identificação. |
-
-</details>
+---
 
 ### 2. Motivação
+
+#### Questionário
+
+<details>
+<summary>Perguntas e Respostas</summary>
+
 <div style="text-align: center;">
 <font size="3"><p>Figura 8: O que te motivaria a usar um aplicativo de carona entre alunos?</p></font>
 
@@ -119,17 +123,21 @@ A elaboração das personas seguiu o processo de personas orientadas por dados (
 
 </div>
 
-#### Requisitos Elicitados dessa parte
+</details>
+
+#### Requisitos Elicitados referentes à Motivação do Usuário (RFM)
 
 <details>
-<summary>Requisitos Funcionais</summary>
+<summary>Requisitos Funcionais de Motivação</summary>
 
 <font size="3"><p style="text-align: center">Tabela 4: Requisitos Funcionais - Parte Motivação</p></font>
 
 | Código | Requisito Funcional | Objetivo | Especificação |
 | :--: | :-- | :-- | :-- |
-| RFM01 | Permitir selecionar contexto de uso da carona (ida, volta, ida e volta, eventos/horários específicos). | Atender diferentes rotinas de deslocamento acadêmico. | Filtros de busca e oferta por contexto de uso. |
-| RFM02 | Exibir informações de apoio à decisão relacionadas a economia e tempo. | Reforçar os principais motivadores identificados no questionário. | Exibição de estimativa de custo e duração no fluxo de carona. |
+| RFM01 | Selecionar contexto de uso da carona. | Atender diferentes rotinas de deslocamento acadêmico. | Permitir seleção de contexto (ida, volta, ida e volta, eventos/horários específicos) com filtros de busca e oferta por situação de uso. |
+| RFM02 | Exibir estimativa de custo e duração. | Reforçar os principais motivadores identificados no questionário. | Apresentar estimativas de custo e tempo no fluxo de visualização e solicitação de carona. |
+
+<font size="2"><p style="text-align: center">Fonte: [Wanjo Christopher P. Escobar](https://github.com/wChrstphr), 2026.</p></font>
 
 </details>
 
@@ -140,12 +148,22 @@ A elaboração das personas seguiu o processo de personas orientadas por dados (
 
 | Código | Requisito Não Funcional | Objetivo | Especificação |
 | :--: | :-- | :-- | :-- |
-| RNFM01 | Disponibilizar interface simples para consulta e solicitação de caronas. | Reduzir fricção de uso e favorecer adoção inicial. | Fluxos com baixa complexidade de navegação. |
-| RNFM02 | Garantir desempenho adequado nas consultas de carona. | Preservar a percepção de ganho de tempo no uso da plataforma. | Respostas rápidas em busca e carregamento de resultados. |
+| RNFM01 | O sistema deve possuir interface simples para consulta e solicitação de caronas. | Reduzir fricção de uso e favorecer adoção inicial. | Fluxos com baixa complexidade de navegação. |
+
+<font size="2"><p style="text-align: center">Fonte: [Wanjo Christopher P. Escobar](https://github.com/wChrstphr), 2026.</p></font>
 
 </details>
 
+---
+
 ### 3. Segurança
+
+#### Questionário
+
+<details>
+<summary>Perguntas e Respostas</summary>
+
+<div style="text-align: center;">
 
 <font size="3"><p style="text-align: center">Figura 12: Quais itens aumentariam sua confiança?</p></font>
 
@@ -153,7 +171,11 @@ A elaboração das personas seguiu o processo de personas orientadas por dados (
 
 <font size="2"><p style="text-align: center">Fonte: Questionário aplicado pela equipe do projeto, 2026.</p></font>
 
-#### Requisitos Elicitados dessa parte
+</div>
+
+</details>
+
+#### Requisitos Elicitados referentes à Segurança do Usuário (RFS)
 
 <details>
 <summary>Requisitos Funcionais</summary>
@@ -162,10 +184,12 @@ A elaboração das personas seguiu o processo de personas orientadas por dados (
 
 | Código | Requisito Funcional | Objetivo | Especificação |
 | :--: | :-- | :-- | :-- |
-| RFS01 | Exibir perfil com foto dos usuários. | Aumentar confiança no processo de escolha de carona. | Perfil público com foto visível em oferta e solicitação. |
-| RFS02 | Implementar verificação de vínculo institucional por matrícula da UnB. | Reforçar segurança e pertencimento ao contexto universitário. | Validação de identificação institucional no cadastro. |
-| RFS03 | Permitir avaliações de usuários e visualização de histórico de viagens. | Apoiar decisão por reputação e experiência anterior. | Sistema de avaliações e histórico acessível no perfil. |
-| RFS04 | Exibir informação de amigos em comum quando disponível. | Aumentar percepção de confiança na interação entre usuários. | Indicação de conexão social no perfil/fluxo de escolha. |
+| RFS01 | Exibir perfil com foto. | Aumentar confiança no processo de escolha de carona. | Exibir foto do usuário no perfil público e nos fluxos de oferta/solicitação de carona. |
+| RFS02 | Validar matrícula institucional. | Reforçar segurança e pertencimento ao contexto universitário. | Realizar verificação de vínculo institucional da UnB no processo de cadastro. |
+| RFS03 | Permitir avaliação de usuários. | Apoiar decisão por reputação e experiência anterior. | Disponibilizar avaliações e histórico de viagens no perfil para consulta durante a decisão de pareamento. |
+| RFS04 | Exibir amigos em comum. | Aumentar percepção de confiança na interação entre usuários. | Indicar conexões sociais compartilhadas no perfil e no fluxo de escolha de carona, quando houver. |
+
+<font size="2"><p style="text-align: center">Fonte: [Wanjo Christopher P. Escobar](https://github.com/wChrstphr), 2026.</p></font>
 
 </details>
 
@@ -179,9 +203,18 @@ A elaboração das personas seguiu o processo de personas orientadas por dados (
 | RNFS01 | Garantir integridade e confiabilidade das informações de perfil e avaliação. | Evitar manipulação indevida de sinais de confiança. | Controle de consistência para dados de reputação e verificação. |
 | RNFS02 | Proteger dados sensíveis usados para validação institucional. | Preservar privacidade e segurança do usuário. | Tratamento seguro dos dados de identificação acadêmica. |
 
+<font size="2"><p style="text-align: center">Fonte: [Wanjo Christopher P. Escobar](https://github.com/wChrstphr), 2026.</p></font>
+
 </details>
 
+---
+
 ### 4. Funcionalidades Desejadas
+
+#### Questionário
+
+<details>
+<summary>Perguntas e Respostas</summary>
 
 <div style="text-align: center;">
 
@@ -201,7 +234,9 @@ A elaboração das personas seguiu o processo de personas orientadas por dados (
 
 </div>
 
-#### Requisitos Elicitados dessa parte
+</details>
+
+#### Requisitos Elicitados de Funcionalidades Desejadas (RFF)
 
 <details>
 <summary>Requisitos Funcionais</summary>
@@ -210,13 +245,15 @@ A elaboração das personas seguiu o processo de personas orientadas por dados (
 
 | Código | Requisito Funcional | Objetivo | Especificação |
 | :--: | :-- | :-- | :-- |
-| RFF01 | Permitir agendamento de caronas. | Atender uso planejado e recorrente da comunidade acadêmica. | Publicação e reserva com data/horário futuro. |
-| RFF02 | Disponibilizar divisão de custos da viagem. | Apoiar percepção de justiça e clareza no compartilhamento de despesas. | Campo de rateio no fluxo de criação/aceite da carona. |
-| RFF03 | Disponibilizar rastreamento em tempo real da carona. | Melhorar previsibilidade e segurança durante o deslocamento. | Acompanhamento de status/localização durante a viagem. |
-| RFF04 | Oferecer canal de chat entre os usuários da carona. | Melhorar comunicação antes e durante a viagem. | Mensageria no contexto da carona criada/aceita. |
-| RFF05 | Incluir botão de emergência no contexto da viagem. | Apoiar resposta rápida em situações críticas. | Ação de emergência acessível durante carona em andamento. |
-| RFF06 | Permitir configurar preferências de pareamento (ex.: apenas motoristas/caronas mulheres). | Aumentar sensação de conforto e adequação do pareamento. | Filtro de preferência no perfil e na busca de caronas. |
-| RFF07 | Permitir escolha de escopo preferencial de caronas (mesmo curso, FCTE, UnB). | Ajustar o nível de proximidade social desejado pelo usuário. | Filtros de escopo na descoberta de caronas. |
+| RFF01 | Agendar caronas. | Atender uso planejado e recorrente da comunidade acadêmica. | Permitir publicação e reserva de caronas com data e horário futuros. |
+| RFF02 | Dividir custos da viagem. | Apoiar percepção de justiça e clareza no compartilhamento de despesas. | Oferecer campo de rateio no fluxo de criação e aceite da carona. |
+| RFF03 | Rastrear carona em tempo real. | Melhorar previsibilidade e segurança durante o deslocamento. | Exibir acompanhamento de status e localização durante a viagem. |
+| RFF04 | Enviar mensagens no chat. | Melhorar comunicação antes e durante a viagem. | Disponibilizar canal de mensageria no contexto da carona criada ou aceita. |
+| RFF05 | Acionar botão de emergência. | Apoiar resposta rápida em situações críticas. | Manter ação de emergência acessível durante carona em andamento. |
+| RFF06 | Configurar preferências de pareamento. | Aumentar sensação de conforto e adequação do pareamento. | Permitir filtros de preferência no perfil e na busca (ex.: apenas motoristas/caronas mulheres). |
+| RFF07 | Selecionar escopo de caronas. | Ajustar o nível de proximidade social desejado pelo usuário. | Aplicar filtros de escopo na descoberta de caronas (mesmo curso, FCTE, UnB). |
+
+<font size="2"><p style="text-align: center">Fonte: [Wanjo Christopher P. Escobar](https://github.com/wChrstphr), 2026.</p></font>
 
 </details>
 
@@ -230,9 +267,18 @@ A elaboração das personas seguiu o processo de personas orientadas por dados (
 | RNFF01 | Manter disponibilidade elevada de recursos críticos (chat, rastreamento e emergência). | Evitar falhas em funcionalidades sensíveis à segurança e coordenação da carona. | Confiabilidade operacional durante todo o fluxo da viagem. |
 | RNFF02 | Garantir usabilidade em dispositivos móveis para os fluxos principais. | Viabilizar uso cotidiano no contexto de deslocamento. | Interface responsiva e legível em telas móveis. |
 
+<font size="2"><p style="text-align: center">Fonte: [Wanjo Christopher P. Escobar](https://github.com/wChrstphr), 2026.</p></font>
+
 </details>
 
+---
+
 ### 5. Aspectos Sociais
+
+#### Questionário
+
+<details>
+<summary>Perguntas e Respostas</summary>
 
 <div style="text-align: center;">
 
@@ -252,7 +298,9 @@ A elaboração das personas seguiu o processo de personas orientadas por dados (
 
 </div>
 
-#### Requisitos Elicitados dessa parte
+</details>
+
+#### Requisitos Elicitados referentes à Aspectos Sociais (RFA)
 
 <details>
 <summary>Requisitos Funcionais</summary>
@@ -261,8 +309,10 @@ A elaboração das personas seguiu o processo de personas orientadas por dados (
 
 | Código | Requisito Funcional | Objetivo | Especificação |
 | :--: | :-- | :-- | :-- |
-| RFA01 | Permitir mecanismos sociais de adesão (ex.: indicação entre usuários). | Aumentar confiança inicial e estimular entrada de novos usuários. | Fluxo de convite/indicação integrado ao aplicativo. |
-| RFA02 | Permitir configuração de preferências de conforto social no pareamento. | Reduzir barreiras de adesão associadas a desconforto social. | Opções de preferência no perfil e filtros de correspondência. |
+| RFA01 | Permitir indicação de usuários. | Aumentar confiança inicial e estimular entrada de novos usuários. | Implementar fluxo de convite e indicação integrado ao aplicativo. |
+| RFA02 | Configurar preferências de conforto social. | Reduzir barreiras de adesão associadas a desconforto social. | Disponibilizar opções de conforto social no perfil e filtros de correspondência no pareamento. |
+
+<font size="2"><p style="text-align: center">Fonte: [Wanjo Christopher P. Escobar](https://github.com/wChrstphr), 2026.</p></font>
 
 </details>
 
@@ -276,9 +326,20 @@ A elaboração das personas seguiu o processo de personas orientadas por dados (
 | RNFA01 | Garantir estabilidade da aplicação para reduzir abandono por problemas de uso. | Diminuir desistência motivada por falhas percebidas no app. | Baixa incidência de erros nos fluxos essenciais. |
 | RNFA02 | Sustentar experiência de uso confiável em cenários de baixa oferta de caronas. | Reduzir frustração associada à percepção de pouca disponibilidade. | Respostas claras do sistema quando não houver correspondências. |
 
+<font size="2"><p style="text-align: center">Fonte: [Wanjo Christopher P. Escobar](https://github.com/wChrstphr), 2026.</p></font>
+
 </details>
 
+---
+
 ### 6. Pagamento
+
+#### Questionário
+
+<details>
+<summary>Perguntas e Respostas</summary>
+
+<div style="text-align: center;">
 
 <font size="3"><p style="text-align: center">Figura 19: O app sugerir preço automático é importante?</p></font>
 
@@ -286,7 +347,11 @@ A elaboração das personas seguiu o processo de personas orientadas por dados (
 
 <font size="2"><p style="text-align: center">Fonte: Questionário aplicado pela equipe do projeto, 2026.</p></font>
 
-#### Requisitos Elicitados dessa parte
+</div>
+
+</details>
+
+#### Requisitos Elicitados referentes à Pagamento (RFP)
 
 <details>
 <summary>Requisitos Funcionais</summary>
@@ -295,7 +360,9 @@ A elaboração das personas seguiu o processo de personas orientadas por dados (
 
 | Código | Requisito Funcional | Objetivo | Especificação |
 | :--: | :-- | :-- | :-- |
-| RFP01 | Sugerir automaticamente o preço da carona. | Apoiar definição de valor com menor esforço para os usuários. | Cálculo de valor sugerido no fluxo de criação da carona. |
+| RFP01 | Sugerir preço automático da carona. | Apoiar definição de valor com menor esforço para os usuários. | Calcular e exibir valor sugerido no fluxo de criação da carona. |
+
+<font size="2"><p style="text-align: center">Fonte: [Wanjo Christopher P. Escobar](https://github.com/wChrstphr), 2026.</p></font>
 
 </details>
 
@@ -308,7 +375,9 @@ A elaboração das personas seguiu o processo de personas orientadas por dados (
 | :--: | :-- | :-- | :-- |
 | RNFP01 | Garantir transparência na apresentação do preço sugerido. | Evitar percepção de arbitrariedade no valor recomendado. | Critérios de cálculo exibidos de forma compreensível ao usuário. |
 
-</details>
+<font size="2"><p style="text-align: center">Fonte: [Wanjo Christopher P. Escobar](https://github.com/wChrstphr), 2026.</p></font>
+
+</details> 
 
 ## Personas
 
