@@ -62,8 +62,6 @@ Durante a construção do [brainstorming](Brainstorm.md) e do [benchmarking](Ben
 
 </details>
 
----
-
 <details>
 <summary>Requisitos Não Funcionais</summary>
 
@@ -85,8 +83,6 @@ Durante a construção do [brainstorming](Brainstorm.md) e do [benchmarking](Ben
 | <a id="rnf13"></a>RNF13 |       Functionality (F)        | O sistema deve registrar trilhas de auditoria para cadastro, avaliação, pagamento, emergência e alteração de perfil, com carimbo de data/hora e retenção por período definido.           | Aumentar rastreabilidade para usuários e equipe administrativa.                |
 
 <font size="2"><p style="text-align: center">Fonte: [Wanjo Christopher](https://github.com/wChrstphr), 2026.</p></font>
-
----
 
 <font size="3"><p style="text-align: center">Tabela 4: Requisitos Não Funcionais - [Benchmarking](Benchmarking.md)</p></font>
 
@@ -137,7 +133,7 @@ Essa priorização permite definir claramente o escopo do MVP, reduzir riscos du
 | [RNF12](#rnf12) | Conformidade com LGPD                     | Obrigatório para tratamento de dados pessoais               |
 | [RNF15](#rnf15) | Segurança (hash, TLS, controle de acesso) | Essencial para proteção de dados e integridade do sistema   |
 
-## <font size="3"><p style="text-align: center"> Fonte: Elaborado pelo autor ([Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), 2026)</p></font>
+<font size="2"><p style="text-align: center"> Fonte: Elaborado pelo autor ([Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), 2026)</p></font>
 
 ### Should Have (Deveria ter)
 
@@ -155,7 +151,7 @@ Essa priorização permite definir claramente o escopo do MVP, reduzir riscos du
 | [RNF06](#rnf06) | Usabilidade e fluxo simples          | Melhora experiência, mas sistema pode funcionar sem refinamento total |
 | [RNF16](#rnf16) | Fluxo simplificado de ações críticas | Reduz fricção, mas não impede uso inicial                             |
 
-## <font size="3"><p style="text-align: center"> Fonte: Elaborado pelo autor ([Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), 2026)</p></font>
+<font size="2"><p style="text-align: center"> Fonte: Elaborado pelo autor ([Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), 2026)</p></font>
 
 ### Could Have (Poderia ter)
 
@@ -172,7 +168,7 @@ Essa priorização permite definir claramente o escopo do MVP, reduzir riscos du
 | [RNF10](#rnf10) | Operação em internet limitada   | Melhoria de acessibilidade em cenários específicos |
 | [RNF11](#rnf11) | Latência de notificações        | Importante, mas não crítica no MVP                 |
 
-## <font size="3"><p style="text-align: center"> Fonte: Elaborado pelo autor ([Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), 2026)</p></font>
+<font size="2"><p style="text-align: center"> Fonte: Elaborado pelo autor ([Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), 2026)</p></font>
 
 ### Won’t Have (Não terá agora)
 
@@ -186,8 +182,11 @@ Essa priorização permite definir claramente o escopo do MVP, reduzir riscos du
 | [RNF13](#rnf13) | Auditoria completa         | Recurso avançado para versões futuras        |
 | [RNF18](#rnf18) | Precisão avançada de rotas | Complexidade elevada e baixo impacto inicial |
 
+<font size="2"><p style="text-align: center"> Fonte: Elaborado pelo autor ([Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), 2026)</p></font>
+
 ## Histórico de Versões
 
-| Versão |    Data    |                                                        Descrição                                                         |                                                                                            Autor(es)                                                                                             |                                          Revisor(es)                                          | Detalhes da revisão |
-| :----: | :--------: | :----------------------------------------------------------------------------------------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------: | :-----------------: |
+| Versão |    Data    | Descrição                                                                                                                | Autor(es)                                                                                                                                                                                        | Revisor(es)                                                                                   | Detalhes da revisão |
+| :----: | :--------: | :----------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :-------------------------------------------------------------------------------------------- | :-----------------: |
 |  1.0   | 04/04/2026 | Criação do Artefato [#21](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/21) | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr), [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharess) e [João Vitor Santos de Oliveira](https://github.com/Jauzimm) | [João Marcos](https://github.com/JJOAOMARCOSS) e [Luiza da Silva](https://github.com/luizaxx) |                     |
+|  1.1   | 05/04/2026 | Adiciona a priorização dos requisitos                                                                                    | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima)                                                                                                                           |                                                                                               |                     |
