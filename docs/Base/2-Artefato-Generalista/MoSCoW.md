@@ -26,7 +26,7 @@ Durante a construção do [brainstorming](Brainstorm.md) e do [benchmarking](Ben
 
 ### Tabela de Requisitos Funcionais (RF)
 
-<font size="3"><p style="text-align: center">Tabela 2: Requisitos Funcionais - [Brainstorming](Brainstorm.md)</p></font>
+<font size="3"><p style="text-align: center">Tabela 1: Requisitos Funcionais - [Brainstorming](Brainstorm.md)</p></font>
 
 |        Código         | Requisito Funcional             | Objetivo                                                      |
 | :-------------------: | :------------------------------ | :------------------------------------------------------------ |
@@ -51,7 +51,7 @@ Durante a construção do [brainstorming](Brainstorm.md) e do [benchmarking](Ben
 
 <font size="2"><p style="text-align: center">Fonte: [Wanjo Christopher](https://github.com/wChrstphr), 2026.</p></font>
 
-<font size="3"><p style="text-align: center">Tabela 3: Requisitos Funcionais - [Benchmarking](Benchmarking.md)</p></font>
+<font size="3"><p style="text-align: center">Tabela 2: Requisitos Funcionais - [Benchmarking](Benchmarking.md)</p></font>
 
 |        Código         | Requisito Funcional   | Objetivo                                                  | Rastreabilidade                                                                                             |
 | :-------------------: | :-------------------- | :-------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------- |
@@ -69,7 +69,7 @@ Durante a construção do [brainstorming](Brainstorm.md) e do [benchmarking](Ben
 
 > Legenda FURPS+: F = Functionality, U = Usability, R = Reliability, P = Performance, S = Supportability, + = Restrições legais/técnicas ([3](#ref3)).
 
-<font size="3"><p style="text-align: center">Tabela 4: Requisitos Não-Funcionais - [Brainstorming](Brainstorm.md)</p></font>
+<font size="3"><p style="text-align: center">Tabela 3: Requisitos Não-Funcionais - [Brainstorming](Brainstorm.md)</p></font>
 
 | Código |        Categoria FURPS+        | Requisito Não Funcional                                                                                                                                                                  | Objetivo                                                                       |
 | :----: | :----------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | :----------------------------------------------------------------------------- |
@@ -87,7 +87,7 @@ Durante a construção do [brainstorming](Brainstorm.md) e do [benchmarking](Ben
 
 <font size="2"><p style="text-align: center">Fonte: [Wanjo Christopher](https://github.com/wChrstphr), 2026.</p></font>
 
-<font size="3"><p style="text-align: center">Tabela 5: Requisitos Não Funcionais - [Benchmarking](Benchmarking.md)</p></font>
+<font size="3"><p style="text-align: center">Tabela 4: Requisitos Não Funcionais - [Benchmarking](Benchmarking.md)</p></font>
 
 | Código |  Categoria FURPS+   | Requisito Não Funcional                                                                                           | Objetivo                                                 | Rastreabilidade                                                                                             |
 | :----: | :-----------------: | :---------------------------------------------------------------------------------------------------------------- | :------------------------------------------------------- | :---------------------------------------------------------------------------------------------------------- |
@@ -120,6 +120,8 @@ Essa priorização permite definir claramente o escopo do MVP, reduzir riscos du
 
 ### Must Have (Deve ter)
 
+<font size="3"><p style="text-align: center">Tabela 5: Must Have</p></font>
+
 | Código          | Requisito                                 | Justificativa                                               |
 | --------------- | ----------------------------------------- | ----------------------------------------------------------- |
 | [RF01](#rf01)   | Cadastrar usuário                         | Essencial para identificação e acesso ao sistema            |
@@ -130,13 +132,15 @@ Essa priorização permite definir claramente o escopo do MVP, reduzir riscos du
 | [RF20](#rf20)   | Validar embarque                          | Garante identidade dos usuários e evita fraudes             |
 | [RF26](#rf26)   | Cancelar solicitação                      | Necessário para controle básico do fluxo de uso             |
 | [RNF01](#rnf01) | Responsividade (webapp mobile-first)      | Essencial devido ao uso predominante em dispositivos móveis |
-| [RNF02](#rnf02) | Tempo de resposta < 2s                    | Necessário para garantir usabilidade mínima do sistema      |
+| [RNF02](#rnf02) | Tempo de resposta <font 2s                | Necessário para garantir usabilidade mínima do sistema      |
 | [RNF12](#rnf12) | Conformidade com LGPD                     | Obrigatório para tratamento de dados pessoais               |
 | [RNF15](#rnf15) | Segurança (hash, TLS, controle de acesso) | Essencial para proteção de dados e integridade do sistema   |
 
----
+## <font size="3"><p style="text-align: center"> Fonte: Elaborado pelo autor ([Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), 2026)</p></font>
 
 ### Should Have (Deveria ter)
+
+<font size="3"><p style="text-align: center">Tabela 6: Should Have</p></font>
 
 | Código          | Requisito                            | Justificativa                                                         |
 | --------------- | ------------------------------------ | --------------------------------------------------------------------- |
@@ -150,25 +154,28 @@ Essa priorização permite definir claramente o escopo do MVP, reduzir riscos du
 | [RNF06](#rnf06) | Usabilidade e fluxo simples          | Melhora experiência, mas sistema pode funcionar sem refinamento total |
 | [RNF16](#rnf16) | Fluxo simplificado de ações críticas | Reduz fricção, mas não impede uso inicial                             |
 
----
+## <font size="3"><p style="text-align: center"> Fonte: Elaborado pelo autor ([Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), 2026)</p></font>
 
 ### Could Have (Poderia ter)
 
-| Código          | Requisito                       | Justificativa                                           |
-| --------------- | ------------------------------- | ------------------------------------------------------- |
-| [RF05](#rf05)   | Favoritar motoristas            | Funcionalidade de conveniência                          |
-| [RF07](#rf07)   | Grupo de carona                 | Melhoria para uso recorrente                            |
-| [RF10](#rf10)   | Grade horária                   | Apoia planejamento, mas não é essencial                 |
-| [RF25](#rf25)   | Recomendar caronas              | Funcionalidade avançada de personalização               |
-| [RNF07](#rnf07) | Escalabilidade                  | Importante para crescimento futuro                      |
-| [RNF09](#rnf09) | Compatibilidade com navegadores | Relevante, mas pode ser expandido gradualmente          |
-| [RNF10](#rnf10) | Operação em internet limitada   | Melhoria de acessibilidade em cenários específicos      |
-| [RNF11](#rnf11) | Latência de notificações        | Importante, mas não crítica no MVP                      |
-| [RNF17](#rnf17) | Registro de logs                | Útil para monitoramento, mas não essencial inicialmente |
+<font size="3"><p style="text-align: center">Tabela 7: Could Have</p></font>
 
----
+| Código          | Requisito                       | Justificativa                                      |
+| --------------- | ------------------------------- | -------------------------------------------------- |
+| [RF05](#rf05)   | Favoritar motoristas            | Funcionalidade de conveniência                     |
+| [RF07](#rf07)   | Grupo de carona                 | Melhoria para uso recorrente                       |
+| [RF10](#rf10)   | Grade horária                   | Apoia planejamento, mas não é essencial            |
+| [RF25](#rf25)   | Recomendar caronas              | Funcionalidade avançada de personalização          |
+| [RNF07](#rnf07) | Escalabilidade                  | Importante para crescimento futuro                 |
+| [RNF09](#rnf09) | Compatibilidade com navegadores | Relevante, mas pode ser expandido gradualmente     |
+| [RNF10](#rnf10) | Operação em internet limitada   | Melhoria de acessibilidade em cenários específicos |
+| [RNF11](#rnf11) | Latência de notificações        | Importante, mas não crítica no MVP                 |
+
+## <font size="3"><p style="text-align: center"> Fonte: Elaborado pelo autor ([Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima), 2026)</p></font>
 
 ### Won’t Have (Não terá agora)
+
+<font size="3"><p style="text-align: center">Tabela 8: Won't Have </p></font>
 
 | Código          | Requisito                  | Justificativa                                |
 | --------------- | -------------------------- | -------------------------------------------- |
