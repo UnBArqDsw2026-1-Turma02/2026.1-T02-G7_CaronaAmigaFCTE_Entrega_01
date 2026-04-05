@@ -119,4 +119,4 @@ No projeto, o Miro foi utilizado como apoio na etapa de **Modelagem BPMN**, auxi
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhes da revisão |
 | :----: | :--: | --------- | ----------- | ------ | :---: |
-| 1.0  | 29/03/2026 | Criação do documento | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | Artefato revisado |
+| 1.0  | 29/03/2026 | Criação do documento[#8](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/8) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | Artefato revisado |
