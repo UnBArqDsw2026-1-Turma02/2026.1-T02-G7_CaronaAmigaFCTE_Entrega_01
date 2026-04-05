@@ -73,7 +73,10 @@ O VS Code foi utilizado como principal ferramenta de desenvimento, tanto para a 
 
 O Figma é uma ferramenta de design de interface e prototipagem baseada na web que permite a colaboração em tempo real entre equipes. Lançado em 2016, tornou-se popular entre designers e desenvolvedores por suas funcionalidades que facilitam a criação de interfaces de usuário (UI) e experiências de usuário (UX).
 
-O Figma foi utilizado no desenvolvimento do prototipo de alta fidelidade, Brainstorm.
+O Figma foi utilizado na etapa de **Design Sprint** para:
+- elaboração do **Rich Picture geral**, do **Storyboard geral** e **Brainstorming**;  
+- desenvolvimento do **protótipo de alta fidelidade**.
+
 
 ## [Bizagi Modeler](https://www.bizagi.com/pt/plataforma/modeler)
 
@@ -99,18 +102,16 @@ O GitHub Projects é uma ferramenta nativa do GitHub que oferece gerenciamento d
 
 Foi utilizado para organizar e gerenciar as atividades do projeto, permitindo uma visualização clara do progresso das tarefas, priorização de atividades e coordenação das entregas de cada módulo do projeto.
 
-
-## [Autodesk Sketchbook](https://www.sketchbook.com)
+## [Miro](https://miro.com)
 
 <div style="max-width: 100px">
 
-![Image](../assets/ferramentas/sketchbook.png)
-
+![Image](../assets/ferramentas/miro.png)
 </div>
 
-O Autodesk SketchBook é um aplicativo de desenho digital com ferramentas profissionais, ideal para artistas e designers criarem esboços e ilustrações com precisão.
+O **Miro** é uma ferramenta de quadro colaborativo online (whiteboard) que permite criar e organizar diagramas, fluxos e materiais visuais de forma colaborativa e em tempo real. É amplamente utilizada para atividades de brainstorming, planejamento e modelagem.
 
-Foi utilizado na criação de alguns artefatos como: Protótipo de baixo nível, Rich Piture e Storyboard.
+No projeto, o Miro foi utilizado como apoio na etapa de **Modelagem BPMN**, auxiliando na organização visual das ideias e na consolidação do conteúdo antes (e durante) a produção dos diagramas finais.
 
 ---
 
@@ -118,4 +119,4 @@ Foi utilizado na criação de alguns artefatos como: Protótipo de baixo nível,
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhes da revisão |
 | :----: | :--: | --------- | ----------- | ------ | :---: |
-| 1.0  | 29/03/2026 | Criação do documento | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | - |
+| 1.0  | 29/03/2026 | Criação do documento | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | Artefato revisado |
