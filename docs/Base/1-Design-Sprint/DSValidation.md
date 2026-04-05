@@ -90,8 +90,9 @@ Cada entrevistador conduzirá uma sessão com duração de até 30 minutos. O cr
 | Entrevistador(es)                       | Entrevistado(s)           | Horário de Início | Horário de Fim | Data       | Local                                      |
 |:--------------------------------------:|:-------------------------:|:----------------:|:--------------:|:----------:|:------------------------------------------:|
 | [João Marcos](https://github.com/JJOAOMARCOSS)  | G.S.S.A. | 15:00 | 15:30 | 03/04/2026 | Luziânia-GO |
+| [João Vitor Santos de Oliveira](https://github.com/Jauzimm) | R.P.C. | 17:00 | 17:15 | 05/04/2026 | Plataforma Teams |
 
-<font size="3"><p style="text-align: center">Autor(es): [João Marcos](https://github.com/JJOAOMARCOSS), 2026.</p></font>
+<font size="3"><p style="text-align: center">Autor(es): [João Marcos](https://github.com/JJOAOMARCOSS) e [João Vitor Santos de Oliveira](https://github.com/Jauzimm), 2026.</p></font>
 
 ### D - Decidir como lidar com as questões éticas
 
@@ -105,7 +106,7 @@ Após a coleta de dados, as respostas serão analisadas. O avaliador considerar�
 
 ## Gravação da Validação
 
-Abaixo, no vídeo 1, está a gravação da reunião de validação do protótipo de alta fidelidade e os participantes.
+Abaixo, no vídeo 1 e 2, está a gravação da reunião de validação do protótipo de alta fidelidade e os participantes.
 
 <font size="3"><p style="text-align: center">Vídeo 1: Validação do [Protótipo](../Base/1-Design-Sprint/Prototipo.md) de Alta Fidelidade.</p></font>
 
@@ -115,9 +116,17 @@ Abaixo, no vídeo 1, está a gravação da reunião de validação do protótipo
 
 <font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS), 2026.</p></font>
 
+<font size="3"><p style="text-align: center">Vídeo 2: Validação do [Protótipo](../Base/1-Design-Sprint/Prototipo.md) de Alta Fidelidade.</p></font>
+
+<iframe width="1321" height="743" src="https://www.youtube.com/embed/kBr-Yi3N2co" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<p style="text-align: center"><a href="https://youtu.be/kBr-Yi3N2co" target="_blank">Clique aqui para assistir no YouTube</a></p>
+
+<font size="2"><p style="text-align: center">Fonte: [João Vitor Santos de Oliveira](https://github.com/Jauzimm), 2026.</p></font>
+
 ---
 
-## Participantes dessa gravação
+## Participantes da gravação 1
 
 <font size="3"><p style="text-align: center">Tabela 3: Participantes</p></font>
 
@@ -139,9 +148,27 @@ Abaixo, no vídeo 1, está a gravação da reunião de validação do protótipo
 
 ?> **Nota:** Durante o início da gravação, [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr), [Luiza da Silva Pugas](https://github.com/luizaxx) e [João Vitor Santos de Oliveira](https://github.com/Jauzimm) caíram da chamada e retornaram em seguida.
 
+## Participantes da gravação 2
+
+<font size="3"><p style="text-align: center">Tabela 4: Participantes</p></font>
+
+<div style="text-align: center;">
+
+| Aluno | Função | Data | Hora |
+| :--: | :--: | :--: | :--: |
+| [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | Participante da gravação | 05/04/2026 | 17:00 |
+| [João Vitor Santos de Oliveira](https://github.com/Jauzimm) | Entrevistador | 05/04/2026 | 17:00 |
+| [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | Participante da gravação | 05/04/2026 | 17:00 |
+
+</div>
+
+<font size="2"><p style="text-align: center">Fonte: [João Vitor Santos de Oliveira](https://github.com/Jauzimm), 2026.</p></font>
+
 ---
 
 ## Análise das Respostas
+
+### Entrevista 1
 
 A entrevista indicou que a proposta do **CaronaAmigaFCTE** foi bem compreendida pela(o) participante durante a navegação no protótipo. Em geral, a pessoa conseguiu identificar o propósito do sistema, entender as telas principais e avançar nos fluxos esperados sem necessidade de muitas intervenções.
 
@@ -157,6 +184,20 @@ Até o momento, não foram registradas críticas bloqueantes (impeditivas) duran
 
 - Ao **selecionar o motorista**, exibir também o **valor estimado/valor combinado da carona** (similar ao que o participante mencionou ocorrer em plataformas como a BlaBlaCar), para facilitar a comparação entre opções e tornar a decisão mais transparente.
 
+### Entrevista 2
+
+O entrevistado, demonstrou uma visão de que a carona deve ser. Embora entenda a necessidade de custos, ele valoriza a autonomia do motorista em decidir os termos finais da viagem. Ele se mostrou favorável ao controle prévio sobre quem aceitar no veículo.
+
+**Pontos positivos identificados:**
+- Segurança e Controle: O entrevistado avaliou positivamente a existência de um controle prévio antes de oferecer ou aceitar a carona, garantindo maior confiança para o motorista.
+
+- Visão Colaborativa: O usuário enxerga o protótipo como uma ferramenta que pode facilitar a "ação solidária" da carona.
+
+### Sugestões de melhoria registradas
+
+- Opção "Carona Solidária": Criar uma configuração onde o motorista possa marcar a carona como 100% gratuita, reforçando o aspecto social do aplicativo.
+
+- Divisão Manual de Custos: Em vez de um preço fixo por pessoa, permitir que o motorista defina o valor total da viagem e os passageiros dividam esse montante de forma flexível.
 ---
 
 ## Referências Bibliográficas
@@ -167,6 +208,7 @@ Até o momento, não foram registradas críticas bloqueantes (impeditivas) duran
 
 | Versão |               Data                |   Descrição    |    Autor(es)    |    Revisor(es)     | Detalhes da revisão |
 | :----: | :------------------------------------: | :--------: | :--------: | :------------: | :-------------: |
-|  1.0   | 03/04/2026 | Criação do documento [#46](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/46) | [João Vitor](https://github.com/Jauzimm) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | Adição de hyperlinks |
+|  1.0   | 03/04/2026 | Criação do documento [#46](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/46) | [João Vitor Santos de Oliveira](https://github.com/Jauzimm) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | Adição de hyperlinks |
 |  1.1   | 03/04/2026 | Adição do video de Validação [#46](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/46) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Karoline Luz](https://github.com/KarolineLuz) | Artefato revisado |
-|  1.2   | 03/04/2026 | Modificação do documento em objetivos, adições na gravação e repostas [#46](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/46) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Karoline Luz](https://github.com/KarolineLuz) | Artefato atualizado |
+|  1.2   | 03/04/2026 | Modificação do documento em objetivos, adições na gravação e respostas [#46](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/46) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Karoline Luz](https://github.com/KarolineLuz) | Artefato atualizado |
+|  1.3   | 05/04/2026 | Adições na gravação e respostas [#46](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/46) | [João Vitor Santos de Oliveira](https://github.com/Jauzimm) | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) |  |
