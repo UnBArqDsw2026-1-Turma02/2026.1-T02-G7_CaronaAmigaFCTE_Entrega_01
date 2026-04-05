@@ -13,20 +13,19 @@
    
   - [1.2. Artefato Generalista](Base/2-Artefato-Generalista/1.2.ArtefatoGeneralista.md)
     - [1.2.1. Brainstorming](Base/2-Artefato-Generalista/Brainstorm.md)
-    - [1.2.2. Mapa Mental](Base/1.1.2.Mapa-mental.md)
-    - [1.2.3. Diagrama de Causa e Efeito](Base/2-Artefato-Generalista/DiagramaCausaEfeito.md)
+    - [1.2.2. 5W2H](Base/2-Artefato-Generalista/5w2h.md)
+    - [1.2.3. Benchmarking](Base/2-Artefato-Generalista/Benchmarking.md)
     - [1.2.4. Rich Picture](Base/2-Artefato-Generalista/1.3.RichPicture.md)
     - [1.2.5. Storyboards](Base/2-Artefato-Generalista/1.2.6.Storyboards.md)
-    - [1.2.6. 5W2H](Base/2-Artefato-Generalista/5w2h.md)
+    - [1.2.6. Diagrama de Causa e Efeito](Base/2-Artefato-Generalista/DiagramaCausaEfeito.md)
     - [1.2.7. Léxico](Base/2-Artefato-Generalista/Lexico.md)
     - [1.2.8. Glossário](Base/2-Artefato-Generalista/2.1.2.Glossario.md)
-    - [1.2.9. Benchmarking](Base/2-Artefato-Generalista/Benchmarking.md)
-    - [1.2.10. MosCoW](Base/2-Artefato-Generalista/MoSCoW.md)
+    - [1.2.9. MosCoW](Base/2-Artefato-Generalista/MoSCoW.md)
 
   - [1.3. Modelagem BPMN](Base/3-Modelagem-BPMN/1.3.ModelagemBPMN.md)
 
   - [1.4. Participações dos Membros](Base/4-ParticipacoesBase/1.4.ParticipacoesBase.md)
-  - [1.5. Iniciativas Extras](Base/5-Iniciativas-Extras/1.5.Iniciativas-Extras.md)
+  * 1.5. Iniciativas Extras
     - [1.5.1. Heatmap de disponibilidade](Base/5-Iniciativas-Extras/1.5.1.Heatmap.md)
     - [1.5.2. Perfil de Usuário](Base/elicitacao/questionario/perfil_usuario.md)
     - [1.5.3. Guia de Estilo](Base/5-Iniciativas-Extras/guia-de-estilo.md)
