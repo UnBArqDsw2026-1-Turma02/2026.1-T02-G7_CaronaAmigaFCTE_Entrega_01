@@ -106,7 +106,7 @@ Foi utilizado para organizar e gerenciar as atividades do projeto, permitindo um
 
 <div style="max-width: 100px">
 
-![Image](../assets/ferramentas/miro.png)
+![Image](../assets/ferramentas/Miro.png)
 </div>
 
 O **Miro** é uma ferramenta de quadro colaborativo online (whiteboard) que permite criar e organizar diagramas, fluxos e materiais visuais de forma colaborativa e em tempo real. É amplamente utilizada para atividades de brainstorming, planejamento e modelagem.
