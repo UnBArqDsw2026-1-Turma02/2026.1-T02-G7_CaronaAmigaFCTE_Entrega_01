@@ -32,6 +32,9 @@
     - [1.5.2. Perfil de Usuário](Base/elicitacao/questionario/perfil_usuario.md)
     - [1.5.3. Guia de Estilo](Base/1.5.2.guia-de-estilo.md)
     - [1.5.4. Ferramentas Utilizadas](Base/1.5.3.FerramentasUtilizadas.md)
+    - [1.5.5. Guia de Contribuição](Base/5-Iniciativas-Extras/CONTRIBUTING.md)
+    - [1.5.6. Código de Conduta](Base/5-Iniciativas-Extras/CODE_OF_CONDUCT.md)
+    
 
 - **Atas**
   - [1. Ata de Reunião](Base/atas/ata01.md)
