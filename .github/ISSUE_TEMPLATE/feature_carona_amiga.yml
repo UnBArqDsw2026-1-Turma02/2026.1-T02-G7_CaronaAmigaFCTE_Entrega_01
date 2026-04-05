@@ -1,0 +1,51 @@
+name: Feature Carona Amiga FCTE
+title: "tipo: descrição"
+description: Documentar nova funcionalidade para o projeto
+labels: ["feature"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        🤗 Obrigado por contribuir! Preencha os campos abaixo para documentar a feature
+
+  - type: textarea
+    id: user-story
+    attributes:
+      label: 🧩 User Story
+      description: Descreva no formato de historia de usuario.
+      placeholder: Como [tipo de usuario], quero [objetivo], para [beneficio].
+    validations:
+      required: true
+
+  - type: textarea
+    id: dor
+    attributes:
+      label: 🟡 DoR (Ready)
+      description: Checklist de Definition of Ready para inicio da implementacao. [Princípio INVEST](https://xp123.com/invest-in-good-stories-and-smart-tasks/)
+      placeholder: |
+        - [ ] Escopo claro, seguindo o princípio INVEST 
+        - [ ] Criterios de aceitacao (DoD) foram definidos
+        - [ ] Dependencias e riscos foram mapeados
+        - [ ] User Story validada com o time
+    validations:
+      required: true
+  - type: checkboxes
+    id: dod
+    attributes:
+      label: 🟢 DoD (Pronto)
+      description: Marque os criterios que definem a entrega como pronta.
+      options:
+        - label: Esse requisito entrega um incremento do produto
+        - label: Foi revisado pelo desenvolvedor [Nome do Dev.](https://github.com/github-nome-dev)
+        - label: Segue os [padroes estabelecidos de codificacao](../blob/main/CONTRIBUTING.md)
+        - label: Foram feitos testes unitarios para a funcionalidade
+
+  - type: checkboxes
+    id: termos
+    attributes:
+      label: 🤝 Codigo de Conduta
+      description: Ao enviar esta issue, voce concorda em seguir nosso [Codigo de Conduta](../blob/main/CODE_OF_CONDUCT.md)
+      options:
+        - label: Concordo em seguir o Codigo de Conduta do projeto
+          required: true

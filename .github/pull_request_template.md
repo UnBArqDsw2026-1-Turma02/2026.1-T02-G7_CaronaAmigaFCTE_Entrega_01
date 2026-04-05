@@ -1,24 +1,68 @@
+## 📝 Descrição
+Descreva brevemente o que essa PR faz. Explique o propósito da mudança, problema resolvido ou funcionalidade adicionada.
 
-Describe the big picture of your changes here to communicate to the maintainers why we should accept this pull request. If it fixes a bug or resolves a feature request, be sure to link to that issue.
+<!-- Essa PR implementa...
+O problema que resolve é...
+A mudança implementa... -->
 
-## Types of changes
+## 📌 Tarefa Relacionada
+Vincule a issue ou tarefa correspondente.
+<!-- FECHAR a Issue
+- Closes #123 
+     RELACIONAR a Issue
+- Related to #456 -->
 
-What types of changes does your code introduce to <repo_name>?
-_Put an `x` in the boxes that apply_
+## 📊 Escopo da PR
+- [ ] Confirmo que essa PR resolve apenas um problema/funcionalidade
+- [ ] Confirmo que é uma mudança modular suficiente e não precisa ser repartida em mais PRs
 
-- [ ] Bugfix (non-breaking change which fixes an issue)
-- [ ] New feature (non-breaking change which adds functionality)
-- [ ] Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] Documentation Update (if none of the other choices apply)
+## 🔍 Alterações Realizadas
+Liste as principais mudanças feitas neste PR.
 
-## Checklist
+<!-- 1. Criação do componente Header
+1. Refatoração da função de login
+1. Adição de validação no formulário de cadastro -->
 
-_Put an `x` in the boxes that apply. You can also fill these out after creating the PR. If you're unsure about any of them, don't hesitate to ask. We're here to help! This is simply a reminder of what we are going to look for before merging your code._
+## 🧪 Como Testar
+Descreva os passos para testar as alterações de forma clara e concisa.
 
-- [ ] I have read the CONTRIBUTING.md doc.
-- [ ] I have added necessary documentation (if appropriate).
-- [ ] Any dependent changes have been merged and published in downstream modules.
+<!-- 1. Rodar `npm install`
+1. Executar `npm run dev`
+1. Acessar `/login` e testar o novo fluxo de autenticação
+1. Executar testes: `npm test` -->
 
-## Further comments
+## ✅ Checklist de Qualidade (Para o Revisor)
+<!-- Marque os itens que você completou. -->
 
-If this is a relatively large or complex change, kick off the discussion by explaining why you chose the solution you did and what alternatives you considered, etc...
+- [ ] Código testado localmente
+- [ ] Alterações seguem o padrão de codificação do projeto
+- [ ] Nenhuma funcionalidade existente foi quebrada
+- [ ] Testes foram adicionados (se aplicável)
+- [ ] Documentação foi atualizada (se necessário)
+- [ ] Commits têm mensagens claras e descritivas
+- [ ] Sem conflitos com a branch principal
+
+## 🚨 Breaking Changes
+<!-- Há mudanças que quebram funcionalidades existentes? -->
+
+- [ ] Nenhuma mudança de ruptura
+- [ ] Existem mudanças de ruptura
+
+<!-- ## 🚨 Descreva Breaking Changes 
+Se selecionou que há breaking changes, descomente essa seção e descreva-as aqui em detalhes.
+
+As mudanças afetam... -->
+
+<!-- ## 📚 Informações Adicionais
+Descomente essa seção em caso de qualquer outra informação útil: considerações de performance, dívida técnica, pontos para discussão, etc.
+
+ Pontos importantes para review:
+- ...  -->
+
+## 🤝 Código de Conduta
+Ao enviar esta PR, você concorda em seguir nosso [Código de Conduta](../blob/main/CODE_OF_CONDUCT.md) e [Código de Contribuição](../blob/main/CONTRIBUTING.md)
+
+- [ ] Concordo
+---
+## 📄 Referências
+Este template segue as melhores práticas de PR descritas em: [Write a good pull request - Google Blockly Guide](https://developers.google.com/blockly/guides/contribute/get-started/write_a_good_pr)
