@@ -1,0 +1,109 @@
+# MoSCoW - Priorização de Requisitos
+
+## Introdução
+
+O artefato MoSCoW é uma técnica de priorização fundamental no gerenciamento de requisitos de software. Seu objetivo é auxiliar a equipe do projeto Carona Amiga FCTE a identificar quais funcionalidades são críticas para o lançamento inicial e quais podem ser desenvolvidas em etapas posteriores, garantindo que o foco permaneça na entrega de valor real para a comunidade acadêmica da UnB Gama.
+
+## Metodologia
+
+A técnica MoSCoW foi utilizada para categorizar os requisitos do sistema de acordo com seu nível de prioridade, considerando o impacto para o negócio e a viabilidade de implementação.
+Os requisitos foram organizados em quatro níveis:
+
+- Must Have (Deve ter): Correspondem aos requisitos essenciais, inegociáveis e críticos para o lançamento do sistema. Sem eles, a aplicação de caronas não cumpre sua função principal, não oferece segurança adequada ou não se mostra viável para uso. Esses requisitos compõem o MVP (Produto Mínimo Viável).
+
+- Should Have (Deveria ter): Representam requisitos importantes que agregam valor significativo ao- sistema, embora sua ausência não inviabilize o funcionamento da aplicação no curto prazo. São funcionalidades desejáveis para uma experiência mais completa, mas que não comprometem a operação básica da plataforma.
+
+- Could Have (Poderia ter): Incluem requisitos desejáveis que melhoram a experiência do usuário e enriquecem o sistema, mas que não são essenciais para sua operação principal. Podem ser implementados caso haja tempo e recursos disponíveis, sem comprometer a entrega principal.
+
+- Won't Have (Não terá agora): Englobam requisitos considerados interessantes e potencialmente úteis, mas que ficam fora do escopo da primeira versão do sistema. Esses itens podem ser avaliados e incorporados em versões futuras, conforme a evolução do projeto.
+
+## Requisitos 
+
+Durante a construção do [brainstorming](Brainstorm.md) e do [benchmarking](Benchmarking.md), que são ferramentas utilizadas para a elicitação de requisitos, a equipe consolidou as principais necessidades do usuário, identificou funcionalidades e alinhou prioridades para a primeira entrega da disciplina. A partir dessas atividades, surgiram os seguintes itens:
+
+<details>
+<summary>Requisitos Funcionais </summary>
+
+### Tabela de Requisitos Funcionais (RF)
+
+<font size="3"><p style="text-align: center">Tabela 2: Requisitos Funcionais - [Brainstorming](Brainstorm.md)</p></font>
+
+| Código | Requisito Funcional | Objetivo |
+| :--: | :-- | :-- |
+| <a id="rf01"></a>RF01 | Cadastrar usuário. | Aumentar a confiança entre motorista e passageiro. |
+| <a id="rf03"></a>RF03 | Visualizar perfil. | Apoiar decisão segura na escolha de motoristas e passageiros. |
+| <a id="rf04"></a>RF04 | Avaliar viagens. | Construir reputação e melhorar a qualidade das caronas. |
+| <a id="rf05"></a>RF05 | Favoritar motoristas. | Facilitar recorrência de caronas confiáveis. |
+| <a id="rf06"></a>RF06 | Enviar mensagem. | Melhorar a comunicação antes e durante a viagem. |
+| <a id="rf07"></a>RF07 | Criar grupo de carona. | Viabilizar caronas fixas na semana. |
+| <a id="rf08"></a>RF08 | Publicar carona. | Atender demandas imediatas de deslocamento. |
+| <a id="rf09"></a>RF09 | Enviar notificações de caronas. | Aumentar chance de correspondência entre oferta e demanda. |
+| <a id="rf10"></a>RF10 | Gerar grade horária de caronas. | Facilitar planejamento de ida e volta. |
+| <a id="rf13"></a>RF13 | Gerar mapa com caronas. | Melhorar visualização espacial das opções. |
+| <a id="rf14"></a>RF14 | Sugerir melhores rotas. | Reduzir tempo de deslocamento e atrasos. |
+| <a id="rf17"></a>RF17 | Compartilhar localização. | Aumentar rastreabilidade e segurança. |
+| <a id="rf18"></a>RF18 | Detectar desvio da rota. | Reagir rapidamente a situações de risco. |
+| <a id="rf19"></a>RF19 | Notificar contatos. | Oferecer resposta imediata em incidentes. |
+| <a id="rf20"></a>RF20 | Validar embarque. | Confirmar identidade e evitar fraudes. |
+| <a id="rf21"></a>RF21 | Editar perfil. | Garantir uma experiência personalizada ao usuário. |
+| <a id="rf24"></a>RF24 | Registrar histórico. | Permitir auditoria, consulta e transparência para o usuário. |
+| <a id="rf25"></a>RF25 | Recomendar caronas. | Melhorar pontualidade e aderência às necessidades do usuário. |
+
+<font size="2"><p style="text-align: center">Fonte: [Wanjo Christopher](https://github.com/wChrstphr), 2026.</p></font>
+
+<font size="3"><p style="text-align: center">Tabela 3: Requisitos Funcionais - [Benchmarking](Benchmarking.md)</p></font>
+
+| Código | Requisito Funcional | Objetivo | Rastreabilidade |
+| :--: | :-- | :-- | :-- |
+| <a id="rf26"></a>RF26 | Cancelar solicitação. | Reduzir ruídos e melhorar rastreabilidade de ocorrências. | [Uber](https://www.uber.com/br/pt-br/)/[99](https://99app.com/); [BlaBlaCar](https://www.blablacar.com.br/) |
+| <a id="rf27"></a>RF27 | Bloquear usuário. | Reforçar segurança e moderação da plataforma. | [Uber](https://www.uber.com/br/pt-br/)/[99](https://99app.com/) |
+
+<font size="2"><p style="text-align: center">Fonte: [João Marcos](https://github.com/JJOAOMARCOSS), [Luiza da Silva](https://github.com/luizaxx) e [Wanjo Christopher](https://github.com/wChrstphr), 2026.</p></font>
+
+</details>
+
+----
+
+<details>
+<summary>Requisitos Não Funcionais</summary>
+
+> Legenda FURPS+: F = Functionality, U = Usability, R = Reliability, P = Performance, S = Supportability, + = Restrições legais/técnicas ([3](#ref3)).
+
+<font size="3"><p style="text-align: center">Tabela 4: Requisitos Não-Funcionais - [Brainstorming](Brainstorm.md)</p></font>
+
+| Código | Categoria FURPS+ | Requisito Não Funcional | Objetivo |
+| :--: | :--: | :-- | :-- |
+| RNF01 | Usabilidade (U) | O sistema deve ser responsivo para desktop padrão (1900x1040 e 1366x768), tablet (768x1024) e mobile (390x844, 414x896 e 360x640). | Garantir boa usabilidade para estudantes e motoristas em qualquer dispositivo. |
+| RNF02 | Performance (P) | O sistema deve responder em menos de 2 segundos nas operações principais (buscar carona, publicar carona e abrir mapa), medido em p90 ([4](#ref4)). | Manter navegação fluida para passageiros e motoristas. |
+| RNF04 | Reliability (R) | O sistema deve manter disponibilidade mensal mínima de 99,5% ([6](#ref6)), com monitoramento de uptime ([5](#ref5)), alertas automáticos e plano de contingência para indisponibilidade. | Evitar interrupções no uso diário da plataforma. |
+| RNF05 | Usabilidade (U) | O sistema deve atender à acessibilidade conforme WCAG 2.1 nível AA ([7](#ref7)), incluindo contraste adequado, navegação por teclado, textos alternativos e suporte a leitores de tela. | Incluir pessoas com deficiência no uso da plataforma. |
+| RNF06 | Usabilidade (U) | O sistema deve apresentar linguagem clara e fluxo organizado ([8](#ref8)) para ações centrais, com validação por testes de usabilidade com novos usuários. | Reduzir curva de aprendizado para iniciantes. |
+| RNF07 | Performance (P) | O sistema deve suportar aumento gradual de usuários por meio de escalabilidade horizontal e cache, mantendo tempo de resposta dentro da meta sob carga concorrente definida. | Preservar desempenho durante crescimento da base de usuários. |
+| RNF09 | Supportability (S) | O sistema deve funcionar nas duas últimas versões estáveis de Chrome, Firefox, Edge e Safari, com testes de compatibilidade a cada release. | Assegurar acesso para a maioria dos usuários em navegadores modernos. |
+| RNF10 | Performance (P) | O sistema deve operar com internet limitada utilizando carregamento progressivo, compressão de recursos e fallback para modo de baixo consumo de dados em rede 3G/4G instável. | Manter acesso para usuários em conexões lentas ou instáveis. |
+| RNF11 | Performance (P) | O sistema deve entregar notificações críticas (emergência e desvio de rota) com latência de até 5 segundos após o evento, com retentativas automáticas de envio. | Permitir reação rápida em situações urgentes de segurança. |
+| RNF12 | Restrições legais/técnicas (+) | O sistema deve coletar localização e gravações somente com consentimento explícito, registrar finalidade de uso e permitir revogação pelo usuário em conformidade com a LGPD. | Preservar privacidade e conformidade regulatória para motorista e passageiro. |
+| RNF13 | Functionality (F) | O sistema deve registrar trilhas de auditoria para cadastro, avaliação, pagamento, emergência e alteração de perfil, com carimbo de data/hora e retenção por período definido. | Aumentar rastreabilidade para usuários e equipe administrativa. |
+
+<font size="2"><p style="text-align: center">Fonte: [Wanjo Christopher](https://github.com/wChrstphr), 2026.</p></font>
+
+<font size="3"><p style="text-align: center">Tabela 5: Requisitos Não Funcionais - [Benchmarking](Benchmarking.md)</p></font>
+
+| Código | Categoria FURPS+ | Requisito Não Funcional | Objetivo | Rastreabilidade |
+| :--: | :--: | :-- | :-- | :-- |
+| RNF14 | Usabilidade (U) | O sistema deve ser responsivo para desktop e mobile. | Garantir uso consistente em diferentes dispositivos. | [Uber](https://www.uber.com/br/pt-br/)/[99](https://99app.com/) |
+| RNF15 | Suportabilidade (S) | O sistema deve proteger dados sensíveis com boas práticas de segurança (hash de senha, TLS e controle de acesso). | Preservar privacidade e integridade das contas. | [Uber](https://www.uber.com/br/pt-br/)/[99](https://99app.com/) |
+| RNF16 | Usabilidade (U) | O sistema deve ter fluxo simples para ações críticas (criar, buscar e aceitar carona em poucos passos). | Reduzir fricção de uso e tempo para completar tarefas. | [Uber](https://www.uber.com/br/pt-br/)/[99](https://99app.com/); [BlaBlaCar](https://www.blablacar.com.br/) |
+| RNF17 | Confiabilidade (R) | O sistema deve registrar logs de ações relevantes (aceites, cancelamentos e denúncias). | Aumentar auditabilidade e suporte a incidentes. | [Uber](https://www.uber.com/br/pt-br/)/[99](https://99app.com/) |
+| RNF18 | Performance (P) | O sistema deve apresentar rotas e estimativas de tempo de forma consistente. | Melhorar previsibilidade da experiência de deslocamento. | [Google Maps](https://www.google.com/maps)/[Waze](https://www.waze.com/) |
+
+<font size="2"><p style="text-align: center">Fonte: [João Marcos](https://github.com/JJOAOMARCOSS), [Luiza da Silva](https://github.com/luizaxx) e [Wanjo Christopher](https://github.com/wChrstphr), 2026.</p></font>
+
+## Priorização MoSCoW
+
+
+## Histórico de Versões
+
+| Versão |    Data    | Descrição   | Autor(es)  | Revisor(es)   | Detalhes da revisão |
+| :----: | :--------: | :--------:  | :--------: | :--------:    | :-----------------: |
+|  1.0   | 04/04/2026 | Criação do Artefato [#21](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/21) | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr), [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharess) e [João Vitor Santos de Oliveira](https://github.com/Jauzimm) | [João Marcos](https://github.com/JJOAOMARCOSS) e [Luiza da Silva](https://github.com/luizaxx) |   |
