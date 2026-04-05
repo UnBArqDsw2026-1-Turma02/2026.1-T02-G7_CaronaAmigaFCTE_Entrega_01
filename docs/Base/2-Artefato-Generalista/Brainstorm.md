@@ -30,11 +30,13 @@ Durante uma sessão de brainstorm, os participantes são incentivados a seguir a
 | Aluno | Função | Data | Hora |
 | :--: | :--: | :--: | :--: |
 | [Ana Victória Guedes da Costa](https://github.com/navicg) | Elaboração do artefato Brainstorm | 28/03/2026 | 11:00 |
+| [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharess) | Elaboração do artefato Brainstorm | 28/03/2026 | 11:00 |
 | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | Elaboração do artefato Brainstorm | 28/03/2026 | 11:00 |
 | [João Vitor Santos de Oliveira](https://github.com/Jauzimm) | Elaboração do artefato Brainstorm | 28/03/2026 | 11:00 |
 | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | Elaboração do artefato Brainstorm | 28/03/2026 | 11:00 |
 | [Luiza da Silva Pugas](https://github.com/luizaxx) | Elaboração do artefato Brainstorm | 28/03/2026 | 11:00 |
 | [Nicolas Bomfim Dias Bandeira](https://github.com/NickGehjk) | Elaboração do artefato Brainstorm | 28/03/2026 | 11:00 |
+| [Pedro Henrique Faria da Mota](https://github.com/PhFariaa) | Elaboração do artefato Brainstorm | 28/03/2026 | 11:00 |
 | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | Elaboração do artefato Brainstorm | 28/03/2026 | 11:00 |
 
 </div>
@@ -146,7 +148,7 @@ Com a construção de pensamento após o brainstorming, tornou-se possível a el
 
 ## Gravação da reunião de brainstorming
 
-<p style="text-align: center"><iframe width="640" height="360" src="https://www.youtube.com/embed/FvwgS9JeKnk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+<iframe width="1321" height="743" src="https://www.youtube.com/embed/FvwgS9JeKnk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <p style="text-align: center"><a href="https://youtu.be/FvwgS9JeKnk" target="_blank">Clique aqui para assistir no YouTube</a></p>
 
@@ -178,3 +180,4 @@ Com a construção de pensamento após o brainstorming, tornou-se possível a el
 | :----: | :--: | --------- | ----------- | ------ | :---: |
 | 1.0  | 28/03/2026 | Criação do documento [#6](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/6). | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | Artefato revisado e criado. |
 | 1.1  | 01/04/2026 | Extração dos requisitos funcionais, criação de rastreabilidade RF/ERF e classificação dos RNFs com o método FURPS+ [#6](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/6). | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | Artefato revisado |
+| 1.2  | 03/04/2026 | Adição do vídeo de Brainstorming em melhor formato [#46](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/46) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Karoline Luz](https://github.com/KarolineLuz) | Artefato revisado |
