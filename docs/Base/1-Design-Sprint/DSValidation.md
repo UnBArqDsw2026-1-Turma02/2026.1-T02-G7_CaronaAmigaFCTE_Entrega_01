@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Para realizar a última etapa da Design Sprint, percorremos um fluxo estruturado de construção. Iniciamos com o [Unpack](../Base/1-Design-Sprint/unpack.md), utilizando técnicas de brainstorming para o levantamento de informações essenciais. No [Sketch](../Base/1-Design-Sprint/1.1.2.Sketch.md), aplicamos o RichPicture para transformar conceitos em representações visuais. A fase de [Decision](../Base/1-Design-Sprint/1.1.3.Decision.md) serviu para a criação de um RichPicture final e elaborar o Storyboard que guiaria a solução. Por fim, o [Prototype](../Base/1-Design-Sprint/1.1.4.Prototype.md) materializou um conceito fidedigno, permitindo a visualização da solução pelo usuário final.
+Para realizar a última etapa da Design Sprint, percorremos um fluxo estruturado de construção. Iniciamos com o [Unpack](../Base/1-Design-Sprint/unpack.md), utilizando técnicas de brainstorming para o levantamento de informações essenciais. No [Sketch](../Base/1-Design-Sprint/1.1.2.Sketch.md), aplicamos o RichPicture para transformar conceitos em representações visuais. A fase de [Decision](../Base/1-Design-Sprint/1.1.3.Decision.md) serviu para a criação de um RichPicture final e elaborar o Storyboard que guiaria a solução. Por fim, o [Prototype](../Base/1-Design-Sprint/Prototipo.md) materializou um conceito fidedigno, permitindo a visualização da solução pelo usuário final.
 
 Após essas etapas, chegamos à fase de **Validation**, cujo objetivo central é testar o protótipo diretamente com o público-alvo. Este documento detalha o planejamento dessa avaliação de alta fidelidade, um método eficaz para coletar feedbacks realistas. Para estruturar esse processo e garantir resultados aplicáveis ao aprimoramento do projeto, utilizaremos o framework DECIDE.
 
@@ -91,7 +91,7 @@ Cada entrevistador conduzirá uma sessão com duração de até 30 minutos. O cr
 |:--------------------------------------:|:-------------------------:|:----------------:|:--------------:|:----------:|:------------------------------------------:|
 | [João Marcos](https://github.com/JJOAOMARCOSS)  | G.S.S.A. | 15:00 | 15:30 | 03/04/2026 | Luziânia-GO |
 
-<font size="3"><p style="text-align: center">Autor(es): [João Marcos](https://github.com/JJOAOMARCOSS) e [João Vitor](https://github.com/Jauzimm), 2026.</p></font>
+<font size="3"><p style="text-align: center">Autor(es): [João Marcos](https://github.com/JJOAOMARCOSS), 2026.</p></font>
 
 ### D - Decidir como lidar com as questões éticas
 
@@ -107,13 +107,15 @@ Após a coleta de dados, as respostas serão analisadas. O avaliador considerar�
 
 Abaixo, no vídeo 1, está a gravação da reunião de validação do protótipo de alta fidelidade e os participantes.
 
-<font size="3"><p style="text-align: center">Vídeo 1: Validação do [Protótipo](Base/DesignSprint/Prototipo.md) de Alta Fidelidade.</p></font>
+<font size="3"><p style="text-align: center">Vídeo 1: Validação do [Protótipo](../Base/1-Design-Sprint/Prototipo.md) de Alta Fidelidade.</p></font>
 
 <iframe width="1321" height="743" src="https://www.youtube.com/embed/xDqfT4zGbG0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <p style="text-align: center"><a href="https://youtu.be/FvwgS9JeKnk" target="_blank">Clique aqui para assistir no YouTube</a></p>
 
 <font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS), 2026.</p></font>
+
+---
 
 ## Participantes dessa gravação
 
@@ -155,8 +157,6 @@ Até o momento, não foram registradas críticas bloqueantes (impeditivas) duran
 
 - Ao **selecionar o motorista**, exibir também o **valor estimado/valor combinado da carona** (similar ao que o participante mencionou ocorrer em plataformas como a BlaBlaCar), para facilitar a comparação entre opções e tornar a decisão mais transparente.
 
-
-
 ---
 
 ## Referências Bibliográficas
@@ -168,5 +168,5 @@ Até o momento, não foram registradas críticas bloqueantes (impeditivas) duran
 | Versão |               Data                |   Descrição    |    Autor(es)    |    Revisor(es)     | Detalhes da revisão |
 | :----: | :------------------------------------: | :--------: | :--------: | :------------: | :-------------: |
 |  1.0   | 03/04/2026 | Criação do documento [#46](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/46) | [João Vitor](https://github.com/Jauzimm) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | Adição de hyperlinks |
-|  1.1   | 03/04/2026 | Adição do video de Validação [#46](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/46) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Karoline Luz](https://github.com/KarolineLuz) | - |
-|  1.2   | 03/04/2026 | Modificação do documento em objetivos, adições na gravação e repostas [#46](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/46) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Karoline Luz](https://github.com/KarolineLuz) | - |
+|  1.1   | 03/04/2026 | Adição do video de Validação [#46](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/46) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Karoline Luz](https://github.com/KarolineLuz) | Artefato revisado |
+|  1.2   | 03/04/2026 | Modificação do documento em objetivos, adições na gravação e repostas [#46](https://github.com/UnBArqDsw2026-1-Turma02/2026.1-T02-G7_CaronaAmigaFCTE_Entrega_01/issues/46) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Karoline Luz](https://github.com/KarolineLuz) | Artefato atualizado |
