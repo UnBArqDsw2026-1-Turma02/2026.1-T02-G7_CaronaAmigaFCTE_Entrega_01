@@ -9,7 +9,8 @@
     - [1.1.2 Esboçar(Sketch)](Base/1-Design-Sprint/1.1.2.Sketch.md)
     - [1.1.3 Decidir(Decision)](Base/1-Design-Sprint/1.1.3.Decision.md)
     - [1.1.4 Prototipação(Prototype)](Base/1-Design-Sprint/Prototipo.md)
-    - [1.1.5 Teste(Validação)](Base/1-Design-Sprint/TesteValidacao.md)
+    - [1.1.5 Teste(Validação)](Base/1-Design-Sprint/DSValidation.md)
+   
   - [1.2. Artefato Generalista](Base/2-Artefato-Generalista/1.2.ArtefatoGeneralista.md)
     - [1.2.1. Brainstorming](Base/2-Artefato-Generalista/Brainstorm.md)
     - [1.2.2. Mapa Mental](Base/1.1.2.Mapa-mental.md)
