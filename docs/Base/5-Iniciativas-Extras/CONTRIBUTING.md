@@ -100,9 +100,13 @@ Nunca publique senhas ou dados pessoais. Tudo que for sensível deve ser adicion
 
 ## <a id="ref13"> Referências </a> [↑](#ref0)
 > GITHUB DOCS. **Setting guidelines for repository contributors**: GitHub. Disponível em: https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/setting-guidelines-for-repository-contributors. Acesso em: 29 mar. 2026.
+
 > ATOM. **Contributing to Atom**: GitHub. Disponível em: https://github.com/atom/atom/blob/master/CONTRIBUTING.md. Acesso em: 29 mar. 2026.
+
 > CONTRIBUTING.MD. **CONTRIBUTING.MD Example**: contributing.md. Disponível em: https://contributing.md/example/. Acesso em: 29 mar. 2026.
+
 > THE GOOD DOCS PROJECT. **Template contributing guide**: GitLab. Disponível em: https://gitlab.com/tgdp/templates/-/blob/main/CONTRIBUTING.md. Acesso em: 29 mar. 2026.
+
 > GONÇALVES, Silvana de Andrade; PLASTINO, Alexandre; SOARES, Daricélio Moreira. **Avaliando a Importância do Arquivo contributing.md em Projetos de Código Aberto**. In: SEMINÁRIO INTEGRADO DE SOFTWARE E HARDWARE (SEMISH), 52. , 2025, Maceió/AL. Anais [...]. Porto Alegre: Sociedade Brasileira de Computação, 2025 . p. 13-24. ISSN 2595-6205. DOI: https://doi.org/10.5753/semish.2025.6870.
 
 ## <a id="ref14"> Histórico de Versões </a> [↑](#ref0)
