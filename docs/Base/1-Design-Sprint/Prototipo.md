@@ -72,14 +72,14 @@ A construção do protótipo foi realizada utilizando a ferramenta:
 
 | Código | Requisito Funcional | Objetivo | Rastreabilidade |
 | :--: | :-- | :-- | :-- |
-| <a id="rf01"></a>RF01 | Gerenciar perfil do usuário. | Aumentar confiança e personalização de uso. | [Benchmarking](Base/2-Artefato-Generalista/Benchmarking.md)|
-| <a id="rf02"></a>RF02 | Criar oferta de carona. | Estruturar a oferta com informações mínimas para decisão. | [Benchmarking](Base/2-Artefato-Generalista/Benchmarking.md) |
-| <a id="rf03"></a>RF03 | Buscar caronas. | Melhorar precisão no encontro entre oferta e demanda. |[Benchmarking](Base/2-Artefato-Generalista/Benchmarking.md) |
-| <a id="rf05"></a>RF05 | Enviar mensagem. | Facilitar alinhamentos antes e durante a viagem. |[Benchmarking](Base/2-Artefato-Generalista/Benchmarking.md) |
-| <a id="rf06"></a>RF06 | Solicitar participação. | Dar controle ao motorista e transparência ao passageiro. | [Benchmarking](Base/2-Artefato-Generalista/Benchmarking.md) |
-| <a id="rf07"></a>RF07 | Cancelar solicitação. | Reduzir ruídos e melhorar rastreabilidade de ocorrências. | [Benchmarking](Base/2-Artefato-Generalista/Benchmarking.md)|
-| <a id="rf08"></a>RF08 | Avaliar experiência. | Construir reputação e melhorar qualidade da comunidade. | [Benchmarking](Base/2-Artefato-Generalista/Benchmarking.md)|
-| <a id="rf10"></a>RF10 | Enviar notificações. | Aumentar pontualidade e taxa de correspondência. |  [Benchmarking](Base/2-Artefato-Generalista/Benchmarking.md)|
+| <a id="rf01"></a>RF01 | Gerenciar perfil do usuário. | Aumentar confiança e personalização de uso. | [Benchmarking](Base/2-Artefato-Generalista/Benchmarking?id=requisitos-elicitados)|
+| <a id="rf02"></a>RF02 | Criar oferta de carona. | Estruturar a oferta com informações mínimas para decisão. | [Benchmarking](Base/2-Artefato-Generalista/Benchmarking?id=requisitos-elicitados) |
+| <a id="rf03"></a>RF03 | Buscar caronas. | Melhorar precisão no encontro entre oferta e demanda. |[Benchmarking](Base/2-Artefato-Generalista/Benchmarking?id=requisitos-elicitados) |
+| <a id="rf05"></a>RF05 | Enviar mensagem. | Facilitar alinhamentos antes e durante a viagem. |[Benchmarking](Base/2-Artefato-Generalista/Benchmarking?id=requisitos-elicitados) |
+| <a id="rf06"></a>RF06 | Solicitar participação. | Dar controle ao motorista e transparência ao passageiro. | [Benchmarking](Base/2-Artefato-Generalista/Benchmarking?id=requisitos-elicitados) |
+| <a id="rf07"></a>RF07 | Cancelar solicitação. | Reduzir ruídos e melhorar rastreabilidade de ocorrências. | [Benchmarking](Base/2-Artefato-Generalista/Benchmarking?id=requisitos-elicitados)|
+| <a id="rf08"></a>RF08 | Avaliar experiência. | Construir reputação e melhorar qualidade da comunidade. | [Benchmarking](Base/2-Artefato-Generalista/Benchmarking?id=requisitos-elicitados)|
+| <a id="rf10"></a>RF10 | Enviar notificações. | Aumentar pontualidade e taxa de correspondência. |  [Benchmarking](Base/2-Artefato-Generalista/Benchmarking?id=requisitos-elicitados)|
 
 #### Tabela de Especificações dos Requisitos Funcionais (ERF)
 
