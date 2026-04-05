@@ -30,11 +30,13 @@ Durante uma sessão de brainstorm, os participantes são incentivados a seguir a
 | Aluno | Função | Data | Hora |
 | :--: | :--: | :--: | :--: |
 | [Ana Victória Guedes da Costa](https://github.com/navicg) | Elaboração do artefato Brainstorm | 28/03/2026 | 11:00 |
+| [Gustavo Ribeiro Linhares](https://github.com/GustavoLinharess) | Elaboração do artefato Brainstorm | 28/03/2026 | 11:00 |
 | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | Elaboração do artefato Brainstorm | 28/03/2026 | 11:00 |
 | [João Vitor Santos de Oliveira](https://github.com/Jauzimm) | Elaboração do artefato Brainstorm | 28/03/2026 | 11:00 |
 | [Karoline Luz da Conceição](https://github.com/KarolineLuz) | Elaboração do artefato Brainstorm | 28/03/2026 | 11:00 |
 | [Luiza da Silva Pugas](https://github.com/luizaxx) | Elaboração do artefato Brainstorm | 28/03/2026 | 11:00 |
 | [Nicolas Bomfim Dias Bandeira](https://github.com/NickGehjk) | Elaboração do artefato Brainstorm | 28/03/2026 | 11:00 |
+| [Pedro Henrique Faria da Mota](https://github.com/PhFariaa) | Elaboração do artefato Brainstorm | 28/03/2026 | 11:00 |
 | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | Elaboração do artefato Brainstorm | 28/03/2026 | 11:00 |
 
 </div>
