@@ -25,35 +25,6 @@ Este repositório tem como principal objetivo auxiliar no registro dos artefatos
 
 O **CaronaAmiga** é uma plataforma web e mobile desenvolvida como trabalho prático da disciplina de Arquitetura e Desenho de Software (FGA0208) da Universidade de Brasília - FCTE. O projeto visa facilitar o compartilhamento de caronas entre estudantes e colaboradores da universidade, promovendo sustentabilidade, economia e integração social. A aplicação permite que usuários ofereçam e solicitem caronas de forma segura e eficiente, otimizando rotas e reduzindo custos de deslocamento.
 
-
-## Screenshots da Primeira Entrega
-
-Abaixo são apresentados exemplos de artefatos produzidos na entrega 01 - (DSW) Base.
-
-### [Brainstorm](Base/2-Artefato-Generalista/Brainstorm.md)
-
-<font size="3"><p style="text-align: center">Imagem 1: Brainstorming</p></font>
-
-![Brainstorm](Base/assets/Brainstorm.png)
-
-<p style="text-align: center"><a href="https://www.figma.com/board/hl0RjzueGPN04dfWSWfnEV/Brainstorming---Carona-amiga-fcte?node-id=0-1&t=8DpsPRqnbKvwEU4x-1" target="_blank">Abrir no Figma</a></p>
-
-<font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS), 2026.</p></font>
-
----
-
-## Há algo a ser executado?
-
-( ) SIM
-
-( ) NÃO
-
-Se SIM, insira um manual (ou um script) para auxiliar ainda mais os interessados na execução.
-
-## Informações Complementares 
-
-Quaisquer outras informações adicionais podem ser descritas nessa seção.
-
 ## Histórico de Versões
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhes da revisão |
@@ -61,4 +32,5 @@ Quaisquer outras informações adicionais podem ser descritas nessa seção.
 | 1.0  | 28/03/2026 | Criação do documento | [Luiza da Silva Pugas](https://github.com/luizaxx) | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | Artefato criado. |
 | 1.1  | 28/03/2026 | Ajustes e melhorias na documentação | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Ana Victória Guedes da Costa](https://github.com/navicg) | Artefato revisado e ajustado. |
 | 1.2  | 28/03/2026 | Ajustes no docsify | [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS) | [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr) | Artefato revisado e ajustado. |
-| 1.2  | 04/04/2026 | Ajustes na documentação | [Nicolas Bomfim Dias Bandeira](https://github.com/NickGehjk) | [nome](link) | . |
+| 1.2  | 04/04/2026 | Ajustes na documentação | [Nicolas Bomfim Dias Bandeira](https://github.com/NickGehjk) | [João Vitor Santos de Oliveira](https://github.com/Jauzimm) | Artefato revisado e ajustado. |
+| 1.3 | 05/04/2026 | Ajustes na página | [João Vitor Santos de Oliveira](https://github.com/Jauzimm) | [Gabriel Henrique Rodrigues de Lima](https://github.com/gabrielhrlima) | Artefato revisado e ajustado. |
