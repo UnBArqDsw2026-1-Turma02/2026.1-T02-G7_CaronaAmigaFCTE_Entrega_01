@@ -119,7 +119,7 @@ A elaboração dos perfis de usuário seguiu o processo orientado por dados (*da
 
 ![O quanto ganhar tempo influenciaria sua decisão?](../assets/questionario/10_ganhar-tempo.png)
 
-<font size="2"><p>Fonte: Questionário aplicado pela equipe do projeto, 2026.</p></font>
+<font size="2"><p>Fonte: [Luiza da Silva Pugas](https://github.com/luizaxx) e [Wanjo Christopher P. Escobar](https://github.com/wChrstphr), 2026</p></font>
 
 </div>
 
@@ -169,7 +169,7 @@ A elaboração dos perfis de usuário seguiu o processo orientado por dados (*da
 
 ![Quais itens aumentariam sua confiança?](../assets/questionario/11_itens-confianca.png)
 
-<font size="2"><p style="text-align: center">Fonte: Questionário aplicado pela equipe do projeto, 2026.</p></font>
+<font size="2"><p>Fonte: [Luiza da Silva Pugas](https://github.com/luizaxx) e [Wanjo Christopher P. Escobar](https://github.com/wChrstphr), 2026</p></font>
 
 </div>
 
@@ -230,7 +230,7 @@ A elaboração dos perfis de usuário seguiu o processo orientado por dados (*da
 
 ![Você gostaria de definir preferências (ex: só motoristas/caronas mulheres)?](../assets/questionario/14_preferencias-caronas-mulheres.png)
 
-<font size="2"><p>Fonte: Questionário aplicado pela equipe do projeto, 2026.</p></font>
+<font size="2"><p>Fonte: [Luiza da Silva Pugas](https://github.com/luizaxx) e [Wanjo Christopher P. Escobar](https://github.com/wChrstphr), 2026</p></font>
 
 </div>
 
@@ -294,7 +294,7 @@ A elaboração dos perfis de usuário seguiu o processo orientado por dados (*da
 
 ![Você se sentiria mais confortável com](../assets/questionario/17_conforto.png)
 
-<font size="2"><p>Fonte: Questionário aplicado pela equipe do projeto, 2026.</p></font>
+<font size="2"><p>Fonte: [Luiza da Silva Pugas](https://github.com/luizaxx) e [Wanjo Christopher P. Escobar](https://github.com/wChrstphr), 2026</p></font>
 
 </div>
 
@@ -345,7 +345,7 @@ A elaboração dos perfis de usuário seguiu o processo orientado por dados (*da
 
 ![O app sugerir preço automático é importante?](../assets/questionario/18_sugerir_preco.png)
 
-<font size="2"><p style="text-align: center">Fonte: Questionário aplicado pela equipe do projeto, 2026.</p></font>
+<font size="2"><p>Fonte: [Luiza da Silva Pugas](https://github.com/luizaxx) e [Wanjo Christopher P. Escobar](https://github.com/wChrstphr), 2026</p></font>
 
 </div>
 
@@ -388,6 +388,7 @@ A elaboração dos perfis de usuário seguiu o processo orientado por dados (*da
 > <a id="ref3">3.</a> IBGE. Indicadores Sociais Mínimos. Disponível em: [https://www.ibge.gov.br/estatisticas/sociais/educacao/17374-indicadores-sociais-minimos.html](https://www.ibge.gov.br/estatisticas/sociais/educacao/17374-indicadores-sociais-minimos.html). Acesso em: 28 mar. 2026.
 
 > <a id="ref4">4.</a> SALMINEN, J. O.; GUAN, K. W.; JUNG, S.; JANSEN, B. A survey of 15 years of data-driven persona development. International Journal of Human-Computer Interaction, v. 37, p. 1685-1708, 2021. DOI: 10.1080/10447318.2021.1908670.
+
 ## Histórico de Versões
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhes da revisão |
