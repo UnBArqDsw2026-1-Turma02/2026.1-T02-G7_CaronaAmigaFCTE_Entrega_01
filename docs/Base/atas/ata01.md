@@ -20,7 +20,7 @@ Reunião realizada online via **Microsoft Teams**.
 - [ ] [João Vitor Santos de Oliveira](https://github.com/Jauzimm)
 - [ ] [Karoline Luz da Conceição](https://github.com/KarolineLuz)
 - [x] [Luiza da Silva Pugas](https://github.com/Luizaxx)
-- [ ] [Nicolas Bomfim Dias Bandeira](https://github.com/NickGehjk)
+- [x] [Nicolas Bomfim Dias Bandeira](https://github.com/NickGehjk)
 - [x] [Pedro Henrique Faria da Mota](https://github.com/PhFariaa)
 - [x] [Wanjo Christopher Paraizo Escobar](https://github.com/wChrstphr)
 
