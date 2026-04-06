@@ -381,29 +381,13 @@ A elaboração dos perfis de usuário seguiu o processo orientado por dados (*da
 
 ## Referências Bibliográficas
 
-> <a id="ref1">1.</a> @article{Eke2019A,
-title={A Survey of User Profiling: State-of-the-Art, Challenges, and Solutions},
-author={C. Eke and A. Norman and Liyana Shuib and H. F. Nweke},
-journal={IEEE Access},
-year={2019},
-volume={7},
-pages={144907-144924},
-doi={10.1109/access.2019.2944243}
-}
+> <a id="ref1">1.</a> EKE, C.; NORMAN, A.; SHUIB, L.; NWEKE, H. F. A survey of user profiling: state-of-the-art, challenges, and solutions. IEEE Access, v. 7, p. 144907-144924, 2019. DOI: 10.1109/ACCESS.2019.2944243.
 
 > <a id="ref2">2.</a> IBGE. Pirâmide Etária: Conheça o Brasil. Disponível em: [https://educa.ibge.gov.br/jovens/conheca-o-brasil/populacao/18318-piramide-etaria.html](https://educa.ibge.gov.br/jovens/conheca-o-brasil/populacao/18318-piramide-etaria.html). Acesso em: 28 mar. 2026.
 
 > <a id="ref3">3.</a> IBGE. Indicadores Sociais Mínimos. Disponível em: [https://www.ibge.gov.br/estatisticas/sociais/educacao/17374-indicadores-sociais-minimos.html](https://www.ibge.gov.br/estatisticas/sociais/educacao/17374-indicadores-sociais-minimos.html). Acesso em: 28 mar. 2026.
 
-> <a id="ref4">4.</a> @article{Salminen2021A,
-title={A Survey of 15 Years of Data-Driven Persona Development},
-author={Joni O. Salminen and Kathleen W. Guan and Soon-gyo Jung and B. Jansen},
-journal={International Journal of Human–Computer Interaction},
-year={2021},
-volume={37},
-pages={1685 - 1708},
-doi={10.1080/10447318.2021.1908670}
-}
+> <a id="ref4">4.</a> SALMINEN, J. O.; GUAN, K. W.; JUNG, S.; JANSEN, B. A survey of 15 years of data-driven persona development. International Journal of Human-Computer Interaction, v. 37, p. 1685-1708, 2021. DOI: 10.1080/10447318.2021.1908670.
 ## Histórico de Versões
 
 | Versão | Data | Descrição | Autor(es) | Revisor(es) | Detalhes da revisão |
