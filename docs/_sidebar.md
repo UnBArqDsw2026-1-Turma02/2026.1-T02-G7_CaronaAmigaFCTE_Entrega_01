@@ -29,7 +29,7 @@
   - [1.4. Participações dos Membros](Base/4-ParticipacoesBase/1.4.ParticipacoesBase.md)
   * 1.5. Iniciativas Extras
     - [1.5.1. Heatmap de disponibilidade](Base/5-Iniciativas-Extras/1.5.1.Heatmap.md)
-    - [1.5.2. Perfil de Usuário](Base/elicitacao/questionario/perfil_usuario.md)
+    - [1.5.5. Perfil de Usuário](Base/5-Iniciativas-Extras/PerfilUsuario.md)
     - [1.5.3. Guia de Estilo](Base/5-Iniciativas-Extras/guia-de-estilo.md)
     - [1.5.4. Ferramentas Utilizadas](Base/5-Iniciativas-Extras/ferramentas-utilizadas.md)
     - [1.5.5. Guia de Contribuição](Base/5-Iniciativas-Extras/CONTRIBUTING.md)
