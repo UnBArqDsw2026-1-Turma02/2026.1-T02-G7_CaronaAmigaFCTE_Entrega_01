@@ -6,7 +6,7 @@ O **Design Sprint** é uma abordagem estruturada de trabalho em etapas, criada p
 
 Neste documento, o foco está na etapa **Entender (Unpack)**, que tem como função consolidar o conhecimento inicial do time e alinhar o que será considerado base do projeto antes de avançar para escolhas de solução [[2]](#REF2). Para o **CaronaAmigaFCTE**, essa etapa é especialmente importante porque o domínio do problema envolve variáveis como rotas e horários, além de fatores de confiança e segurança, que precisam estar explícitos e acordados pelo grupo desde o início.
 
-Nesta fase, foram utilizados os artefatos de **[Brainstorming](../Base/2-Artefato-Generalista/Brainstorm.md)**, **[5W2H](../Base/2-Artefato-Generalista/5W2H.md)** e **[Benchmarking](../Base/2-Artefato-Generalista/Benchmarking.md)** para organizar ideias iniciais, estruturar decisões e comparar referências do domínio.
+Nesta fase, foram utilizados os artefatos de **[Brainstorming](Base/2-Artefato-Generalista/Brainstorm.md)**, **[5W2H](Base/2-Artefato-Generalista/5W2H.md)** e **[Benchmarking](Base/2-Artefato-Generalista/Benchmarking.md)** para organizar ideias iniciais, estruturar decisões e comparar referências do domínio.
 
 ## Contexto e Problema
 
@@ -39,11 +39,11 @@ Compreensão inicial do grupo:
 
 A seguir estão as técnicas aplicadas (e planejadas) para levantar informações e organizar o entendimento do grupo. Nesta etapa, o **Brainstorming** foi utilizado como ponto de partida para consolidar a ideia do grupo, e os resultados foram estruturados com **5W2H** e complementados por **Benchmarking**, com o objetivo de reduzir incertezas antes das próximas fases.
 
-## [Brainstorming (ponto de partida)](../Base/2-Artefato-Generalista/Brainstorm.md)
+## [Brainstorming (ponto de partida)](Base/2-Artefato-Generalista/Brainstorm.md)
 
 - **Objetivo**: Organizar as ideias iniciais do grupo sobre o CaronaAmigaFCTE, levantando possibilidades de funcionalidades, cenários de uso e preocupações relevantes para o domínio do problema.
 
-O artefato completo se encontra em **[Brainstorming](../Base/2-Artefato-Generalista/Brainstorm.md)**.
+O artefato completo se encontra em **[Brainstorming](Base/2-Artefato-Generalista/Brainstorm.md)**.
 
 <details>
   <summary size="20"><b>Apresentação do brainstorming</b></summary>
@@ -67,11 +67,11 @@ O artefato completo se encontra em **[Brainstorming](../Base/2-Artefato-Generali
 
 </details>
 
-## [5W + 2H](../Base/2-Artefato-Generalista/5w2h.md)
+## [5W + 2H](Base/2-Artefato-Generalista/5w2h.md)
 
 - **Objetivo**: Estruturar e registrar o entendimento do projeto por meio de perguntas-guia (What, Why, Where, When, Who, How, How much), explicitando escopo inicial, público e restrições.
 
-O artefato completo se encontra em **[5W2H](../Base/2-Artefato-Generalista/5w2h.md)**.
+O artefato completo se encontra em **[5W2H](Base/2-Artefato-Generalista/5w2h.md)**.
 
 <details>
   <summary size="20"><b>Síntese obtida</b></summary>
@@ -99,11 +99,11 @@ O artefato completo se encontra em **[5W2H](../Base/2-Artefato-Generalista/5w2h.
 
 </details>
 
-## [Benchmarking](../Base/2-Artefato-Generalista/Benchmarking.md) 
+## [Benchmarking](Base/2-Artefato-Generalista/Benchmarking.md) 
 
 - **Objetivo**: Analisar soluções similares para identificar boas práticas e riscos comuns (sem copiar soluções), especialmente em pareamento de rotas/horários, mecanismos de confiança, confirmação de carona e redução de no-show/cancelamentos.
 
-O artefato completo se encontra em **[Benchmarking](../Base/2-Artefato-Generalista/Benchmarking.md)**.
+O artefato completo se encontra em **[Benchmarking](Base/2-Artefato-Generalista/Benchmarking.md)**.
 
 <details>
   <summary size="20"><b>Síntese do benchmarking</b></summary>
@@ -121,7 +121,7 @@ Principais aprendizados extraídos para o contexto do CaronaAmigaFCTE:
 - **Apoio por mapa** reduz ruído: rota/ETA e ponto de encontro tornam o combinado mais objetivo.
 - **Comunicação contextual** (chat após solicitação/aceite) evita dispersão e melhora rastreabilidade.
 
-Como resultado, a equipe consolidou uma **tabela comparativa** e elicitou **requisitos funcionais e não funcionais iniciais** no artefato de **[Benchmarking](../Base/2-Artefato-Generalista/Benchmarking.md)**.
+Como resultado, a equipe consolidou uma **tabela comparativa** e elicitou **requisitos funcionais e não funcionais iniciais** no artefato de **[Benchmarking](Base/2-Artefato-Generalista/Benchmarking.md)**.
 
 </details>
 

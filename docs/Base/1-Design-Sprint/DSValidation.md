@@ -2,7 +2,7 @@
 
 ## Introdução
 
-Para realizar a última etapa da Design Sprint, percorremos um fluxo estruturado de construção. Iniciamos com o [Unpack](../Base/1-Design-Sprint/unpack.md), utilizando técnicas de brainstorming para o levantamento de informações essenciais. No [Sketch](../Base/1-Design-Sprint/1.1.2.Sketch.md), aplicamos o RichPicture para transformar conceitos em representações visuais. A fase de [Decision](../Base/1-Design-Sprint/1.1.3.Decision.md) serviu para a criação de um RichPicture final e elaborar o Storyboard que guiaria a solução. Por fim, o [Prototype](../Base/1-Design-Sprint/Prototipo.md) materializou um conceito fidedigno, permitindo a visualização da solução pelo usuário final.
+Para realizar a última etapa da Design Sprint, percorremos um fluxo estruturado de construção. Iniciamos com o [Unpack](Base/1-Design-Sprint/unpack.md), utilizando técnicas de brainstorming para o levantamento de informações essenciais. No [Sketch](Base/1-Design-Sprint/1.1.2.Sketch.md), aplicamos o RichPicture para transformar conceitos em representações visuais. A fase de [Decision](Base/1-Design-Sprint/1.1.3.Decision.md) serviu para a criação de um RichPicture final e elaborar o Storyboard que guiaria a solução. Por fim, o [Prototype](Base/1-Design-Sprint/Prototipo.md) materializou um conceito fidedigno, permitindo a visualização da solução pelo usuário final.
 
 Após essas etapas, chegamos à fase de **Validation**, cujo objetivo central é testar o protótipo diretamente com o público-alvo. Este documento detalha o planejamento dessa avaliação de alta fidelidade, um método eficaz para coletar feedbacks realistas. Para estruturar esse processo e garantir resultados aplicáveis ao aprimoramento do projeto, utilizaremos o framework DECIDE.
 
@@ -108,7 +108,7 @@ Após a coleta de dados, as respostas serão analisadas. O avaliador considerar�
 
 Abaixo, no vídeo 1 e 2, está a gravação da reunião de validação do protótipo de alta fidelidade e os participantes.
 
-<font size="3"><p style="text-align: center">Vídeo 1: Validação do [Protótipo](../Base/1-Design-Sprint/Prototipo.md) de Alta Fidelidade.</p></font>
+<font size="3"><p style="text-align: center">Vídeo 1: Validação do [Protótipo](Base/1-Design-Sprint/Prototipo.md) de Alta Fidelidade.</p></font>
 
 <iframe width="1321" height="743" src="https://www.youtube.com/embed/xDqfT4zGbG0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
@@ -116,7 +116,7 @@ Abaixo, no vídeo 1 e 2, está a gravação da reunião de validação do protó
 
 <font size="2"><p style="text-align: center">Fonte: [João Marcos Moraes de Andrade](https://github.com/JJOAOMARCOSS), 2026.</p></font>
 
-<font size="3"><p style="text-align: center">Vídeo 2: Validação do [Protótipo](../Base/1-Design-Sprint/Prototipo.md) de Alta Fidelidade.</p></font>
+<font size="3"><p style="text-align: center">Vídeo 2: Validação do [Protótipo](Base/1-Design-Sprint/Prototipo.md) de Alta Fidelidade.</p></font>
 
 <iframe width="1321" height="743" src="https://www.youtube.com/embed/kBr-Yi3N2co" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
